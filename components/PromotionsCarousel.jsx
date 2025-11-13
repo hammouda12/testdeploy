@@ -129,7 +129,7 @@ export default function PromotionsCarousel() {
   };
 
   return (
-    <div className="promotions-carousel-wrapper group">
+    <div className="promotions-carousel-wrapper group" >
       <div className="promotions-carousel-container">
         <div
           ref={carouselRef}

@@ -40,7 +40,7 @@ export default function SearchBar() {
           data-analytics="casino-home-search"
           value={searchValue}
           onChange={(e) => setSearchValue(e.target.value)}
-          placeholder="Search your game"
+          placeholder="Search your game or event"
           className="[font-variant-numeric:lining-nums_tabular-nums] [font-feature-settings:'salt'_on] svelte-113ai4d input-searchs "
          
         />

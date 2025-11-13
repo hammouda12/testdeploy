@@ -1276,8 +1276,12 @@ div.my-8:has(.casino-games-section) {
 .promotions-carousel-wrapper {
   position: relative;
   width: 100%;
-  margin-bottom: 0.5rem;
+  display: flex;
   padding-top: 1.5rem;
+
+  align-items: flex-end;
+  min-height: calc(60px + 1.5rem);
+  padding-left: 0.337rem;
 }
 
 .promotions-carousel-container {
