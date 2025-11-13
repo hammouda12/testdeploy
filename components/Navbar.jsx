@@ -87,6 +87,7 @@ export default function Navbar() {
           position: relative;
           width: fit-content;
           height: 2rem;
+          z-index: 1;
         }
         .logo-wrapper svg {
           display: block;
@@ -160,7 +161,7 @@ export default function Navbar() {
           background: rgb(20, 117, 225);
           color: white;
           font-size: 1rem;
-          padding: 0.75rem 20px;
+          padding: 0.75rem;
           border-radius: 0 8px 8px 0;
           height: 48px;
           line-height: 24px;
@@ -178,9 +179,12 @@ export default function Navbar() {
           outline-offset: 2px;
         }
         .wallet-text {
-          font-size: 16px;
-          font-weight: 600;
-          line-height: 24px;
+          display: none;
+        }
+        .wallet-icon {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
         }
         .icon-button {
           font-family: var(--ds-font-family-default, "proxima-nova", ui-sans-serif, -apple-system, system-ui, sans-serif);
@@ -215,6 +219,10 @@ export default function Navbar() {
         .icon-button-search {
           font-size: 0.75rem;
         }
+        .icon-button-profile {
+          font-size: 0.875rem;
+          display: none;
+        }
         .icon-button-notification {
           font-size: 0.875rem;
           padding: 12px;
@@ -245,6 +253,7 @@ export default function Navbar() {
           }
           .logo-wrapper {
             height: 64.84px;
+            z-index: 1;
           }
           .logo-wrapper svg:first-of-type {
             display: none;
@@ -258,6 +267,9 @@ export default function Navbar() {
           .icon-button-search {
             display: none;
           }
+          .icon-button-profile {
+            display: inline-flex !important;
+          }
           .sidebar-toggle-container {
             display: none !important;
           }
@@ -270,6 +282,9 @@ export default function Navbar() {
             display: none;
           }
           .icon-button-search {
+            display: inline-flex;
+          }
+          .icon-button-profile {
             display: inline-flex;
           }
           .sidebar-toggle-container {
@@ -339,6 +354,9 @@ export default function Navbar() {
                   onClick={openWalletModal}
                 >
                   <span className="wallet-text">Wallet</span>
+                  <span className="wallet-icon">
+                    <WalletIcon />
+                  </span>
                 </button>
               </div>
             </div>
@@ -361,7 +379,7 @@ export default function Navbar() {
                   type="button"
                   tabIndex={0}
                   id="currencyPopup2"
-                  className="icon-button icon-button-search"
+                  className="icon-button icon-button-profile"
                   data-testid="user-dropdown-toggle"
                   data-analytics="global-navbar-user-icon"
                   aria-label="Open Dropdown"
@@ -480,6 +498,15 @@ function SidebarToggleIcon() {
   return (
     <svg data-ds-icon="SidebarToggle" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" className="inline-block shrink-0">
       <path fill="currentColor" d="M21 1H3c-1.1 0-2 .9-2 2v18c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2m-8 18.78c0 .67-.55 1.22-1.22 1.22H4.22C3.55 21 3 20.45 3 19.78V4.22C3 3.55 3.55 3 4.22 3h7.56c.67 0 1.22.55 1.22 1.22z" />
+    </svg>
+  );
+}
+
+function WalletIcon() {
+  return (
+    <svg data-ds-icon="Wallet" width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" className="inline-block shrink-0">
+      <path fill="currentColor" d="M21 6h-4c0 .71-.16 1.39-.43 2H20c.55 0 1 .45 1 1s-.45 1-1 1H4c-.55 0-1-.45-1-1s.45-1 1-1h3.43C7.16 7.39 7 6.71 7 6H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2m-2 11c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2"></path>
+      <path fill="currentColor" d="M9.38 9h5.24C15.46 8.27 16 7.2 16 6c0-2.21-1.79-4-4-4S8 3.79 8 6c0 1.2.54 2.27 1.38 3"></path>
     </svg>
   );
 }
