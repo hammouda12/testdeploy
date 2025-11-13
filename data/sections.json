@@ -1,0 +1,1367 @@
+[
+  {
+    "name": "Stake Originals",
+    "icon": "Fire",
+    "cards": [
+      {
+        "id": "dice",
+        "title": "dice",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/30688668d7d2d48d472edd0f1e2bca0758e7ec51cbab8c04d8b7f157848640e0?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/dice",
+        "playing": "2127",
+        "backgroundGradient": "radial-gradient(at 0 0,#3600ff,#00000000 50%),radial-gradient(at 33% 0,#6f3bfe,#00000000 50%),radial-gradient(at 67% 0,#3626d7,#00000000 50%),radial-gradient(at 100% 0,#5000f1,#00000000 50%),radial-gradient(at 0 50%,#cfbbe6,#00000000 50%),radial-gradient(at 33% 50%,#f6e5ca,#00000000 50%),radial-gradient(at 67% 50%,#e1cab6,#00000000 50%),radial-gradient(at 100% 50%,#f78369,#00000000 50%),radial-gradient(at 0 100%,#8958ff,#00000000 50%),radial-gradient(at 33% 100%,#ad94f1,#00000000 50%),radial-gradient(at 67% 100%,#a798d4,#00000000 50%),radial-gradient(at 100% 100%,#ad59dd,#00000000 50%)"
+      },
+      {
+        "id": "mines",
+        "title": "mines",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/15a51a2ae2895872ae2b600fa6fe8d7f8d32c9814766b66ddea2b288d04ba89c?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/mines",
+        "playing": "2666",
+        "backgroundGradient": "radial-gradient(at 0 0,#5d5bec,#00000000 50%),radial-gradient(at 33% 0,#9e44cc,#00000000 50%),radial-gradient(at 67% 0,#074df0,#00000000 50%),radial-gradient(at 100% 0,#4b47e6,#00000000 50%),radial-gradient(at 0 50%,#6f8cdd,#00000000 50%),radial-gradient(at 33% 50%,#8d7dbc,#00000000 50%),radial-gradient(at 67% 50%,#5fcaa9,#00000000 50%),radial-gradient(at 100% 50%,#47c96b,#00000000 50%),radial-gradient(at 0 100%,#2c89ff,#00000000 50%),radial-gradient(at 33% 100%,#8ea3f6,#00000000 50%),radial-gradient(at 67% 100%,#84b4fa,#00000000 50%),radial-gradient(at 100% 100%,#7cadf1,#00000000 50%)"
+      },
+      {
+        "id": "plinko",
+        "title": "plinko",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/5cbb2498c956527e6584c6af216489b85bbb7a909c7d3c4e131a3be9bd1cc6bf?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/plinko",
+        "playing": "1516",
+        "backgroundGradient": "radial-gradient(at 0 0,#cc96c1,#00000000 50%),radial-gradient(at 33% 0,#cc9bbd,#00000000 50%),radial-gradient(at 67% 0,#8e71f9,#00000000 50%),radial-gradient(at 100% 0,#a776ee,#00000000 50%),radial-gradient(at 0 50%,#c67ab1,#00000000 50%),radial-gradient(at 33% 50%,#b58bdc,#00000000 50%),radial-gradient(at 67% 50%,#d4a5b6,#00000000 50%),radial-gradient(at 100% 50%,#9072fc,#00000000 50%),radial-gradient(at 0 100%,#c763ae,#00000000 50%),radial-gradient(at 33% 100%,#d090c5,#00000000 50%),radial-gradient(at 67% 100%,#cb91ca,#00000000 50%),radial-gradient(at 100% 100%,#c98ad7,#00000000 50%)"
+      },
+      {
+        "id": "chicken",
+        "title": "Chicken",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/a91aa468f459264d55fb9e2706c3684782cc5ecf716892c187122c611acf2773?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/chicken",
+        "playing": "713",
+        "backgroundGradient": "radial-gradient(at 0 0,#4200f1,#00000000 50%),radial-gradient(at 33% 0,#7a00ea,#00000000 50%),radial-gradient(at 67% 0,#eb8a7f,#00000000 50%),radial-gradient(at 100% 0,#6f25ec,#00000000 50%),radial-gradient(at 0 50%,#617bfb,#00000000 50%),radial-gradient(at 33% 50%,#b5c2fc,#00000000 50%),radial-gradient(at 67% 50%,#fcfdf9,#00000000 50%),radial-gradient(at 100% 50%,#b1c2fd,#00000000 50%),radial-gradient(at 0 100%,#7177f1,#00000000 50%),radial-gradient(at 33% 100%,#a2a7f0,#00000000 50%),radial-gradient(at 67% 100%,#c5bfd3,#00000000 50%),radial-gradient(at 100% 100%,#9ea9ef,#00000000 50%)"
+      },
+      {
+        "id": "crash",
+        "title": "crash",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/c830595cbd07b2561ac76a365c2f01869dec9a8fe5e7be30634d78c51b2cc91e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/crash",
+        "playing": "1165",
+        "backgroundGradient": "radial-gradient(at 0 0,#ffcf00,#00000000 50%),radial-gradient(at 33% 0,#ffd100,#00000000 50%),radial-gradient(at 67% 0,#fcd761,#00000000 50%),radial-gradient(at 100% 0,#f1cb65,#00000000 50%),radial-gradient(at 0 50%,#f8ca36,#00000000 50%),radial-gradient(at 33% 50%,#feca35,#00000000 50%),radial-gradient(at 67% 50%,#fdc662,#00000000 50%),radial-gradient(at 100% 50%,#e5cdbd,#00000000 50%),radial-gradient(at 0 100%,#939fd9,#00000000 50%),radial-gradient(at 33% 100%,#b1b0e7,#00000000 50%),radial-gradient(at 67% 100%,#a4aaf2,#00000000 50%),radial-gradient(at 100% 100%,#8b9dfe,#00000000 50%)"
+      },
+      {
+        "id": "keno",
+        "title": "keno",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/102cf3d7c840018b939cd787bf013e080b996d80e604f3008f21dddf1f1aa201?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/keno",
+        "playing": "1241",
+        "backgroundGradient": "radial-gradient(at 0 0,#4e95dd,#00000000 50%),radial-gradient(at 33% 0,#0981da,#00000000 50%),radial-gradient(at 67% 0,#74d5a1,#00000000 50%),radial-gradient(at 100% 0,#00ce75,#00000000 50%),radial-gradient(at 0 50%,#2b6beb,#00000000 50%),radial-gradient(at 33% 50%,#1b5dee,#00000000 50%),radial-gradient(at 67% 50%,#0c83dd,#00000000 50%),radial-gradient(at 100% 50%,#1d80db,#00000000 50%),radial-gradient(at 0 100%,#42b1f8,#00000000 50%),radial-gradient(at 33% 100%,#73b9f6,#00000000 50%),radial-gradient(at 67% 100%,#8eceee,#00000000 50%),radial-gradient(at 100% 100%,#72c4e9,#00000000 50%)"
+      },
+      {
+        "id": "limbo",
+        "title": "limbo",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/11caec5df20098884ae9071848e1951b8b34e5ec84a7241f2e7c5afd4b323dfd?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/limbo",
+        "playing": "1688",
+        "backgroundGradient": "radial-gradient(at 0 0,#ffd649,#00000000 50%),radial-gradient(at 33% 0,#ffd22d,#00000000 50%),radial-gradient(at 67% 0,#ffe8c4,#00000000 50%),radial-gradient(at 100% 0,#ffe6b7,#00000000 50%),radial-gradient(at 0 50%,#ffd44b,#00000000 50%),radial-gradient(at 33% 50%,#ffea9d,#00000000 50%),radial-gradient(at 67% 50%,#fff3cf,#00000000 50%),radial-gradient(at 100% 50%,#fff4e0,#00000000 50%),radial-gradient(at 0 100%,#fc9c00,#00000000 50%),radial-gradient(at 33% 100%,#fcae6d,#00000000 50%),radial-gradient(at 67% 100%,#fec29b,#00000000 50%),radial-gradient(at 100% 100%,#fcb592,#00000000 50%)"
+      },
+      {
+        "id": "hilo",
+        "title": "hilo",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/fced988e1628e3f05479dc6c9ee92bea34e003f6ad7eebb25b8e2fc7f46b3042?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/hilo",
+        "playing": "550",
+        "backgroundGradient": "radial-gradient(at 0 0,#54c691,#00000000 50%),radial-gradient(at 33% 0,#00bf7c,#00000000 50%),radial-gradient(at 67% 0,#bfe9c1,#00000000 50%),radial-gradient(at 100% 0,#ede1e3,#00000000 50%),radial-gradient(at 0 50%,#9eb194,#00000000 50%),radial-gradient(at 33% 50%,#adc4b4,#00000000 50%),radial-gradient(at 67% 50%,#e6e7d2,#00000000 50%),radial-gradient(at 100% 50%,#fadfe5,#00000000 50%),radial-gradient(at 0 100%,#00b600,#00000000 50%),radial-gradient(at 33% 100%,#00c636,#00000000 50%),radial-gradient(at 67% 100%,#94d78d,#00000000 50%),radial-gradient(at 100% 100%,#8dd382,#00000000 50%)"
+      },
+      {
+        "id": "packs",
+        "title": "Packs",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/f403357fdc65f2f81f6da97ed79b39a16804e5f583cd36c536c1ff37c6a7fb39?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/packs",
+        "playing": "113",
+        "backgroundGradient": "radial-gradient(at 0 0,#be65cc,#00000000 50%),radial-gradient(at 33% 0,#afb94d,#00000000 50%),radial-gradient(at 67% 0,#a1c7e4,#00000000 50%),radial-gradient(at 100% 0,#9694d5,#00000000 50%),radial-gradient(at 0 50%,#6d67f9,#00000000 50%),radial-gradient(at 33% 50%,#eaac41,#00000000 50%),radial-gradient(at 67% 50%,#d4af95,#00000000 50%),radial-gradient(at 100% 50%,#f09470,#00000000 50%),radial-gradient(at 0 100%,#6dbbf4,#00000000 50%),radial-gradient(at 33% 100%,#efb65e,#00000000 50%),radial-gradient(at 67% 100%,#ddbba6,#00000000 50%),radial-gradient(at 100% 100%,#eec281,#00000000 50%)"
+      },
+      {
+        "id": "flip",
+        "title": "Flip",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/1c0de2ee0ce713086ff7735697ad2b5385bc974f206b857c724a5ec84467a73b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/flip",
+        "playing": "326",
+        "backgroundGradient": "radial-gradient(at 0 0,#00c7a0,#00000000 50%),radial-gradient(at 33% 0,#5298ff,#00000000 50%),radial-gradient(at 67% 0,#00b6ff,#00000000 50%),radial-gradient(at 100% 0,#5499ff,#00000000 50%),radial-gradient(at 0 50%,#6dc300,#00000000 50%),radial-gradient(at 33% 50%,#c5ad00,#00000000 50%),radial-gradient(at 67% 50%,#cfbc5e,#00000000 50%),radial-gradient(at 100% 50%,#c4ac00,#00000000 50%),radial-gradient(at 0 100%,#00c806,#00000000 50%),radial-gradient(at 33% 100%,#70c37a,#00000000 50%),radial-gradient(at 67% 100%,#9cd2a3,#00000000 50%),radial-gradient(at 100% 100%,#6dc277,#00000000 50%)"
+      },
+      {
+        "id": "pump",
+        "title": "Pump",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/1b45a8e293264dab4677f8187e8d71feeb56adabc02510a59d6b4e780c1e5b4c?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pump",
+        "playing": "261",
+        "backgroundGradient": "radial-gradient(at 0 0,#0078ff,#00000000 50%),radial-gradient(at 33% 0,#8b63db,#00000000 50%),radial-gradient(at 67% 0,#c05bb0,#00000000 50%),radial-gradient(at 100% 0,#897ce7,#00000000 50%),radial-gradient(at 0 50%,#b568c1,#00000000 50%),radial-gradient(at 33% 50%,#ff1600,#00000000 50%),radial-gradient(at 67% 50%,#ff2647,#00000000 50%),radial-gradient(at 100% 50%,#ff3e25,#00000000 50%),radial-gradient(at 0 100%,#0071f1,#00000000 50%),radial-gradient(at 33% 100%,#b187cd,#00000000 50%),radial-gradient(at 67% 100%,#c292a9,#00000000 50%),radial-gradient(at 100% 100%,#b492d1,#00000000 50%)"
+      },
+      {
+        "id": "darts",
+        "title": "Darts",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/9cd0814e4ef63607a99044eab83cc981e1df7398032041d8c8505f33796d50d1?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/darts",
+        "playing": "63",
+        "backgroundGradient": "radial-gradient(at 0 0,#00d100,#00000000 50%),radial-gradient(at 33% 0,#83cc35,#00000000 50%),radial-gradient(at 67% 0,#c2c246,#00000000 50%),radial-gradient(at 100% 0,#8cdd7d,#00000000 50%),radial-gradient(at 0 50%,#66c300,#00000000 50%),radial-gradient(at 33% 50%,#ffa772,#00000000 50%),radial-gradient(at 67% 50%,#df8957,#00000000 50%),radial-gradient(at 100% 50%,#ff9d58,#00000000 50%),radial-gradient(at 0 100%,#00c800,#00000000 50%),radial-gradient(at 33% 100%,#a7c18b,#00000000 50%),radial-gradient(at 67% 100%,#b2b58b,#00000000 50%),radial-gradient(at 100% 100%,#a5c08a,#00000000 50%)"
+      },
+      {
+        "id": "snakes",
+        "title": "Snakes",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/7c53d6414e9be4cf73ce95ecf193b2ae129a525cbc0231577b74150b24ca434f?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/snakes",
+        "playing": "247",
+        "backgroundGradient": "radial-gradient(at 0 0,#00bcff,#00000000 50%),radial-gradient(at 33% 0,#648ffc,#00000000 50%),radial-gradient(at 67% 0,#b5bbff,#00000000 50%),radial-gradient(at 100% 0,#6892fe,#00000000 50%),radial-gradient(at 0 50%,#26f1f7,#00000000 50%),radial-gradient(at 33% 50%,#76bbe4,#00000000 50%),radial-gradient(at 67% 50%,#e0cb9e,#00000000 50%),radial-gradient(at 100% 50%,#86c4e9,#00000000 50%),radial-gradient(at 0 100%,#44c2ff,#00000000 50%),radial-gradient(at 33% 100%,#bfcdf9,#00000000 50%),radial-gradient(at 67% 100%,#d1cef1,#00000000 50%),radial-gradient(at 100% 100%,#bfcdf9,#00000000 50%)"
+      },
+      {
+        "id": "cases",
+        "title": "Cases",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/5da127925ac99a19da0cd888e5436049bc42f8ee4002df80cdc817f0501ab8a7?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/cases",
+        "playing": "65",
+        "backgroundGradient": "radial-gradient(at 0 0,#ff0000,#00000000 50%),radial-gradient(at 33% 0,#f55389,#00000000 50%),radial-gradient(at 67% 0,#e379b7,#00000000 50%),radial-gradient(at 100% 0,#f96585,#00000000 50%),radial-gradient(at 0 50%,#fc2100,#00000000 50%),radial-gradient(at 33% 50%,#da99d8,#00000000 50%),radial-gradient(at 67% 50%,#a193c2,#00000000 50%),radial-gradient(at 100% 50%,#dd9dd7,#00000000 50%),radial-gradient(at 0 100%,#f85428,#00000000 50%),radial-gradient(at 33% 100%,#cf96be,#00000000 50%),radial-gradient(at 67% 100%,#c3a1d4,#00000000 50%),radial-gradient(at 100% 100%,#d49cc1,#00000000 50%)"
+      },
+      {
+        "id": "dragon-tower",
+        "title": "Dragon Tower",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/2c3e16f0a3b8cd8d979265e48dd6a169937a4a4d0acb05ad532ca8345a1e6f21?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/dragon-tower",
+        "playing": "497",
+        "backgroundGradient": "radial-gradient(at 0 0,#ffc600,#00000000 50%),radial-gradient(at 33% 0,#ffcc2b,#00000000 50%),radial-gradient(at 67% 0,#f0bc13,#00000000 50%),radial-gradient(at 100% 0,#ffce39,#00000000 50%),radial-gradient(at 0 50%,#feca70,#00000000 50%),radial-gradient(at 33% 50%,#f7ddbb,#00000000 50%),radial-gradient(at 67% 50%,#ee9c75,#00000000 50%),radial-gradient(at 100% 50%,#f8d8b9,#00000000 50%),radial-gradient(at 0 100%,#f7b973,#00000000 50%),radial-gradient(at 33% 100%,#f4ddc7,#00000000 50%),radial-gradient(at 67% 100%,#e8c6b3,#00000000 50%),radial-gradient(at 100% 100%,#f5dfcb,#00000000 50%)"
+      },
+      {
+        "id": "bars",
+        "title": "Bars",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/88cf822054a51e5e79e73db80269740ef9023569f1552e7f65a471897808c397?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/bars",
+        "playing": "25",
+        "backgroundGradient": "radial-gradient(at 0 0,#ff601a,#00000000 50%),radial-gradient(at 33% 0,#ff663a,#00000000 50%),radial-gradient(at 67% 0,#ff8f56,#00000000 50%),radial-gradient(at 100% 0,#ff714d,#00000000 50%),radial-gradient(at 0 50%,#ff932b,#00000000 50%),radial-gradient(at 33% 50%,#ff9f40,#00000000 50%),radial-gradient(at 67% 50%,#ffd084,#00000000 50%),radial-gradient(at 100% 50%,#ff9a00,#00000000 50%),radial-gradient(at 0 100%,#ff742b,#00000000 50%),radial-gradient(at 33% 100%,#ff967c,#00000000 50%),radial-gradient(at 67% 100%,#ffbf90,#00000000 50%),radial-gradient(at 100% 100%,#ff9477,#00000000 50%)"
+      },
+      {
+        "id": "rock-paper-scissors",
+        "title": "Rock Paper Scissors",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/4031cec525edc307c71df6dddc71506ab06150fd5c14194a5dc9ca6fb54893a1?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/rock-paper-scissors",
+        "playing": "119",
+        "backgroundGradient": "radial-gradient(at 0 0,#ff0000,#00000000 50%),radial-gradient(at 33% 0,#f30000,#00000000 50%),radial-gradient(at 67% 0,#fd8100,#00000000 50%),radial-gradient(at 100% 0,#f20000,#00000000 50%),radial-gradient(at 0 50%,#fa626c,#00000000 50%),radial-gradient(at 33% 50%,#eac8c7,#00000000 50%),radial-gradient(at 67% 50%,#f19c72,#00000000 50%),radial-gradient(at 100% 50%,#eacac8,#00000000 50%),radial-gradient(at 0 100%,#f9817c,#00000000 50%),radial-gradient(at 33% 100%,#e6b5bd,#00000000 50%),radial-gradient(at 67% 100%,#efb1a2,#00000000 50%),radial-gradient(at 100% 100%,#e6bac0,#00000000 50%)"
+      },
+      {
+        "id": "tarot",
+        "title": "Tarot",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/4db9bee5db762c288bc49e4cd96f492180966be040e3dc4dc27f825a37fd687f?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/tarot",
+        "playing": "119",
+        "backgroundGradient": "radial-gradient(at 0 0,#00c49b,#00000000 50%),radial-gradient(at 33% 0,#c7b300,#00000000 50%),radial-gradient(at 67% 0,#dcbb00,#00000000 50%),radial-gradient(at 100% 0,#c5b300,#00000000 50%),radial-gradient(at 0 50%,#00b9ff,#00000000 50%),radial-gradient(at 33% 50%,#eaaa90,#00000000 50%),radial-gradient(at 67% 50%,#ffcf95,#00000000 50%),radial-gradient(at 100% 50%,#e8a891,#00000000 50%),radial-gradient(at 0 100%,#0096d9,#00000000 50%),radial-gradient(at 33% 100%,#b1a0a6,#00000000 50%),radial-gradient(at 67% 100%,#c6b6ac,#00000000 50%),radial-gradient(at 100% 100%,#ac9ea3,#00000000 50%)"
+      },
+      {
+        "id": "wheel",
+        "title": "wheel",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/e0a4131a16c28a1c1516958c93ec90c6f0f1bb00f41de87f72f6800c535b9c6f?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/wheel",
+        "playing": "244",
+        "backgroundGradient": "radial-gradient(at 0 0,#ffce00,#00000000 50%),radial-gradient(at 33% 0,#ffd300,#00000000 50%),radial-gradient(at 67% 0,#ffc700,#00000000 50%),radial-gradient(at 100% 0,#ffd500,#00000000 50%),radial-gradient(at 0 50%,#fbd200,#00000000 50%),radial-gradient(at 33% 50%,#f3bf61,#00000000 50%),radial-gradient(at 67% 50%,#ebd600,#00000000 50%),radial-gradient(at 100% 50%,#dcc295,#00000000 50%),radial-gradient(at 0 100%,#ffb840,#00000000 50%),radial-gradient(at 33% 100%,#fcb990,#00000000 50%),radial-gradient(at 67% 100%,#fdca83,#00000000 50%),radial-gradient(at 100% 100%,#f6bd9e,#00000000 50%)"
+      },
+      {
+        "id": "blackjack",
+        "title": "blackjack",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/3a536fa64023f92764ddccad1b80102d1b32b23a2e3dac4dff52394a612fc005?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/blackjack",
+        "playing": "1233",
+        "backgroundGradient": "radial-gradient(at 0 0,#f90016,#00000000 50%),radial-gradient(at 33% 0,#e4005d,#00000000 50%),radial-gradient(at 67% 0,#ff0026,#00000000 50%),radial-gradient(at 100% 0,#d4499f,#00000000 50%),radial-gradient(at 0 50%,#c692d9,#00000000 50%),radial-gradient(at 33% 50%,#9c95e6,#00000000 50%),radial-gradient(at 67% 50%,#fbe1e4,#00000000 50%),radial-gradient(at 100% 50%,#d8b3d4,#00000000 50%),radial-gradient(at 0 100%,#f991a3,#00000000 50%),radial-gradient(at 33% 100%,#c89bbc,#00000000 50%),radial-gradient(at 67% 100%,#f9b3b8,#00000000 50%),radial-gradient(at 100% 100%,#f39eaa,#00000000 50%)"
+      },
+      {
+        "id": "tome-of-life",
+        "title": "Tome of Life",
+        "provider": "Stake Originals",
+        "image": "https://mediumrare.imgix.net/931cf1fd7147d0d0deda93f16fb8ef556d6d42df3586214f6539a9cfcfcf57b9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/tome-of-life",
+        "playing": "161",
+        "backgroundGradient": "radial-gradient(at 0 0,#b7c7ff,#00000000 50%),radial-gradient(at 33% 0,#c2bfe7,#00000000 50%),radial-gradient(at 67% 0,#a79ce5,#00000000 50%),radial-gradient(at 100% 0,#c1bee7,#00000000 50%),radial-gradient(at 0 50%,#c5a9da,#00000000 50%),radial-gradient(at 33% 50%,#9c4aaa,#00000000 50%),radial-gradient(at 67% 50%,#b168a7,#00000000 50%),radial-gradient(at 100% 50%,#9949ab,#00000000 50%),radial-gradient(at 0 100%,#bcb6fa,#00000000 50%),radial-gradient(at 33% 100%,#c8b7de,#00000000 50%),radial-gradient(at 67% 100%,#d4c0e0,#00000000 50%),radial-gradient(at 100% 100%,#c8b5dd,#00000000 50%)"
+      }
+    ]
+  },
+  {
+    "name": "Slots",
+    "icon": "Slots",
+    "cards": [
+      {
+        "id": "pragmatic-play-sweet-bonanza-1000",
+        "title": "Sweet Bonanza 1000",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/73754d4bf421b78fbd3895bbc7890d379797588cb699d6cbe47f3656aa93613b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-sweet-bonanza-1000",
+        "playing": "945",
+        "backgroundGradient": "radial-gradient(at 0 0,#94e7f7,#00000000 50%),radial-gradient(at 33% 0,#9fe3fd,#00000000 50%),radial-gradient(at 67% 0,#c1d5e7,#00000000 50%),radial-gradient(at 100% 0,#93daf2,#00000000 50%),radial-gradient(at 0 50%,#ed54c9,#00000000 50%),radial-gradient(at 33% 50%,#f55fa8,#00000000 50%),radial-gradient(at 67% 50%,#f18b92,#00000000 50%),radial-gradient(at 100% 50%,#f04c78,#00000000 50%),radial-gradient(at 0 100%,#e4b2d0,#00000000 50%),radial-gradient(at 33% 100%,#e8c5da,#00000000 50%),radial-gradient(at 67% 100%,#e8d6d5,#00000000 50%),radial-gradient(at 100% 100%,#e5b7cc,#00000000 50%)"
+      },
+      {
+        "id": "hacksaw-wanted-dead-or-a-wild",
+        "title": "Wanted Dead or a Wild",
+        "provider": "Hacksaw Gaming",
+        "image": "https://mediumrare.imgix.net/9ff267150fab30e5f0cff7f09456fa2e5e966015c7fe65969104f4c4c442a746?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/hacksaw-wanted-dead-or-a-wild",
+        "playing": "365",
+        "backgroundGradient": "radial-gradient(at 0 0,#dd905f,#00000000 50%),radial-gradient(at 33% 0,#d1a376,#00000000 50%),radial-gradient(at 67% 0,#b27e5e,#00000000 50%),radial-gradient(at 100% 0,#eaba8a,#00000000 50%),radial-gradient(at 0 50%,#98725a,#00000000 50%),radial-gradient(at 33% 50%,#857965,#00000000 50%),radial-gradient(at 67% 50%,#825754,#00000000 50%),radial-gradient(at 100% 50%,#826f54,#00000000 50%),radial-gradient(at 0 100%,#b4856b,#00000000 50%),radial-gradient(at 33% 100%,#c3b5aa,#00000000 50%),radial-gradient(at 67% 100%,#c4b9af,#00000000 50%),radial-gradient(at 100% 100%,#cebfb0,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-gates-of-olympus-1000",
+        "title": "Gates of Olympus 1000",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/c064ef9ce4a6caedeca1d76665b5ae31df2147ef84c0f0f8288556dfa94478f4?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-gates-of-olympus-1000",
+        "playing": "814",
+        "backgroundGradient": "radial-gradient(at 0 0,#a5a6d7,#00000000 50%),radial-gradient(at 33% 0,#bfbfe4,#00000000 50%),radial-gradient(at 67% 0,#c1b1c4,#00000000 50%),radial-gradient(at 100% 0,#c6c2e5,#00000000 50%),radial-gradient(at 0 50%,#abbbe4,#00000000 50%),radial-gradient(at 33% 50%,#d7cecc,#00000000 50%),radial-gradient(at 67% 50%,#beb2b8,#00000000 50%),radial-gradient(at 100% 50%,#b4c8c2,#00000000 50%),radial-gradient(at 0 100%,#a0a6c6,#00000000 50%),radial-gradient(at 33% 100%,#bdc1c5,#00000000 50%),radial-gradient(at 67% 100%,#cccbca,#00000000 50%),radial-gradient(at 100% 100%,#bfbdbf,#00000000 50%)"
+      },
+      {
+        "id": "nolimit-duck-hunters",
+        "title": "Duck Hunters",
+        "provider": "Nolimit City",
+        "image": "https://mediumrare.imgix.net/34ee5a63f09ad96cd4d92ba752de18ca210df5439723203c26f385bed7ee97f1?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/nolimit-duck-hunters",
+        "playing": "276",
+        "backgroundGradient": "radial-gradient(at 0 0,#00d4cd,#00000000 50%),radial-gradient(at 33% 0,#36dfde,#00000000 50%),radial-gradient(at 67% 0,#67bdb8,#00000000 50%),radial-gradient(at 100% 0,#52dfcc,#00000000 50%),radial-gradient(at 0 50%,#408a79,#00000000 50%),radial-gradient(at 33% 50%,#80817b,#00000000 50%),radial-gradient(at 67% 50%,#756e55,#00000000 50%),radial-gradient(at 100% 50%,#797f6c,#00000000 50%),radial-gradient(at 0 100%,#6b9167,#00000000 50%),radial-gradient(at 33% 100%,#b9b9b7,#00000000 50%),radial-gradient(at 67% 100%,#cbc4bd,#00000000 50%),radial-gradient(at 100% 100%,#bec5b8,#00000000 50%)"
+      },
+      {
+        "id": "hacksaw-le-bandit",
+        "title": "Le Bandit",
+        "provider": "Hacksaw Gaming",
+        "image": "https://mediumrare.imgix.net/8ade942d35d2cdbddf7888f303be4cf4bda8c650a112b3c53f7c6f3ccad81254?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/hacksaw-le-bandit",
+        "playing": "284",
+        "backgroundGradient": "radial-gradient(at 0 0,#e0bab0,#00000000 50%),radial-gradient(at 33% 0,#cabd97,#00000000 50%),radial-gradient(at 67% 0,#bdb388,#00000000 50%),radial-gradient(at 100% 0,#e4d2b5,#00000000 50%),radial-gradient(at 0 50%,#b15cac,#00000000 50%),radial-gradient(at 33% 50%,#938799,#00000000 50%),radial-gradient(at 67% 50%,#9b618c,#00000000 50%),radial-gradient(at 100% 50%,#9f8394,#00000000 50%),radial-gradient(at 0 100%,#b476f3,#00000000 50%),radial-gradient(at 33% 100%,#ae8be3,#00000000 50%),radial-gradient(at 67% 100%,#bfb1ea,#00000000 50%),radial-gradient(at 100% 100%,#bd92f0,#00000000 50%)"
+      },
+      {
+        "id": "hacksaw-duel-at-dawn",
+        "title": "Duel at Dawn",
+        "provider": "Hacksaw Gaming",
+        "image": "https://mediumrare.imgix.net/bdff3ebf4d04f586ecab90203923fa65b39626ef03359106209089e0c8b1d0d3?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/hacksaw-duel-at-dawn",
+        "playing": "188",
+        "backgroundGradient": "radial-gradient(at 0 0,#9d3f00,#00000000 50%),radial-gradient(at 33% 0,#b56d35,#00000000 50%),radial-gradient(at 67% 0,#7f411d,#00000000 50%),radial-gradient(at 100% 0,#9c582a,#00000000 50%),radial-gradient(at 0 50%,#c88e00,#00000000 50%),radial-gradient(at 33% 50%,#9d6f1d,#00000000 50%),radial-gradient(at 67% 50%,#383b00,#00000000 50%),radial-gradient(at 100% 50%,#b88a43,#00000000 50%),radial-gradient(at 0 100%,#ce7f59,#00000000 50%),radial-gradient(at 33% 100%,#d1bcba,#00000000 50%),radial-gradient(at 67% 100%,#b3adb4,#00000000 50%),radial-gradient(at 100% 100%,#d1bbb9,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-candy-rush",
+        "title": "Candy Rush",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/8c8553eb2d7014c2bcf43fc3378a90c56cc3162cf5f3c7f2cb7257065dc75162?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-candy-rush",
+        "playing": "77",
+        "backgroundGradient": "radial-gradient(at 0 0,#b88cff,#00000000 50%),radial-gradient(at 33% 0,#d09ec9,#00000000 50%),radial-gradient(at 67% 0,#dea4b3,#00000000 50%),radial-gradient(at 100% 0,#cca4bc,#00000000 50%),radial-gradient(at 0 50%,#f1b4f0,#00000000 50%),radial-gradient(at 33% 50%,#f3bb66,#00000000 50%),radial-gradient(at 67% 50%,#ffc847,#00000000 50%),radial-gradient(at 100% 50%,#efbd48,#00000000 50%),radial-gradient(at 0 100%,#ce9dd4,#00000000 50%),radial-gradient(at 33% 100%,#e0cfc6,#00000000 50%),radial-gradient(at 67% 100%,#e8d5c8,#00000000 50%),radial-gradient(at 100% 100%,#d9d2c2,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-gold-portals",
+        "title": "Gold Portals Enhanced RTP",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/e31aa1f3b9b1b600fe1642ae70a61578146842d6bde4ee5b9fa0998ee1e32985?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-gold-portals",
+        "playing": "110",
+        "backgroundGradient": "radial-gradient(at 0 0,#006de8,#00000000 50%),radial-gradient(at 33% 0,#4597ff,#00000000 50%),radial-gradient(at 67% 0,#bbb3e4,#00000000 50%),radial-gradient(at 100% 0,#0081f5,#00000000 50%),radial-gradient(at 0 50%,#89becc,#00000000 50%),radial-gradient(at 33% 50%,#8e909a,#00000000 50%),radial-gradient(at 67% 50%,#dd9e6c,#00000000 50%),radial-gradient(at 100% 50%,#878b8d,#00000000 50%),radial-gradient(at 0 100%,#aa9d93,#00000000 50%),radial-gradient(at 33% 100%,#d3beb2,#00000000 50%),radial-gradient(at 67% 100%,#f1d1b3,#00000000 50%),radial-gradient(at 100% 100%,#d6b8a4,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-big-bass-rock-and-roll",
+        "title": "Big Bass Rock and Roll Enhanced RTP",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/49950a8148c358e88455c78d8dd1abfbeb8d2dd31a7b7971f5515ae4091b6429?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-big-bass-rock-and-roll",
+        "playing": "221",
+        "backgroundGradient": "radial-gradient(at 0 0,#9000d8,#00000000 50%),radial-gradient(at 33% 0,#aa33e1,#00000000 50%),radial-gradient(at 67% 0,#a666bc,#00000000 50%),radial-gradient(at 100% 0,#ab46ea,#00000000 50%),radial-gradient(at 0 50%,#9946d7,#00000000 50%),radial-gradient(at 33% 50%,#af8d6e,#00000000 50%),radial-gradient(at 67% 50%,#b99eb7,#00000000 50%),radial-gradient(at 100% 50%,#bc8cb0,#00000000 50%),radial-gradient(at 0 100%,#b1a8d5,#00000000 50%),radial-gradient(at 33% 100%,#cfcfd4,#00000000 50%),radial-gradient(at 67% 100%,#d1cad2,#00000000 50%),radial-gradient(at 100% 100%,#d4d0e0,#00000000 50%)"
+      },
+      {
+        "id": "hacksaw-le-king",
+        "title": "Le King",
+        "provider": "Hacksaw Gaming",
+        "image": "https://mediumrare.imgix.net/186313f85186d1a071e71926cbcbfb2b86609991974c4efb64ae387fcd74696d?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/hacksaw-le-king",
+        "playing": "143",
+        "backgroundGradient": "radial-gradient(at 0 0,#c0008a,#00000000 50%),radial-gradient(at 33% 0,#9c2484,#00000000 50%),radial-gradient(at 67% 0,#b059a0,#00000000 50%),radial-gradient(at 100% 0,#b83f92,#00000000 50%),radial-gradient(at 0 50%,#e446a4,#00000000 50%),radial-gradient(at 33% 50%,#b16e87,#00000000 50%),radial-gradient(at 67% 50%,#aa9485,#00000000 50%),radial-gradient(at 100% 50%,#ad8783,#00000000 50%),radial-gradient(at 0 100%,#e34891,#00000000 50%),radial-gradient(at 33% 100%,#e087ac,#00000000 50%),radial-gradient(at 67% 100%,#e0c6cc,#00000000 50%),radial-gradient(at 100% 100%,#db92a8,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-sugar-rush-1000",
+        "title": "Sugar Rush 1000",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/14d5410c6cf4c303d291262a10e949dc14b0ac2eca2a7a730b0401919c01358e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-sugar-rush-1000",
+        "playing": "747",
+        "backgroundGradient": "radial-gradient(at 0 0,#a6a0ff,#00000000 50%),radial-gradient(at 33% 0,#9fb1f7,#00000000 50%),radial-gradient(at 67% 0,#c5b9cf,#00000000 50%),radial-gradient(at 100% 0,#9da5f6,#00000000 50%),radial-gradient(at 0 50%,#a881fb,#00000000 50%),radial-gradient(at 33% 50%,#c19dba,#00000000 50%),radial-gradient(at 67% 50%,#dba197,#00000000 50%),radial-gradient(at 100% 50%,#ba91bf,#00000000 50%),radial-gradient(at 0 100%,#db68dc,#00000000 50%),radial-gradient(at 33% 100%,#d997c7,#00000000 50%),radial-gradient(at 67% 100%,#e6bcbb,#00000000 50%),radial-gradient(at 100% 100%,#d390c7,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-transylvania-mania",
+        "title": "Transylvania Mania Enhanced RTP",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/7afa70087cd305cd29c1e27e2dd61c71982ceefb16fe17fb593da1214ca20276?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-transylvania-mania",
+        "playing": "66",
+        "backgroundGradient": "radial-gradient(at 0 0,#c100f4,#00000000 50%),radial-gradient(at 33% 0,#ab2ecf,#00000000 50%),radial-gradient(at 67% 0,#8342ad,#00000000 50%),radial-gradient(at 100% 0,#8b4fec,#00000000 50%),radial-gradient(at 0 50%,#c63bf7,#00000000 50%),radial-gradient(at 33% 50%,#c469cc,#00000000 50%),radial-gradient(at 67% 50%,#ad7c79,#00000000 50%),radial-gradient(at 100% 50%,#b261d1,#00000000 50%),radial-gradient(at 0 100%,#aa84db,#00000000 50%),radial-gradient(at 33% 100%,#d7d1d0,#00000000 50%),radial-gradient(at 67% 100%,#cacac3,#00000000 50%),radial-gradient(at 100% 100%,#d3d1d3,#00000000 50%)"
+      },
+      {
+        "id": "twist-gaming-reel-racing",
+        "title": "Reel Racing",
+        "provider": "Twist Gaming",
+        "image": "https://mediumrare.imgix.net/bfe2163211de8c0401ba957f14657b82be40c7e6a1c99b74633ec49f811f66b8?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/twist-gaming-reel-racing",
+        "playing": "16",
+        "backgroundGradient": "radial-gradient(at 0 0,#92dad6,#00000000 50%),radial-gradient(at 33% 0,#90d4d8,#00000000 50%),radial-gradient(at 67% 0,#9fd0cf,#00000000 50%),radial-gradient(at 100% 0,#9ee3e8,#00000000 50%),radial-gradient(at 0 50%,#c2b9af,#00000000 50%),radial-gradient(at 33% 50%,#86827f,#00000000 50%),radial-gradient(at 67% 50%,#a59895,#00000000 50%),radial-gradient(at 100% 50%,#a9a4a1,#00000000 50%),radial-gradient(at 0 100%,#a2b8a0,#00000000 50%),radial-gradient(at 33% 100%,#bac3be,#00000000 50%),radial-gradient(at 67% 100%,#cccfc7,#00000000 50%),radial-gradient(at 100% 100%,#c3ccc7,#00000000 50%)"
+      },
+      {
+        "id": "massive-hex-appeal",
+        "title": "Hex Appeal",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/e7a6cef55d57a151c5a8f688ecf187884070db6c8fbcd1246d968e6c7f502ab9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-hex-appeal",
+        "playing": "13",
+        "backgroundGradient": "radial-gradient(at 0 0,#00b964,#00000000 50%),radial-gradient(at 33% 0,#31b26a,#00000000 50%),radial-gradient(at 67% 0,#71a485,#00000000 50%),radial-gradient(at 100% 0,#00b671,#00000000 50%),radial-gradient(at 0 50%,#008f66,#00000000 50%),radial-gradient(at 33% 50%,#884060,#00000000 50%),radial-gradient(at 67% 50%,#957387,#00000000 50%),radial-gradient(at 100% 50%,#4b5556,#00000000 50%),radial-gradient(at 0 100%,#76c291,#00000000 50%),radial-gradient(at 33% 100%,#bebab3,#00000000 50%),radial-gradient(at 67% 100%,#d1d3ce,#00000000 50%),radial-gradient(at 100% 100%,#bcc1bb,#00000000 50%)"
+      },
+      {
+        "id": "massive-super-wild-cat",
+        "title": "Super Wild Cat",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/ab9282a85134923aa3f1317392bd939bc6cc1c25326c86664a484f0f3124d583?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-super-wild-cat",
+        "playing": "22",
+        "backgroundGradient": "radial-gradient(at 0 0,#ca0000,#00000000 50%),radial-gradient(at 33% 0,#dc0d00,#00000000 50%),radial-gradient(at 67% 0,#cd5634,#00000000 50%),radial-gradient(at 100% 0,#d70000,#00000000 50%),radial-gradient(at 0 50%,#c75900,#00000000 50%),radial-gradient(at 33% 50%,#c09554,#00000000 50%),radial-gradient(at 67% 50%,#af813f,#00000000 50%),radial-gradient(at 100% 50%,#ac894d,#00000000 50%),radial-gradient(at 0 100%,#b86165,#00000000 50%),radial-gradient(at 33% 100%,#d1bfb4,#00000000 50%),radial-gradient(at 67% 100%,#cbb7b4,#00000000 50%),radial-gradient(at 100% 100%,#cab8b1,#00000000 50%)"
+      },
+      {
+        "id": "twist-gaming-pixel-castle",
+        "title": "Pixel Castle",
+        "provider": "Twist Gaming",
+        "image": "https://mediumrare.imgix.net/753fae98edc8bde62d72bb2fbeda558762befced1d5ad835cc4d0620d3105b5b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/twist-gaming-pixel-castle",
+        "playing": "12",
+        "backgroundGradient": "radial-gradient(at 0 0,#d9901a,#00000000 50%),radial-gradient(at 33% 0,#d89f40,#00000000 50%),radial-gradient(at 67% 0,#c88134,#00000000 50%),radial-gradient(at 100% 0,#bf8028,#00000000 50%),radial-gradient(at 0 50%,#dd9e3b,#00000000 50%),radial-gradient(at 33% 50%,#cb9a44,#00000000 50%),radial-gradient(at 67% 50%,#dca32b,#00000000 50%),radial-gradient(at 100% 50%,#ca9928,#00000000 50%),radial-gradient(at 0 100%,#da9476,#00000000 50%),radial-gradient(at 33% 100%,#dcc2b4,#00000000 50%),radial-gradient(at 67% 100%,#e1c2bd,#00000000 50%),radial-gradient(at 100% 100%,#dbc0b3,#00000000 50%)"
+      },
+      {
+        "id": "massive-rooster-returns",
+        "title": "Rooster Returns",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/dc8504bf62b4c736f6418ed5707f5fb425a719361a6cfbb314a3e3a1eee9c102?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-rooster-returns",
+        "playing": "20",
+        "backgroundGradient": "radial-gradient(at 0 0,#5157e8,#00000000 50%),radial-gradient(at 33% 0,#a14cc8,#00000000 50%),radial-gradient(at 67% 0,#8e4bc1,#00000000 50%),radial-gradient(at 100% 0,#7254d3,#00000000 50%),radial-gradient(at 0 50%,#006eab,#00000000 50%),radial-gradient(at 33% 50%,#848090,#00000000 50%),radial-gradient(at 67% 50%,#b19062,#00000000 50%),radial-gradient(at 100% 50%,#8b94a3,#00000000 50%),radial-gradient(at 0 100%,#a5bbd3,#00000000 50%),radial-gradient(at 33% 100%,#ccd0db,#00000000 50%),radial-gradient(at 67% 100%,#d1cfd6,#00000000 50%),radial-gradient(at 100% 100%,#d3dbe2,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-gates-of-olympus-super-scatter",
+        "title": "Gates of Olympus Super Scatter",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/73318f9e220e1637c4b11338d10f377cd997d0232636f5f5a1940167ad0451cd?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-gates-of-olympus-super-scatter",
+        "playing": "588",
+        "backgroundGradient": "radial-gradient(at 0 0,#f7c7c2,#00000000 50%),radial-gradient(at 33% 0,#fbccbf,#00000000 50%),radial-gradient(at 67% 0,#efc4bb,#00000000 50%),radial-gradient(at 100% 0,#fdc5b3,#00000000 50%),radial-gradient(at 0 50%,#f1a879,#00000000 50%),radial-gradient(at 33% 50%,#e0aa85,#00000000 50%),radial-gradient(at 67% 50%,#cab6bd,#00000000 50%),radial-gradient(at 100% 50%,#d79f6d,#00000000 50%),radial-gradient(at 0 100%,#ebac86,#00000000 50%),radial-gradient(at 33% 100%,#e5c5b9,#00000000 50%),radial-gradient(at 67% 100%,#e7d5c9,#00000000 50%),radial-gradient(at 100% 100%,#e4c6bd,#00000000 50%)"
+      },
+      {
+        "id": "slotmill-emberfall",
+        "title": "Emberfall",
+        "provider": "Slotmill",
+        "image": "https://mediumrare.imgix.net/d385dd8b31ef801d029313e4cead6839a48b0e5d96f836dfc81aba0a63631566?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/slotmill-emberfall",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#4d9fe3,#00000000 50%),radial-gradient(at 33% 0,#769fdc,#00000000 50%),radial-gradient(at 67% 0,#7178a4,#00000000 50%),radial-gradient(at 100% 0,#7fb4f1,#00000000 50%),radial-gradient(at 0 50%,#4e78b2,#00000000 50%),radial-gradient(at 33% 50%,#8887a3,#00000000 50%),radial-gradient(at 67% 50%,#750b00,#00000000 50%),radial-gradient(at 100% 50%,#4b2e5b,#00000000 50%),radial-gradient(at 0 100%,#afc3cc,#00000000 50%),radial-gradient(at 33% 100%,#dadad1,#00000000 50%),radial-gradient(at 67% 100%,#c5b9b0,#00000000 50%),radial-gradient(at 100% 100%,#ceccca,#00000000 50%)"
+      },
+      {
+        "id": "peterandsons-barbarossa",
+        "title": "Barbarossa",
+        "provider": "Peter & Sons",
+        "image": "https://mediumrare.imgix.net/0ec1ce52029c28d1b1a2e80fd8e96429bdce96e3a6946a39d57380b454cc6ccc?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/peterandsons-barbarossa",
+        "playing": "17",
+        "backgroundGradient": "radial-gradient(at 0 0,#35ccbf,#00000000 50%),radial-gradient(at 33% 0,#4fcbb6,#00000000 50%),radial-gradient(at 67% 0,#609d81,#00000000 50%),radial-gradient(at 100% 0,#58c8b6,#00000000 50%),radial-gradient(at 0 50%,#95c6b4,#00000000 50%),radial-gradient(at 33% 50%,#95b5a7,#00000000 50%),radial-gradient(at 67% 50%,#9d8a89,#00000000 50%),radial-gradient(at 100% 50%,#93ab9d,#00000000 50%),radial-gradient(at 0 100%,#c1dcd0,#00000000 50%),radial-gradient(at 33% 100%,#d3d8d2,#00000000 50%),radial-gradient(at 67% 100%,#cbc5c1,#00000000 50%),radial-gradient(at 100% 100%,#d6e4d9,#00000000 50%)"
+      },
+      {
+        "id": "massive-maximus-multiplus",
+        "title": "Maximus Multiplus",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/d658cc3b454dbabcca136c9e60188cac4efbe2aa1e7e9d463e5dfe2e8158af02?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-maximus-multiplus",
+        "playing": "8",
+        "backgroundGradient": "radial-gradient(at 0 0,#24b2cf,#00000000 50%),radial-gradient(at 33% 0,#bf8582,#00000000 50%),radial-gradient(at 67% 0,#937568,#00000000 50%),radial-gradient(at 100% 0,#a74e73,#00000000 50%),radial-gradient(at 0 50%,#add1d2,#00000000 50%),radial-gradient(at 33% 50%,#c9ddcf,#00000000 50%),radial-gradient(at 67% 50%,#c29f76,#00000000 50%),radial-gradient(at 100% 50%,#a0bcba,#00000000 50%),radial-gradient(at 0 100%,#b4a2b4,#00000000 50%),radial-gradient(at 33% 100%,#e3d1d1,#00000000 50%),radial-gradient(at 67% 100%,#d3b9b9,#00000000 50%),radial-gradient(at 100% 100%,#d5c0c7,#00000000 50%)"
+      }
+    ]
+  },
+  {
+    "name": "Live Casino",
+    "icon": "VIPHost",
+    "cards": [
+      {
+        "id": "evolution-blackjack-lobby",
+        "title": "Blackjack",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/ceb29aff91c7ba3033e44ee289d2eeb4e85088cdb56daac04d2e82a886542b05?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-blackjack-lobby",
+        "playing": "1106",
+        "backgroundGradient": "radial-gradient(at 0 0,#fedcb7,#00000000 50%),radial-gradient(at 33% 0,#d2c6b8,#00000000 50%),radial-gradient(at 67% 0,#b9ac9a,#00000000 50%),radial-gradient(at 100% 0,#e9dfd0,#00000000 50%),radial-gradient(at 0 50%,#eab08d,#00000000 50%),radial-gradient(at 33% 50%,#9d7c4d,#00000000 50%),radial-gradient(at 67% 50%,#a66457,#00000000 50%),radial-gradient(at 100% 50%,#ac8040,#00000000 50%),radial-gradient(at 0 100%,#f1c497,#00000000 50%),radial-gradient(at 33% 100%,#aeb1a9,#00000000 50%),radial-gradient(at 67% 100%,#c4bbaf,#00000000 50%),radial-gradient(at 100% 100%,#b9bdb5,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-lobby-roulette",
+        "title": "Roulette Lobby",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/b3ffdd5dc155ad6fa917cd1e9911d253774e6beaef55af010bd3cff6ef89cbd4?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-lobby-roulette",
+        "playing": "407",
+        "backgroundGradient": "radial-gradient(at 0 0,#da863a,#00000000 50%),radial-gradient(at 33% 0,#d17e42,#00000000 50%),radial-gradient(at 67% 0,#9a543d,#00000000 50%),radial-gradient(at 100% 0,#ae7338,#00000000 50%),radial-gradient(at 0 50%,#ed913d,#00000000 50%),radial-gradient(at 33% 50%,#ad6a38,#00000000 50%),radial-gradient(at 67% 50%,#ba7a55,#00000000 50%),radial-gradient(at 100% 50%,#944f0e,#00000000 50%),radial-gradient(at 0 100%,#caa38b,#00000000 50%),radial-gradient(at 33% 100%,#b7b2ae,#00000000 50%),radial-gradient(at 67% 100%,#b0a9a3,#00000000 50%),radial-gradient(at 100% 100%,#a2a19c,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-lobby-baccarat",
+        "title": "Baccarat Lobby",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/d9500226f7b22d783516a7f53412f623030a1ffe4ee383b54d954c42a8c65b8d?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-lobby-baccarat",
+        "playing": "275",
+        "backgroundGradient": "radial-gradient(at 0 0,#b24037,#00000000 50%),radial-gradient(at 33% 0,#cb351d,#00000000 50%),radial-gradient(at 67% 0,#a0532e,#00000000 50%),radial-gradient(at 100% 0,#c00000,#00000000 50%),radial-gradient(at 0 50%,#d7775d,#00000000 50%),radial-gradient(at 33% 50%,#dc6847,#00000000 50%),radial-gradient(at 67% 50%,#b77954,#00000000 50%),radial-gradient(at 100% 50%,#bb3800,#00000000 50%),radial-gradient(at 0 100%,#e1a7a7,#00000000 50%),radial-gradient(at 33% 100%,#d9afb2,#00000000 50%),radial-gradient(at 67% 100%,#daabab,#00000000 50%),radial-gradient(at 100% 100%,#d8a9b0,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-lobby-bj",
+        "title": "Blackjack",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/fe8a138599e05331809e86bc4b7856e930ab799d08ba3fe3a982d0c4920e64a2?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-lobby-bj",
+        "playing": "725",
+        "backgroundGradient": "radial-gradient(at 0 0,#e49e4d,#00000000 50%),radial-gradient(at 33% 0,#cd9444,#00000000 50%),radial-gradient(at 67% 0,#a27857,#00000000 50%),radial-gradient(at 100% 0,#9f7a3b,#00000000 50%),radial-gradient(at 0 50%,#c29d67,#00000000 50%),radial-gradient(at 33% 50%,#ba8f63,#00000000 50%),radial-gradient(at 67% 50%,#bf7a5b,#00000000 50%),radial-gradient(at 100% 50%,#936b43,#00000000 50%),radial-gradient(at 0 100%,#a0a99f,#00000000 50%),radial-gradient(at 33% 100%,#b5b2ae,#00000000 50%),radial-gradient(at 67% 100%,#b9b4b0,#00000000 50%),radial-gradient(at 100% 100%,#abb2af,#00000000 50%)"
+      },
+      {
+        "id": "evolution-roulette-lobby",
+        "title": "Roulette Lobby",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/323d8b0ff8f6749a76c49f2cccd09cab6db7da6510e51296fee2da086bcfb926?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-roulette-lobby",
+        "playing": "383",
+        "backgroundGradient": "radial-gradient(at 0 0,#ee706d,#00000000 50%),radial-gradient(at 33% 0,#e8a59d,#00000000 50%),radial-gradient(at 67% 0,#c99484,#00000000 50%),radial-gradient(at 100% 0,#dda59f,#00000000 50%),radial-gradient(at 0 50%,#fc1a43,#00000000 50%),radial-gradient(at 33% 50%,#cd7e64,#00000000 50%),radial-gradient(at 67% 50%,#cc8872,#00000000 50%),radial-gradient(at 100% 50%,#a67057,#00000000 50%),radial-gradient(at 0 100%,#f5a4a2,#00000000 50%),radial-gradient(at 33% 100%,#d3b7b8,#00000000 50%),radial-gradient(at 67% 100%,#e5bab5,#00000000 50%),radial-gradient(at 100% 100%,#c7a9a8,#00000000 50%)"
+      },
+      {
+        "id": "evolution-baccarat-lobby",
+        "title": "Baccarat Lobby",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/5e3e937e6d0694a8dce0576719c3db0e66b126d5adf7c4096e4dfe1a39907fdf?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-baccarat-lobby",
+        "playing": "169",
+        "backgroundGradient": "radial-gradient(at 0 0,#af3021,#00000000 50%),radial-gradient(at 33% 0,#a15b2f,#00000000 50%),radial-gradient(at 67% 0,#ad6c46,#00000000 50%),radial-gradient(at 100% 0,#b78e65,#00000000 50%),radial-gradient(at 0 50%,#cb3e3c,#00000000 50%),radial-gradient(at 33% 50%,#af4b20,#00000000 50%),radial-gradient(at 67% 50%,#d6916c,#00000000 50%),radial-gradient(at 100% 50%,#d68657,#00000000 50%),radial-gradient(at 0 100%,#ee9795,#00000000 50%),radial-gradient(at 33% 100%,#d5a7a6,#00000000 50%),radial-gradient(at 67% 100%,#e0aba3,#00000000 50%),radial-gradient(at 100% 100%,#deb5af,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-mega-roulette",
+        "title": "Mega Roulette",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/31d384b25e3d6c8704f84b3db84e31bceacf2ff16279fbcc25ad9e1bf55a7564?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-mega-roulette",
+        "playing": "56",
+        "backgroundGradient": "radial-gradient(at 0 0,#0064ff,#00000000 50%),radial-gradient(at 33% 0,#0053d5,#00000000 50%),radial-gradient(at 67% 0,#5955aa,#00000000 50%),radial-gradient(at 100% 0,#2753e1,#00000000 50%),radial-gradient(at 0 50%,#6a85ff,#00000000 50%),radial-gradient(at 33% 50%,#62497a,#00000000 50%),radial-gradient(at 67% 50%,#b17667,#00000000 50%),radial-gradient(at 100% 50%,#9172a6,#00000000 50%),radial-gradient(at 0 100%,#7b99ff,#00000000 50%),radial-gradient(at 33% 100%,#a4a5b6,#00000000 50%),radial-gradient(at 67% 100%,#c3b5b2,#00000000 50%),radial-gradient(at 100% 100%,#a6a0b8,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-mega-baccarat",
+        "title": "Mega Baccarat",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/d7fcd187d0b2dfe2686d1044255d745ef45fbdf0aa34d13e70d9b59b12e51c57?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-mega-baccarat",
+        "playing": "19",
+        "backgroundGradient": "radial-gradient(at 0 0,#af004c,#00000000 50%),radial-gradient(at 33% 0,#bf2839,#00000000 50%),radial-gradient(at 67% 0,#b76a64,#00000000 50%),radial-gradient(at 100% 0,#d44468,#00000000 50%),radial-gradient(at 0 50%,#cf2868,#00000000 50%),radial-gradient(at 33% 50%,#c54d71,#00000000 50%),radial-gradient(at 67% 50%,#c67e57,#00000000 50%),radial-gradient(at 100% 50%,#d05c85,#00000000 50%),radial-gradient(at 0 100%,#dd75b4,#00000000 50%),radial-gradient(at 33% 100%,#da99a7,#00000000 50%),radial-gradient(at 67% 100%,#e0b5bc,#00000000 50%),radial-gradient(at 100% 100%,#dc9eae,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-fortune-roulette",
+        "title": "Fortune Roulette",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/35ad71ac5000b070bf9d5ab332602ae69f8e22c8e1c8d24a1f4418a20bd18eda?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-fortune-roulette",
+        "playing": "27",
+        "backgroundGradient": "radial-gradient(at 0 0,#e5934f,#00000000 50%),radial-gradient(at 33% 0,#d69c6d,#00000000 50%),radial-gradient(at 67% 0,#ad7a51,#00000000 50%),radial-gradient(at 100% 0,#ba875b,#00000000 50%),radial-gradient(at 0 50%,#ee0a3d,#00000000 50%),radial-gradient(at 33% 50%,#bf2b3f,#00000000 50%),radial-gradient(at 67% 50%,#c47b74,#00000000 50%),radial-gradient(at 100% 50%,#a84d48,#00000000 50%),radial-gradient(at 0 100%,#f7928d,#00000000 50%),radial-gradient(at 33% 100%,#e2bfba,#00000000 50%),radial-gradient(at 67% 100%,#e3b6b3,#00000000 50%),radial-gradient(at 100% 100%,#c4b2b1,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-dragon-tiger",
+        "title": "Dragon Tiger Live",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/254be69fcde2ce6dc6ffda3319d00af47708a4285de4196cbf58e33139a5e552?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-dragon-tiger",
+        "playing": "3",
+        "backgroundGradient": "radial-gradient(at 0 0,#996eff,#00000000 50%),radial-gradient(at 33% 0,#b788eb,#00000000 50%),radial-gradient(at 67% 0,#a686a4,#00000000 50%),radial-gradient(at 100% 0,#9e6def,#00000000 50%),radial-gradient(at 0 50%,#8251fe,#00000000 50%),radial-gradient(at 33% 50%,#8864d1,#00000000 50%),radial-gradient(at 67% 50%,#c1906f,#00000000 50%),radial-gradient(at 100% 50%,#6c4fce,#00000000 50%),radial-gradient(at 0 100%,#a778d4,#00000000 50%),radial-gradient(at 33% 100%,#cd9aa6,#00000000 50%),radial-gradient(at 67% 100%,#dfbdb3,#00000000 50%),radial-gradient(at 100% 100%,#c799a6,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-andar-bahar",
+        "title": "Andar Bahar",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/e2f97b2da0a5c0d158faa8bfcb045d2d6c08c4087991e0186556b5c10acf1456?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-andar-bahar",
+        "playing": "0",
+        "backgroundGradient": "radial-gradient(at 0 0,#fa8972,#00000000 50%),radial-gradient(at 33% 0,#f37965,#00000000 50%),radial-gradient(at 67% 0,#b77357,#00000000 50%),radial-gradient(at 100% 0,#f3725b,#00000000 50%),radial-gradient(at 0 50%,#f16669,#00000000 50%),radial-gradient(at 33% 50%,#ad3946,#00000000 50%),radial-gradient(at 67% 50%,#bc8d6b,#00000000 50%),radial-gradient(at 100% 50%,#b25150,#00000000 50%),radial-gradient(at 0 100%,#b86476,#00000000 50%),radial-gradient(at 33% 100%,#c0a09f,#00000000 50%),radial-gradient(at 67% 100%,#c9bdb4,#00000000 50%),radial-gradient(at 100% 100%,#d0ac9e,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-mega-sic-bo",
+        "title": "Mega Sic Bo",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/7375f4784040a1162d35caa4ba02eeebcfd36860ab5d5c4e697b33aef5631d8c?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-mega-sic-bo",
+        "playing": "2",
+        "backgroundGradient": "radial-gradient(at 0 0,#f89e6e,#00000000 50%),radial-gradient(at 33% 0,#ed9155,#00000000 50%),radial-gradient(at 67% 0,#ba8450,#00000000 50%),radial-gradient(at 100% 0,#e08545,#00000000 50%),radial-gradient(at 0 50%,#f86459,#00000000 50%),radial-gradient(at 33% 50%,#c04345,#00000000 50%),radial-gradient(at 67% 50%,#c67b57,#00000000 50%),radial-gradient(at 100% 50%,#aa3935,#00000000 50%),radial-gradient(at 0 100%,#e95e6f,#00000000 50%),radial-gradient(at 33% 100%,#d2888c,#00000000 50%),radial-gradient(at 67% 100%,#ddb0ac,#00000000 50%),radial-gradient(at 100% 100%,#bb8288,#00000000 50%)"
+      },
+      {
+        "id": "evolution-dragon-tiger",
+        "title": "Dragon Tiger",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/c2f44dddceb673a4cd6205670ceabe0572d04c16e290af6a2427631220111eed?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-dragon-tiger",
+        "playing": "23",
+        "backgroundGradient": "radial-gradient(at 0 0,#f9dcd6,#00000000 50%),radial-gradient(at 33% 0,#efccb9,#00000000 50%),radial-gradient(at 67% 0,#ce9f86,#00000000 50%),radial-gradient(at 100% 0,#fdb493,#00000000 50%),radial-gradient(at 0 50%,#f9bba1,#00000000 50%),radial-gradient(at 33% 50%,#df9f7a,#00000000 50%),radial-gradient(at 67% 50%,#d38866,#00000000 50%),radial-gradient(at 100% 50%,#efa87a,#00000000 50%),radial-gradient(at 0 100%,#f39879,#00000000 50%),radial-gradient(at 33% 100%,#eda699,#00000000 50%),radial-gradient(at 67% 100%,#e4aca6,#00000000 50%),radial-gradient(at 100% 100%,#f0ae9f,#00000000 50%)"
+      },
+      {
+        "id": "evolution-craps",
+        "title": "Craps",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/d6aadf99ff7e8699f82b475d7a23c38b91a687aec3817ce1c09eee14e3b61f1a?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-craps",
+        "playing": "9",
+        "backgroundGradient": "radial-gradient(at 0 0,#006d6a,#00000000 50%),radial-gradient(at 33% 0,#7b9c90,#00000000 50%),radial-gradient(at 67% 0,#959285,#00000000 50%),radial-gradient(at 100% 0,#598d83,#00000000 50%),radial-gradient(at 0 50%,#3a7960,#00000000 50%),radial-gradient(at 33% 50%,#909c81,#00000000 50%),radial-gradient(at 67% 50%,#c79270,#00000000 50%),radial-gradient(at 100% 50%,#59836d,#00000000 50%),radial-gradient(at 0 100%,#a2c3c3,#00000000 50%),radial-gradient(at 33% 100%,#d1d7d9,#00000000 50%),radial-gradient(at 67% 100%,#d9dad8,#00000000 50%),radial-gradient(at 100% 100%,#c6d3d6,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-one-blackjack",
+        "title": "ONE Blackjack",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/db555db4de09debd1997a5cfebf9f597a4e2bd00f2b1d53db230e1c06539a975?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-one-blackjack",
+        "playing": "18",
+        "backgroundGradient": "radial-gradient(at 0 0,#d82afd,#00000000 50%),radial-gradient(at 33% 0,#ab00d7,#00000000 50%),radial-gradient(at 67% 0,#a36987,#00000000 50%),radial-gradient(at 100% 0,#bb0fe2,#00000000 50%),radial-gradient(at 0 50%,#cc3fe2,#00000000 50%),radial-gradient(at 33% 50%,#88498c,#00000000 50%),radial-gradient(at 67% 50%,#c78855,#00000000 50%),radial-gradient(at 100% 50%,#7c3888,#00000000 50%),radial-gradient(at 0 100%,#b782c9,#00000000 50%),radial-gradient(at 33% 100%,#898e84,#00000000 50%),radial-gradient(at 67% 100%,#d5bfac,#00000000 50%),radial-gradient(at 100% 100%,#899088,#00000000 50%)"
+      },
+      {
+        "id": "animo-studios-sky-roulette",
+        "title": "Sky Roulette",
+        "provider": "Animo Studios",
+        "image": "https://mediumrare.imgix.net/f4c226af7132231ff4f1bf130c842f18084022a519b1cb826f7aff284993c434?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/animo-studios-sky-roulette",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#47b2de,#00000000 50%),radial-gradient(at 33% 0,#429fc0,#00000000 50%),radial-gradient(at 67% 0,#8085a9,#00000000 50%),radial-gradient(at 100% 0,#77b7d0,#00000000 50%),radial-gradient(at 0 50%,#cde5f2,#00000000 50%),radial-gradient(at 33% 50%,#7896ab,#00000000 50%),radial-gradient(at 67% 50%,#deb09c,#00000000 50%),radial-gradient(at 100% 50%,#8c8e9f,#00000000 50%),radial-gradient(at 0 100%,#9cd3f3,#00000000 50%),radial-gradient(at 33% 100%,#98b2bd,#00000000 50%),radial-gradient(at 67% 100%,#c5cbcd,#00000000 50%),radial-gradient(at 100% 100%,#abbdc2,#00000000 50%)"
+      },
+      {
+        "id": "evolution-extreme-texas-hold-em",
+        "title": "Extreme Texas Hold'em",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/b9bf9a6c2a9edfe36599ab345efdcec33e61777ddf4546a88dad061e8b01bce5?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-extreme-texas-hold-em",
+        "playing": "14",
+        "backgroundGradient": "radial-gradient(at 0 0,#c46a00,#00000000 50%),radial-gradient(at 33% 0,#d4b991,#00000000 50%),radial-gradient(at 67% 0,#c09d7e,#00000000 50%),radial-gradient(at 100% 0,#947146,#00000000 50%),radial-gradient(at 0 50%,#b06600,#00000000 50%),radial-gradient(at 33% 50%,#a76b3e,#00000000 50%),radial-gradient(at 67% 50%,#a4624d,#00000000 50%),radial-gradient(at 100% 50%,#b3761d,#00000000 50%),radial-gradient(at 0 100%,#f3b07c,#00000000 50%),radial-gradient(at 33% 100%,#e7c8b3,#00000000 50%),radial-gradient(at 67% 100%,#e4c8b8,#00000000 50%),radial-gradient(at 100% 100%,#e4c3ae,#00000000 50%)"
+      },
+      {
+        "id": "evolution-red-door-roulette",
+        "title": "Red Door Roulette",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/b40368dca8c59e3c834825be53985bcd692d0e4a372200509f0d93de4d96e318?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-red-door-roulette",
+        "playing": "52",
+        "backgroundGradient": "radial-gradient(at 0 0,#e52a1c,#00000000 50%),radial-gradient(at 33% 0,#bf6640,#00000000 50%),radial-gradient(at 67% 0,#9d5f39,#00000000 50%),radial-gradient(at 100% 0,#d07c56,#00000000 50%),radial-gradient(at 0 50%,#f06055,#00000000 50%),radial-gradient(at 33% 50%,#ad353b,#00000000 50%),radial-gradient(at 67% 50%,#c88d70,#00000000 50%),radial-gradient(at 100% 50%,#c15b4f,#00000000 50%),radial-gradient(at 0 100%,#d48990,#00000000 50%),radial-gradient(at 33% 100%,#b8aeb2,#00000000 50%),radial-gradient(at 67% 100%,#b0aaa8,#00000000 50%),radial-gradient(at 100% 100%,#bbb0b1,#00000000 50%)"
+      },
+      {
+        "id": "evolution-bac-bo",
+        "title": "Bac Bo",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/a531dd40ee12884b7a8c818667c7d511a50d2e0973248ae0e1839d0b29b5a04c?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-bac-bo",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#e08900,#00000000 50%),radial-gradient(at 33% 0,#c07800,#00000000 50%),radial-gradient(at 67% 0,#af7128,#00000000 50%),radial-gradient(at 100% 0,#cfb326,#00000000 50%),radial-gradient(at 0 50%,#dc9530,#00000000 50%),radial-gradient(at 33% 50%,#8f5e28,#00000000 50%),radial-gradient(at 67% 50%,#c78a69,#00000000 50%),radial-gradient(at 100% 50%,#968935,#00000000 50%),radial-gradient(at 0 100%,#f8c59d,#00000000 50%),radial-gradient(at 33% 100%,#e0c4c7,#00000000 50%),radial-gradient(at 67% 100%,#e2b0a6,#00000000 50%),radial-gradient(at 100% 100%,#d8cac3,#00000000 50%)"
+      },
+      {
+        "id": "evolution-lightning-bac-bo",
+        "title": "Lightning Bac Bo",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/9e6cf12dccca72db6c4ac533cf67d6fd382ca794c8dba5c406b78fad59ce7e9b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-lightning-bac-bo",
+        "playing": "2",
+        "backgroundGradient": "radial-gradient(at 0 0,#f7a172,#00000000 50%),radial-gradient(at 33% 0,#d79569,#00000000 50%),radial-gradient(at 67% 0,#b99275,#00000000 50%),radial-gradient(at 100% 0,#cf986c,#00000000 50%),radial-gradient(at 0 50%,#e46339,#00000000 50%),radial-gradient(at 33% 50%,#a9563a,#00000000 50%),radial-gradient(at 67% 50%,#c3907e,#00000000 50%),radial-gradient(at 100% 50%,#891e00,#00000000 50%),radial-gradient(at 0 100%,#f07b60,#00000000 50%),radial-gradient(at 33% 100%,#d3a4a6,#00000000 50%),radial-gradient(at 67% 100%,#e1b2b1,#00000000 50%),radial-gradient(at 100% 100%,#cba3a5,#00000000 50%)"
+      },
+      {
+        "id": "evolution-casino-holdem",
+        "title": "Casino Hold'em",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/8bff73ce9955a02f1d16a8be6b2e9a6b28a1903bf0d9b7b8ac3003738af2f079?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-casino-holdem",
+        "playing": "13",
+        "backgroundGradient": "radial-gradient(at 0 0,#d0b595,#00000000 50%),radial-gradient(at 33% 0,#d3c19a,#00000000 50%),radial-gradient(at 67% 0,#b38c6f,#00000000 50%),radial-gradient(at 100% 0,#cca168,#00000000 50%),radial-gradient(at 0 50%,#cdb5a1,#00000000 50%),radial-gradient(at 33% 50%,#9e7a62,#00000000 50%),radial-gradient(at 67% 50%,#c2847c,#00000000 50%),radial-gradient(at 100% 50%,#ab7f66,#00000000 50%),radial-gradient(at 0 100%,#cd9a77,#00000000 50%),radial-gradient(at 33% 100%,#dcbfae,#00000000 50%),radial-gradient(at 67% 100%,#d7bbaa,#00000000 50%),radial-gradient(at 100% 100%,#d5b3a3,#00000000 50%)"
+      }
+    ]
+  },
+  {
+    "name": "Game Shows",
+    "icon": "AllGames",
+    "cards": [
+      {
+        "id": "evolution-crazy-time",
+        "title": "Crazy Time",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/c96913931362bf3c7979b1118049bc427f30bbf8f73483fdb8f678e045613ec4?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-crazy-time",
+        "playing": "278",
+        "backgroundGradient": "radial-gradient(at 0 0,#7fcaf4,#00000000 50%),radial-gradient(at 33% 0,#99b5be,#00000000 50%),radial-gradient(at 67% 0,#a6a4bd,#00000000 50%),radial-gradient(at 100% 0,#b7bcb7,#00000000 50%),radial-gradient(at 0 50%,#cdc497,#00000000 50%),radial-gradient(at 33% 50%,#a58476,#00000000 50%),radial-gradient(at 67% 50%,#d09486,#00000000 50%),radial-gradient(at 100% 50%,#b08c80,#00000000 50%),radial-gradient(at 0 100%,#9cc2d7,#00000000 50%),radial-gradient(at 33% 100%,#8fa7be,#00000000 50%),radial-gradient(at 67% 100%,#d1cad0,#00000000 50%),radial-gradient(at 100% 100%,#a1abb7,#00000000 50%)"
+      },
+      {
+        "id": "evolution-lightning-roulette",
+        "title": "Lightning Roulette",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/c5996d604ffd3f6e1e34d94425948d29f78bbd0a96c9611a78b12de8b4ff7677?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-lightning-roulette",
+        "playing": "68",
+        "backgroundGradient": "radial-gradient(at 0 0,#d69b8d,#00000000 50%),radial-gradient(at 33% 0,#d3a37a,#00000000 50%),radial-gradient(at 67% 0,#b78b66,#00000000 50%),radial-gradient(at 100% 0,#cfa77d,#00000000 50%),radial-gradient(at 0 50%,#a3669d,#00000000 50%),radial-gradient(at 33% 50%,#a08b87,#00000000 50%),radial-gradient(at 67% 50%,#b89282,#00000000 50%),radial-gradient(at 100% 50%,#807376,#00000000 50%),radial-gradient(at 0 100%,#ae8cda,#00000000 50%),radial-gradient(at 33% 100%,#b8afb5,#00000000 50%),radial-gradient(at 67% 100%,#aaa8b1,#00000000 50%),radial-gradient(at 100% 100%,#b3adb4,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-money-time",
+        "title": "Money Time",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/c316b233f4ee998d8c21f6bcbc4e8eb5e3b801dca6003061707904236ef71082?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-money-time",
+        "playing": "41",
+        "backgroundGradient": "radial-gradient(at 0 0,#b5b500,#00000000 50%),radial-gradient(at 33% 0,#86a122,#00000000 50%),radial-gradient(at 67% 0,#967738,#00000000 50%),radial-gradient(at 100% 0,#cbaf42,#00000000 50%),radial-gradient(at 0 50%,#dbd65f,#00000000 50%),radial-gradient(at 33% 50%,#9a8239,#00000000 50%),radial-gradient(at 67% 50%,#c77d74,#00000000 50%),radial-gradient(at 100% 50%,#bd9b60,#00000000 50%),radial-gradient(at 0 100%,#a4d68f,#00000000 50%),radial-gradient(at 33% 100%,#a1c6a0,#00000000 50%),radial-gradient(at 67% 100%,#cac5b9,#00000000 50%),radial-gradient(at 100% 100%,#adc7a9,#00000000 50%)"
+      },
+      {
+        "id": "animo-studios-port-roulette",
+        "title": "Port Roulette",
+        "provider": "Animo Studios",
+        "image": "https://mediumrare.imgix.net/7311ea9d7fa17ce9ace34be317664ce933c0efc4737f29ef3b1a1c1f61daaa7e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/animo-studios-port-roulette",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#e86f54,#00000000 50%),radial-gradient(at 33% 0,#d9bba7,#00000000 50%),radial-gradient(at 67% 0,#86737c,#00000000 50%),radial-gradient(at 100% 0,#d1c0b8,#00000000 50%),radial-gradient(at 0 50%,#ffc8b2,#00000000 50%),radial-gradient(at 33% 50%,#896e74,#00000000 50%),radial-gradient(at 67% 50%,#c99987,#00000000 50%),radial-gradient(at 100% 50%,#9e605f,#00000000 50%),radial-gradient(at 0 100%,#f7b093,#00000000 50%),radial-gradient(at 33% 100%,#e2bcac,#00000000 50%),radial-gradient(at 67% 100%,#dec5b8,#00000000 50%),radial-gradient(at 100% 100%,#d8b3a2,#00000000 50%)"
+      },
+      {
+        "id": "evolution-lightning-storm",
+        "title": "Lightning Storm",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/ae0be433f1bd53cdd98fd28366c85a2de515392a9b2e009db36582aabf499af9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-lightning-storm",
+        "playing": "59",
+        "backgroundGradient": "radial-gradient(at 0 0,#feb757,#00000000 50%),radial-gradient(at 33% 0,#f6c27d,#00000000 50%),radial-gradient(at 67% 0,#d6a077,#00000000 50%),radial-gradient(at 100% 0,#fc9e6b,#00000000 50%),radial-gradient(at 0 50%,#ff8913,#00000000 50%),radial-gradient(at 33% 50%,#c1722b,#00000000 50%),radial-gradient(at 67% 50%,#dea076,#00000000 50%),radial-gradient(at 100% 50%,#c56523,#00000000 50%),radial-gradient(at 0 100%,#df9979,#00000000 50%),radial-gradient(at 33% 100%,#d2b3a5,#00000000 50%),radial-gradient(at 67% 100%,#dfc6bb,#00000000 50%),radial-gradient(at 100% 100%,#debaaa,#00000000 50%)"
+      },
+      {
+        "id": "evolution-ice-fishing",
+        "title": "Ice Fishing",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/7d2fa321829e2521d65be3e9670583280b2aaf8da238ade6dab5a4c839dc13d3?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-ice-fishing",
+        "playing": "53",
+        "backgroundGradient": "radial-gradient(at 0 0,#7bd6ff,#00000000 50%),radial-gradient(at 33% 0,#5bc8ff,#00000000 50%),radial-gradient(at 67% 0,#97b4d6,#00000000 50%),radial-gradient(at 100% 0,#00b2f5,#00000000 50%),radial-gradient(at 0 50%,#b0e7fd,#00000000 50%),radial-gradient(at 33% 50%,#95b7c1,#00000000 50%),radial-gradient(at 67% 50%,#e3b099,#00000000 50%),radial-gradient(at 100% 50%,#7ba3b2,#00000000 50%),radial-gradient(at 0 100%,#9dd9f9,#00000000 50%),radial-gradient(at 33% 100%,#accfe2,#00000000 50%),radial-gradient(at 67% 100%,#d3d7db,#00000000 50%),radial-gradient(at 100% 100%,#90aec3,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-mega-roulette",
+        "title": "Mega Roulette",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/31d384b25e3d6c8704f84b3db84e31bceacf2ff16279fbcc25ad9e1bf55a7564?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-mega-roulette",
+        "playing": "56",
+        "backgroundGradient": "radial-gradient(at 0 0,#0064ff,#00000000 50%),radial-gradient(at 33% 0,#0053d5,#00000000 50%),radial-gradient(at 67% 0,#5955aa,#00000000 50%),radial-gradient(at 100% 0,#2753e1,#00000000 50%),radial-gradient(at 0 50%,#6a85ff,#00000000 50%),radial-gradient(at 33% 50%,#62497a,#00000000 50%),radial-gradient(at 67% 50%,#b17667,#00000000 50%),radial-gradient(at 100% 50%,#9172a6,#00000000 50%),radial-gradient(at 0 100%,#7b99ff,#00000000 50%),radial-gradient(at 33% 100%,#a4a5b6,#00000000 50%),radial-gradient(at 67% 100%,#c3b5b2,#00000000 50%),radial-gradient(at 100% 100%,#a6a0b8,#00000000 50%)"
+      },
+      {
+        "id": "evolution-crazy-balls",
+        "title": "Crazy Balls",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/671d6a21c12d9ddcc90b42373d4f30ac0acf61a718c3b649650bdd58a767d7b9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-crazy-balls",
+        "playing": "33",
+        "backgroundGradient": "radial-gradient(at 0 0,#ee405b,#00000000 50%),radial-gradient(at 33% 0,#c51632,#00000000 50%),radial-gradient(at 67% 0,#a4624b,#00000000 50%),radial-gradient(at 100% 0,#c70000,#00000000 50%),radial-gradient(at 0 50%,#fd5361,#00000000 50%),radial-gradient(at 33% 50%,#af3743,#00000000 50%),radial-gradient(at 67% 50%,#d39f7d,#00000000 50%),radial-gradient(at 100% 50%,#b1414b,#00000000 50%),radial-gradient(at 0 100%,#e3635f,#00000000 50%),radial-gradient(at 33% 100%,#b58888,#00000000 50%),radial-gradient(at 67% 100%,#d6bab3,#00000000 50%),radial-gradient(at 100% 100%,#a37d7c,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-sweet-bonanza-candyland",
+        "title": "Sweet Bonanza CandyLand",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/d106b625193c741a63126db66e8176afae70b698bbb6e3d332abae436ffc6417?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-sweet-bonanza-candyland",
+        "playing": "26",
+        "backgroundGradient": "radial-gradient(at 0 0,#fba79a,#00000000 50%),radial-gradient(at 33% 0,#d3a378,#00000000 50%),radial-gradient(at 67% 0,#9f7c65,#00000000 50%),radial-gradient(at 100% 0,#b89488,#00000000 50%),radial-gradient(at 0 50%,#f78575,#00000000 50%),radial-gradient(at 33% 50%,#a66f47,#00000000 50%),radial-gradient(at 67% 50%,#be7853,#00000000 50%),radial-gradient(at 100% 50%,#956641,#00000000 50%),radial-gradient(at 0 100%,#eca9aa,#00000000 50%),radial-gradient(at 33% 100%,#dac2c0,#00000000 50%),radial-gradient(at 67% 100%,#e0bcbc,#00000000 50%),radial-gradient(at 100% 100%,#ccbac0,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-treasure-island",
+        "title": "Treasure Island",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/6cc2add248e5f0abe721f03240b12cb42b7c3cb4661504b521d91859bedcddad?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-treasure-island",
+        "playing": "12",
+        "backgroundGradient": "radial-gradient(at 0 0,#94b1d2,#00000000 50%),radial-gradient(at 33% 0,#91c0e9,#00000000 50%),radial-gradient(at 67% 0,#8e90a5,#00000000 50%),radial-gradient(at 100% 0,#8ac1e6,#00000000 50%),radial-gradient(at 0 50%,#aea06c,#00000000 50%),radial-gradient(at 33% 50%,#a09d6d,#00000000 50%),radial-gradient(at 67% 50%,#d18248,#00000000 50%),radial-gradient(at 100% 50%,#9ba076,#00000000 50%),radial-gradient(at 0 100%,#9e879e,#00000000 50%),radial-gradient(at 33% 100%,#c4a7b4,#00000000 50%),radial-gradient(at 67% 100%,#cfacaa,#00000000 50%),radial-gradient(at 100% 100%,#bcabba,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-mega-roulette-3000",
+        "title": "Mega Roulette 3000",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/2a97a02dd2dafe4526f7f3427c8cbca3c51f29a57d4e89e2d4bc163d6e1d8a3c?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-mega-roulette-3000",
+        "playing": "106",
+        "backgroundGradient": "radial-gradient(at 0 0,#fd889a,#00000000 50%),radial-gradient(at 33% 0,#c8519d,#00000000 50%),radial-gradient(at 67% 0,#a65d5b,#00000000 50%),radial-gradient(at 100% 0,#db4f76,#00000000 50%),radial-gradient(at 0 50%,#ff8082,#00000000 50%),radial-gradient(at 33% 50%,#86514d,#00000000 50%),radial-gradient(at 67% 50%,#b47a61,#00000000 50%),radial-gradient(at 100% 50%,#93573f,#00000000 50%),radial-gradient(at 0 100%,#dd7f81,#00000000 50%),radial-gradient(at 33% 100%,#cc898f,#00000000 50%),radial-gradient(at 67% 100%,#d8b4ad,#00000000 50%),radial-gradient(at 100% 100%,#cf908d,#00000000 50%)"
+      },
+      {
+        "id": "evolution-monopoly-live",
+        "title": "MONOPOLY Live",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/289c2a79f90e7903933d1ee6d61ae4eb450fe2ced952a663a960ff06da452af2?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-monopoly-live",
+        "playing": "34",
+        "backgroundGradient": "radial-gradient(at 0 0,#95a7c5,#00000000 50%),radial-gradient(at 33% 0,#9796ba,#00000000 50%),radial-gradient(at 67% 0,#7a8fac,#00000000 50%),radial-gradient(at 100% 0,#6f92c2,#00000000 50%),radial-gradient(at 0 50%,#adcbdb,#00000000 50%),radial-gradient(at 33% 50%,#9c7f79,#00000000 50%),radial-gradient(at 67% 50%,#bf9779,#00000000 50%),radial-gradient(at 100% 50%,#265489,#00000000 50%),radial-gradient(at 0 100%,#bbccd6,#00000000 50%),radial-gradient(at 33% 100%,#d4bcc4,#00000000 50%),radial-gradient(at 67% 100%,#cac5bf,#00000000 50%),radial-gradient(at 100% 100%,#aaa9ba,#00000000 50%)"
+      },
+      {
+        "id": "animo-studios-sky-roulette",
+        "title": "Sky Roulette",
+        "provider": "Animo Studios",
+        "image": "https://mediumrare.imgix.net/f4c226af7132231ff4f1bf130c842f18084022a519b1cb826f7aff284993c434?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/animo-studios-sky-roulette",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#47b2de,#00000000 50%),radial-gradient(at 33% 0,#429fc0,#00000000 50%),radial-gradient(at 67% 0,#8085a9,#00000000 50%),radial-gradient(at 100% 0,#77b7d0,#00000000 50%),radial-gradient(at 0 50%,#cde5f2,#00000000 50%),radial-gradient(at 33% 50%,#7896ab,#00000000 50%),radial-gradient(at 67% 50%,#deb09c,#00000000 50%),radial-gradient(at 100% 50%,#8c8e9f,#00000000 50%),radial-gradient(at 0 100%,#9cd3f3,#00000000 50%),radial-gradient(at 33% 100%,#98b2bd,#00000000 50%),radial-gradient(at 67% 100%,#c5cbcd,#00000000 50%),radial-gradient(at 100% 100%,#abbdc2,#00000000 50%)"
+      },
+      {
+        "id": "evolution-monopoly-big-baller",
+        "title": "MONOPOLY Big Baller",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/dfbfd463b198f20b157f108eae39834bcd79e7a65b0bbadc86b625f8a72e9816?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-monopoly-big-baller",
+        "playing": "27",
+        "backgroundGradient": "radial-gradient(at 0 0,#afc58e,#00000000 50%),radial-gradient(at 33% 0,#a4b192,#00000000 50%),radial-gradient(at 67% 0,#ae9a78,#00000000 50%),radial-gradient(at 100% 0,#b1b98a,#00000000 50%),radial-gradient(at 0 50%,#b3a751,#00000000 50%),radial-gradient(at 33% 50%,#5c5e0c,#00000000 50%),radial-gradient(at 67% 50%,#c38769,#00000000 50%),radial-gradient(at 100% 50%,#666133,#00000000 50%),radial-gradient(at 0 100%,#b7c792,#00000000 50%),radial-gradient(at 33% 100%,#b7c5b5,#00000000 50%),radial-gradient(at 67% 100%,#cbc1b5,#00000000 50%),radial-gradient(at 100% 100%,#b2bdb2,#00000000 50%)"
+      },
+      {
+        "id": "evolution-crazy-coin-flip",
+        "title": "Crazy Coin Flip",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/0faf42b6f69adb573e664dcbd3da55805fd3e307fc405fb8a3436a535b9b498b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-crazy-coin-flip",
+        "playing": "9",
+        "backgroundGradient": "radial-gradient(at 0 0,#efa069,#00000000 50%),radial-gradient(at 33% 0,#b16436,#00000000 50%),radial-gradient(at 67% 0,#be7257,#00000000 50%),radial-gradient(at 100% 0,#a5513e,#00000000 50%),radial-gradient(at 0 50%,#f39d64,#00000000 50%),radial-gradient(at 33% 50%,#c0663f,#00000000 50%),radial-gradient(at 67% 50%,#bc8766,#00000000 50%),radial-gradient(at 100% 50%,#a91a00,#00000000 50%),radial-gradient(at 0 100%,#ff957f,#00000000 50%),radial-gradient(at 33% 100%,#dbab9c,#00000000 50%),radial-gradient(at 67% 100%,#e6b0ac,#00000000 50%),radial-gradient(at 100% 100%,#ce9a92,#00000000 50%)"
+      },
+      {
+        "id": "evolution-crazy-pachinko",
+        "title": "Crazy Pachinko",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/8c380d8aaf0f04358099e06bd19f3db9cbc4469f292b8b1f384618b1d7b1865a?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-crazy-pachinko",
+        "playing": "7",
+        "backgroundGradient": "radial-gradient(at 0 0,#00ae20,#00000000 50%),radial-gradient(at 33% 0,#33ac2d,#00000000 50%),radial-gradient(at 67% 0,#757d66,#00000000 50%),radial-gradient(at 100% 0,#38af3e,#00000000 50%),radial-gradient(at 0 50%,#70c42d,#00000000 50%),radial-gradient(at 33% 50%,#68c437,#00000000 50%),radial-gradient(at 67% 50%,#d6a48d,#00000000 50%),radial-gradient(at 100% 50%,#64c143,#00000000 50%),radial-gradient(at 0 100%,#80c478,#00000000 50%),radial-gradient(at 33% 100%,#acc39d,#00000000 50%),radial-gradient(at 67% 100%,#c4c5bd,#00000000 50%),radial-gradient(at 100% 100%,#a1c7a7,#00000000 50%)"
+      },
+      {
+        "id": "evolution-red-door-roulette",
+        "title": "Red Door Roulette",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/b40368dca8c59e3c834825be53985bcd692d0e4a372200509f0d93de4d96e318?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-red-door-roulette",
+        "playing": "52",
+        "backgroundGradient": "radial-gradient(at 0 0,#e52a1c,#00000000 50%),radial-gradient(at 33% 0,#bf6640,#00000000 50%),radial-gradient(at 67% 0,#9d5f39,#00000000 50%),radial-gradient(at 100% 0,#d07c56,#00000000 50%),radial-gradient(at 0 50%,#f06055,#00000000 50%),radial-gradient(at 33% 50%,#ad353b,#00000000 50%),radial-gradient(at 67% 50%,#c88d70,#00000000 50%),radial-gradient(at 100% 50%,#c15b4f,#00000000 50%),radial-gradient(at 0 100%,#d48990,#00000000 50%),radial-gradient(at 33% 100%,#b8aeb2,#00000000 50%),radial-gradient(at 67% 100%,#b0aaa8,#00000000 50%),radial-gradient(at 100% 100%,#bbb0b1,#00000000 50%)"
+      },
+      {
+        "id": "evolution-stock-market",
+        "title": "Stock Market",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/0193a827252e268fccefbb7c99d0ddcf5587ca0b468e6739da68e9f40a8a37b3?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-stock-market",
+        "playing": "28",
+        "backgroundGradient": "radial-gradient(at 0 0,#0070ec,#00000000 50%),radial-gradient(at 33% 0,#387de9,#00000000 50%),radial-gradient(at 67% 0,#9483b7,#00000000 50%),radial-gradient(at 100% 0,#3885ee,#00000000 50%),radial-gradient(at 0 50%,#6f70b4,#00000000 50%),radial-gradient(at 33% 50%,#7e71a7,#00000000 50%),radial-gradient(at 67% 50%,#e2a889,#00000000 50%),radial-gradient(at 100% 50%,#7372b2,#00000000 50%),radial-gradient(at 0 100%,#3d68c1,#00000000 50%),radial-gradient(at 33% 100%,#9095ae,#00000000 50%),radial-gradient(at 67% 100%,#c2b8b8,#00000000 50%),radial-gradient(at 100% 100%,#8d95b0,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-dice-city",
+        "title": "Dice City",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/3bf3893b0e2b37d1b9eb334444c566f056949b23a76889cbad4b984a0842c853?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-dice-city",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#de0070,#00000000 50%),radial-gradient(at 33% 0,#cb0068,#00000000 50%),radial-gradient(at 67% 0,#b7706d,#00000000 50%),radial-gradient(at 100% 0,#db4f76,#00000000 50%),radial-gradient(at 0 50%,#ce6e66,#00000000 50%),radial-gradient(at 33% 50%,#a95246,#00000000 50%),radial-gradient(at 67% 50%,#b58c6e,#00000000 50%),radial-gradient(at 100% 50%,#af6d59,#00000000 50%),radial-gradient(at 0 100%,#e17b9c,#00000000 50%),radial-gradient(at 33% 100%,#a77590,#00000000 50%),radial-gradient(at 67% 100%,#e1c7ce,#00000000 50%),radial-gradient(at 100% 100%,#c896af,#00000000 50%)"
+      },
+      {
+        "id": "evolution-xxxtreme-lightning-roulette",
+        "title": "XXXtreme Lightning Roulette",
+        "provider": "Evolution",
+        "image": "https://mediumrare.imgix.net/721a16c064e44069c36a96868b84077f7683de24855333f22479fa196bc878e2?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/evolution-xxxtreme-lightning-roulette",
+        "playing": "36",
+        "backgroundGradient": "radial-gradient(at 0 0,#f8a363,#00000000 50%),radial-gradient(at 33% 0,#cf6d2f,#00000000 50%),radial-gradient(at 67% 0,#9d5c4c,#00000000 50%),radial-gradient(at 100% 0,#da6f33,#00000000 50%),radial-gradient(at 0 50%,#fe9b57,#00000000 50%),radial-gradient(at 33% 50%,#e3773d,#00000000 50%),radial-gradient(at 67% 50%,#c29073,#00000000 50%),radial-gradient(at 100% 50%,#eb7f4a,#00000000 50%),radial-gradient(at 0 100%,#d0a08d,#00000000 50%),radial-gradient(at 33% 100%,#bcb4b3,#00000000 50%),radial-gradient(at 67% 100%,#adb1b1,#00000000 50%),radial-gradient(at 100% 100%,#c2b9b7,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-live-fortune-roulette",
+        "title": "Fortune Roulette",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/35ad71ac5000b070bf9d5ab332602ae69f8e22c8e1c8d24a1f4418a20bd18eda?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-live-fortune-roulette",
+        "playing": "27",
+        "backgroundGradient": "radial-gradient(at 0 0,#e5934f,#00000000 50%),radial-gradient(at 33% 0,#d69c6d,#00000000 50%),radial-gradient(at 67% 0,#ad7a51,#00000000 50%),radial-gradient(at 100% 0,#ba875b,#00000000 50%),radial-gradient(at 0 50%,#ee0a3d,#00000000 50%),radial-gradient(at 33% 50%,#bf2b3f,#00000000 50%),radial-gradient(at 67% 50%,#c47b74,#00000000 50%),radial-gradient(at 100% 50%,#a84d48,#00000000 50%),radial-gradient(at 0 100%,#f7928d,#00000000 50%),radial-gradient(at 33% 100%,#e2bfba,#00000000 50%),radial-gradient(at 67% 100%,#e3b6b3,#00000000 50%),radial-gradient(at 100% 100%,#c4b2b1,#00000000 50%)"
+      }
+    ]
+  },
+  {
+    "name": "Burst Games",
+    "icon": "Burst",
+    "cards": [
+      {
+        "id": "bgaming-aviamasters",
+        "title": "Aviamasters",
+        "provider": "BGaming",
+        "image": "https://mediumrare.imgix.net/51cf2f95878fb4925db1de3de628ead39e2f50be3bbdbc2529b1489456b1a01a?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/bgaming-aviamasters",
+        "playing": "151",
+        "backgroundGradient": "radial-gradient(at 0 0,#0000b7,#00000000 50%),radial-gradient(at 33% 0,#0846b9,#00000000 50%),radial-gradient(at 67% 0,#6300a7,#00000000 50%),radial-gradient(at 100% 0,#4f43b9,#00000000 50%),radial-gradient(at 0 50%,#9369b0,#00000000 50%),radial-gradient(at 33% 50%,#b1888a,#00000000 50%),radial-gradient(at 67% 50%,#c24d36,#00000000 50%),radial-gradient(at 100% 50%,#c6915a,#00000000 50%),radial-gradient(at 0 100%,#b9a6bb,#00000000 50%),radial-gradient(at 33% 100%,#cecdd3,#00000000 50%),radial-gradient(at 67% 100%,#cab7c2,#00000000 50%),radial-gradient(at 100% 100%,#cbc8d1,#00000000 50%)"
+      },
+      {
+        "id": "azerite-plinko-magnets-10000x",
+        "title": "Plinko Magnets 10000x",
+        "provider": "Azerite",
+        "image": "https://mediumrare.imgix.net/d6067f78713e475bb1f84b51018625cf78a6be9976dc79ded8465df7e49371e1?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/azerite-plinko-magnets-10000x",
+        "playing": "40",
+        "backgroundGradient": "radial-gradient(at 0 0,#feee00,#00000000 50%),radial-gradient(at 33% 0,#c0dca2,#00000000 50%),radial-gradient(at 67% 0,#dde688,#00000000 50%),radial-gradient(at 100% 0,#ebe81a,#00000000 50%),radial-gradient(at 0 50%,#efda00,#00000000 50%),radial-gradient(at 33% 50%,#b3c6c5,#00000000 50%),radial-gradient(at 67% 50%,#e2d278,#00000000 50%),radial-gradient(at 100% 50%,#d3b6ad,#00000000 50%),radial-gradient(at 0 100%,#ead815,#00000000 50%),radial-gradient(at 33% 100%,#d2d4ad,#00000000 50%),radial-gradient(at 67% 100%,#e3dec9,#00000000 50%),radial-gradient(at 100% 100%,#dbd1a6,#00000000 50%)"
+      },
+      {
+        "id": "mirrorimage-drop-the-boss-trump",
+        "title": "Drop The Boss",
+        "provider": "Mirror Image Gaming",
+        "image": "https://mediumrare.imgix.net/158873059e141613ef2f032db93c2e4d0021215e6fb6b62f7e12847dd295c7f2?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/mirrorimage-drop-the-boss-trump",
+        "playing": "67",
+        "backgroundGradient": "radial-gradient(at 0 0,#86aec0,#00000000 50%),radial-gradient(at 33% 0,#7893ab,#00000000 50%),radial-gradient(at 67% 0,#bea56f,#00000000 50%),radial-gradient(at 100% 0,#7c809f,#00000000 50%),radial-gradient(at 0 50%,#86a4c2,#00000000 50%),radial-gradient(at 33% 50%,#8f95a4,#00000000 50%),radial-gradient(at 67% 50%,#d69653,#00000000 50%),radial-gradient(at 100% 50%,#b28878,#00000000 50%),radial-gradient(at 0 100%,#8bbdd4,#00000000 50%),radial-gradient(at 33% 100%,#b3c8d3,#00000000 50%),radial-gradient(at 67% 100%,#d6dbd0,#00000000 50%),radial-gradient(at 100% 100%,#bfc6c7,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-minedrop",
+        "title": "Minedrop",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/88e1bf62daafe0a8ebd36c2d0c69a6c3e962daaa07879c0cbc56e4a68413c68e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-minedrop",
+        "playing": "49",
+        "backgroundGradient": "radial-gradient(at 0 0,#70d3ff,#00000000 50%),radial-gradient(at 33% 0,#78c9f3,#00000000 50%),radial-gradient(at 67% 0,#98dffc,#00000000 50%),radial-gradient(at 100% 0,#ade4fd,#00000000 50%),radial-gradient(at 0 50%,#b7e4f4,#00000000 50%),radial-gradient(at 33% 50%,#9ad4f4,#00000000 50%),radial-gradient(at 67% 50%,#95b7d3,#00000000 50%),radial-gradient(at 100% 50%,#79c1e5,#00000000 50%),radial-gradient(at 0 100%,#a4bc7f,#00000000 50%),radial-gradient(at 33% 100%,#c6c6b2,#00000000 50%),radial-gradient(at 67% 100%,#cddbbb,#00000000 50%),radial-gradient(at 100% 100%,#c2d4b5,#00000000 50%)"
+      },
+      {
+        "id": "schnulu-crypto-boyz-moon-moguls",
+        "title": "Crypto Boyz: Moon Moguls",
+        "provider": "Schnulu Games",
+        "image": "https://mediumrare.imgix.net/591e9c56a0cbdcb4897a7c7f6f1d95f40e44002300f6a43ef1b8f043629ae613?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/schnulu-crypto-boyz-moon-moguls",
+        "playing": "2",
+        "backgroundGradient": "radial-gradient(at 0 0,#c300a4,#00000000 50%),radial-gradient(at 33% 0,#6c2a7b,#00000000 50%),radial-gradient(at 67% 0,#726984,#00000000 50%),radial-gradient(at 100% 0,#806d97,#00000000 50%),radial-gradient(at 0 50%,#c189a6,#00000000 50%),radial-gradient(at 33% 50%,#695c53,#00000000 50%),radial-gradient(at 67% 50%,#d19f57,#00000000 50%),radial-gradient(at 100% 50%,#836865,#00000000 50%),radial-gradient(at 0 100%,#cc6599,#00000000 50%),radial-gradient(at 33% 100%,#b1a8a9,#00000000 50%),radial-gradient(at 67% 100%,#c5beb6,#00000000 50%),radial-gradient(at 100% 100%,#bfb0b1,#00000000 50%)"
+      },
+      {
+        "id": "zonkolabs-galaxy-plinko",
+        "title": "Galaxy Plinko",
+        "provider": "Zonko Labs",
+        "image": "https://mediumrare.imgix.net/42eaee51769b5d32cc96976c0468bc5a9a3de88d15152703c9f137bbee8fd67c?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/zonkolabs-galaxy-plinko",
+        "playing": "4",
+        "backgroundGradient": "radial-gradient(at 0 0,#004adf,#00000000 50%),radial-gradient(at 33% 0,#4463e4,#00000000 50%),radial-gradient(at 67% 0,#2554d8,#00000000 50%),radial-gradient(at 100% 0,#365ce3,#00000000 50%),radial-gradient(at 0 50%,#0e56c6,#00000000 50%),radial-gradient(at 33% 50%,#2052c5,#00000000 50%),radial-gradient(at 67% 50%,#3625ce,#00000000 50%),radial-gradient(at 100% 50%,#3343b7,#00000000 50%),radial-gradient(at 0 100%,#8478d8,#00000000 50%),radial-gradient(at 33% 100%,#c2c2e1,#00000000 50%),radial-gradient(at 67% 100%,#b8b5dc,#00000000 50%),radial-gradient(at 100% 100%,#c4c0db,#00000000 50%)"
+      },
+      {
+        "id": "bread-russian-roulette",
+        "title": "Russian Roulette",
+        "provider": "Bread",
+        "image": "https://mediumrare.imgix.net/4a7244f7d2e94aa3238eab10f43f4b8c6f47fe8cebe0b4eb08a166c99ca35a12?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/bread-russian-roulette",
+        "playing": "17",
+        "backgroundGradient": "radial-gradient(at 0 0,#003e7f,#00000000 50%),radial-gradient(at 33% 0,#004689,#00000000 50%),radial-gradient(at 67% 0,#364a81,#00000000 50%),radial-gradient(at 100% 0,#29498e,#00000000 50%),radial-gradient(at 0 50%,#000050,#00000000 50%),radial-gradient(at 33% 50%,#1f005b,#00000000 50%),radial-gradient(at 67% 50%,#412e4f,#00000000 50%),radial-gradient(at 100% 50%,#520053,#00000000 50%),radial-gradient(at 0 100%,#8b869d,#00000000 50%),radial-gradient(at 33% 100%,#c7c7d0,#00000000 50%),radial-gradient(at 67% 100%,#babcc2,#00000000 50%),radial-gradient(at 100% 100%,#c7c6cd,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-plinko",
+        "title": "Pragmatic Plinko+",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/63b93076df813efb83ee33b4d4f8cb4500ac4bfd0c454c4d3a051b0da7f8af9a?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-plinko",
+        "playing": "5",
+        "backgroundGradient": ""
+      },
+      {
+        "id": "spribe-aviator",
+        "title": "Aviator",
+        "provider": "Spribe",
+        "image": "https://mediumrare.imgix.net/cc520b0414708118c9237f5550a2c26fe29c638dc3bd020113700589cf0ffed0?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/spribe-aviator",
+        "playing": "49",
+        "backgroundGradient": "radial-gradient(at 0 0,#f3304a,#00000000 50%),radial-gradient(at 33% 0,#eb4253,#00000000 50%),radial-gradient(at 67% 0,#fa0057,#00000000 50%),radial-gradient(at 100% 0,#eb0038,#00000000 50%),radial-gradient(at 0 50%,#ffa4a8,#00000000 50%),radial-gradient(at 33% 50%,#ffb9c3,#00000000 50%),radial-gradient(at 67% 50%,#ffbdc1,#00000000 50%),radial-gradient(at 100% 50%,#feafbd,#00000000 50%),radial-gradient(at 0 100%,#fbb0b6,#00000000 50%),radial-gradient(at 33% 100%,#f5dad8,#00000000 50%),radial-gradient(at 67% 100%,#f7c0c5,#00000000 50%),radial-gradient(at 100% 100%,#f2c9cf,#00000000 50%)"
+      },
+      {
+        "id": "mirrorimage-drop-the-boss-click-cloning-factory",
+        "title": "Drop the Boss: Click Cloning Factory",
+        "provider": "Mirror Image Gaming",
+        "image": "https://mediumrare.imgix.net/3c735b5d8f4a6a3728e20a620fc7b9a79afc14e188cee5c3b14a7476aae6e9e0?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/mirrorimage-drop-the-boss-click-cloning-factory",
+        "playing": "4",
+        "backgroundGradient": "radial-gradient(at 0 0,#3c7d00,#00000000 50%),radial-gradient(at 33% 0,#535800,#00000000 50%),radial-gradient(at 67% 0,#758200,#00000000 50%),radial-gradient(at 100% 0,#797d00,#00000000 50%),radial-gradient(at 0 50%,#948300,#00000000 50%),radial-gradient(at 33% 50%,#624e00,#00000000 50%),radial-gradient(at 67% 50%,#bc843b,#00000000 50%),radial-gradient(at 100% 50%,#9d782f,#00000000 50%),radial-gradient(at 0 100%,#7f9f69,#00000000 50%),radial-gradient(at 33% 100%,#94a097,#00000000 50%),radial-gradient(at 67% 100%,#b8bcac,#00000000 50%),radial-gradient(at 100% 100%,#a7b19c,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-penguins-can-fly",
+        "title": "Penguins Can Fly",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/0c576c95656a79bbcfb03c08b14c300d42c3844c68f046a1def3d77e8ba9439b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-penguins-can-fly",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#00eafc,#00000000 50%),radial-gradient(at 33% 0,#6ab1cc,#00000000 50%),radial-gradient(at 67% 0,#00b3dc,#00000000 50%),radial-gradient(at 100% 0,#00cfea,#00000000 50%),radial-gradient(at 0 50%,#719eb9,#00000000 50%),radial-gradient(at 33% 50%,#c17071,#00000000 50%),radial-gradient(at 67% 50%,#8c797f,#00000000 50%),radial-gradient(at 100% 50%,#b1a1ae,#00000000 50%),radial-gradient(at 0 100%,#a0d1d3,#00000000 50%),radial-gradient(at 33% 100%,#d3e1e6,#00000000 50%),radial-gradient(at 67% 100%,#c7dfe4,#00000000 50%),radial-gradient(at 100% 100%,#c9e3ed,#00000000 50%)"
+      },
+      {
+        "id": "fluxgaming-case-opening",
+        "title": "CASE OPENING",
+        "provider": "Flux Gaming",
+        "image": "https://mediumrare.imgix.net/9eabe2dea0e1c4064c2fbb531c293f129b61a95200d5938efdeef7b3d66b6cf4?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/fluxgaming-case-opening",
+        "playing": "6",
+        "backgroundGradient": "radial-gradient(at 0 0,#0052b5,#00000000 50%),radial-gradient(at 33% 0,#6f4a94,#00000000 50%),radial-gradient(at 67% 0,#875ca1,#00000000 50%),radial-gradient(at 100% 0,#6a4c92,#00000000 50%),radial-gradient(at 0 50%,#311f5e,#00000000 50%),radial-gradient(at 33% 50%,#680023,#00000000 50%),radial-gradient(at 67% 50%,#672a4d,#00000000 50%),radial-gradient(at 100% 50%,#6c002f,#00000000 50%),radial-gradient(at 0 100%,#6391ae,#00000000 50%),radial-gradient(at 33% 100%,#b2b2b7,#00000000 50%),radial-gradient(at 67% 100%,#cac6c8,#00000000 50%),radial-gradient(at 100% 100%,#b7b8bc,#00000000 50%)"
+      },
+      {
+        "id": "thunderkick-heads-will-roll",
+        "title": "Heads will Roll",
+        "provider": "Thunderkick",
+        "image": "https://mediumrare.imgix.net/4bfdd426ab5f77aee441f237d380641c7113f75d122452ac07065db0d1c8ab7f?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/thunderkick-heads-will-roll",
+        "playing": "1",
+        "backgroundGradient": "radial-gradient(at 0 0,#910000,#00000000 50%),radial-gradient(at 33% 0,#a6002e,#00000000 50%),radial-gradient(at 67% 0,#cf8586,#00000000 50%),radial-gradient(at 100% 0,#9e313d,#00000000 50%),radial-gradient(at 0 50%,#a70000,#00000000 50%),radial-gradient(at 33% 50%,#d49e95,#00000000 50%),radial-gradient(at 67% 50%,#d3867f,#00000000 50%),radial-gradient(at 100% 50%,#cb8d84,#00000000 50%),radial-gradient(at 0 100%,#8d5f60,#00000000 50%),radial-gradient(at 33% 100%,#b9b3b3,#00000000 50%),radial-gradient(at 67% 100%,#cbb8bb,#00000000 50%),radial-gradient(at 100% 100%,#b2afb2,#00000000 50%)"
+      },
+      {
+        "id": "schnulugames-plinko-multiball-10000x",
+        "title": "Plinko Multiball 10000x",
+        "provider": "Schnulu Games",
+        "image": "https://mediumrare.imgix.net/effb61493f9f5b3c4664842092a16a5b5e9b8ecab99bbc289c762296e5ea8aca?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/schnulugames-plinko-multiball-10000x",
+        "playing": "7",
+        "backgroundGradient": "radial-gradient(at 0 0,#de8f00,#00000000 50%),radial-gradient(at 33% 0,#d0912a,#00000000 50%),radial-gradient(at 67% 0,#a96c49,#00000000 50%),radial-gradient(at 100% 0,#d2962a,#00000000 50%),radial-gradient(at 0 50%,#db8f00,#00000000 50%),radial-gradient(at 33% 50%,#7e4800,#00000000 50%),radial-gradient(at 67% 50%,#e49c00,#00000000 50%),radial-gradient(at 100% 50%,#814c00,#00000000 50%),radial-gradient(at 0 100%,#c67257,#00000000 50%),radial-gradient(at 33% 100%,#c69d94,#00000000 50%),radial-gradient(at 67% 100%,#d1bab5,#00000000 50%),radial-gradient(at 100% 100%,#c79d94,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-pinball-street",
+        "title": "Pinball Street",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/5851c14caa850a36dc1e26e8629107a9317a870cee9b91b475c5b5f29842d23d?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-pinball-street",
+        "playing": "3",
+        "backgroundGradient": "radial-gradient(at 0 0,#5f8ec5,#00000000 50%),radial-gradient(at 33% 0,#7c8ec1,#00000000 50%),radial-gradient(at 67% 0,#99a5c7,#00000000 50%),radial-gradient(at 100% 0,#8285b4,#00000000 50%),radial-gradient(at 0 50%,#927699,#00000000 50%),radial-gradient(at 33% 50%,#506095,#00000000 50%),radial-gradient(at 67% 50%,#9a91ba,#00000000 50%),radial-gradient(at 100% 50%,#827695,#00000000 50%),radial-gradient(at 0 100%,#b0a195,#00000000 50%),radial-gradient(at 33% 100%,#c9c5c7,#00000000 50%),radial-gradient(at 67% 100%,#eddbcb,#00000000 50%),radial-gradient(at 100% 100%,#cac5c2,#00000000 50%)"
+      },
+      {
+        "id": "bgaming-plinko-2-halloween",
+        "title": "Plinko 2 Halloween",
+        "provider": "BGaming",
+        "image": "https://mediumrare.imgix.net/e562dbca1fb8d1dc0667a1c6828a9b79f02b9f428715a418bd408f2bc65ad7d7?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/bgaming-plinko-2-halloween",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#9224fd,#00000000 50%),radial-gradient(at 33% 0,#b753cf,#00000000 50%),radial-gradient(at 67% 0,#9b24bf,#00000000 50%),radial-gradient(at 100% 0,#b645d0,#00000000 50%),radial-gradient(at 0 50%,#db61be,#00000000 50%),radial-gradient(at 33% 50%,#e86300,#00000000 50%),radial-gradient(at 67% 50%,#d02e00,#00000000 50%),radial-gradient(at 100% 50%,#dc4f00,#00000000 50%),radial-gradient(at 0 100%,#b299eb,#00000000 50%),radial-gradient(at 33% 100%,#d1c0df,#00000000 50%),radial-gradient(at 67% 100%,#cec3de,#00000000 50%),radial-gradient(at 100% 100%,#d2bfe2,#00000000 50%)"
+      },
+      {
+        "id": "coreffect-pool-bonanza",
+        "title": "Pool Bonanza",
+        "provider": "Coreffect Interactive",
+        "image": "https://mediumrare.imgix.net/5fbdeb9099ce4c9a6efb79a6e83b1eaaf9de04846326e5fba3d0d89b8c027dc0?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/coreffect-pool-bonanza",
+        "playing": "6",
+        "backgroundGradient": "radial-gradient(at 0 0,#007fab,#00000000 50%),radial-gradient(at 33% 0,#6799b0,#00000000 50%),radial-gradient(at 67% 0,#7b9094,#00000000 50%),radial-gradient(at 100% 0,#7da2b3,#00000000 50%),radial-gradient(at 0 50%,#279bc1,#00000000 50%),radial-gradient(at 33% 50%,#3896ba,#00000000 50%),radial-gradient(at 67% 50%,#b2b3a5,#00000000 50%),radial-gradient(at 100% 50%,#489cbe,#00000000 50%),radial-gradient(at 0 100%,#6aaacb,#00000000 50%),radial-gradient(at 33% 100%,#a5c4da,#00000000 50%),radial-gradient(at 67% 100%,#c9d1ca,#00000000 50%),radial-gradient(at 100% 100%,#a4c3dc,#00000000 50%)"
+      },
+      {
+        "id": "futuretrash-beer-pong",
+        "title": "Beer Pong",
+        "provider": "Future Trash",
+        "image": "https://mediumrare.imgix.net/ff407f1816e5cf11a5a125f474c9e76ec60cb7fdc78da85b98f7d80192f47b42?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/futuretrash-beer-pong",
+        "playing": "1",
+        "backgroundGradient": "radial-gradient(at 0 0,#acad67,#00000000 50%),radial-gradient(at 33% 0,#c5a985,#00000000 50%),radial-gradient(at 67% 0,#d7caa7,#00000000 50%),radial-gradient(at 100% 0,#d8c5b8,#00000000 50%),radial-gradient(at 0 50%,#b79e44,#00000000 50%),radial-gradient(at 33% 50%,#ddb774,#00000000 50%),radial-gradient(at 67% 50%,#e79f41,#00000000 50%),radial-gradient(at 100% 50%,#e6c2aa,#00000000 50%),radial-gradient(at 0 100%,#3bb78d,#00000000 50%),radial-gradient(at 33% 100%,#abd7cf,#00000000 50%),radial-gradient(at 67% 100%,#c2e0d4,#00000000 50%),radial-gradient(at 100% 100%,#b8e0da,#00000000 50%)"
+      },
+      {
+        "id": "bgaming-fortune-spin",
+        "title": "Fortune Spin",
+        "provider": "BGaming",
+        "image": "https://mediumrare.imgix.net/c0686b770f790102783b1bbd53d327714e783aaa6c789800dae26f95b71c101d?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/bgaming-fortune-spin",
+        "playing": "6",
+        "backgroundGradient": "radial-gradient(at 0 0,#5627ff,#00000000 50%),radial-gradient(at 33% 0,#6766fa,#00000000 50%),radial-gradient(at 67% 0,#b16fd2,#00000000 50%),radial-gradient(at 100% 0,#5c6af4,#00000000 50%),radial-gradient(at 0 50%,#651fed,#00000000 50%),radial-gradient(at 33% 50%,#d4a2a6,#00000000 50%),radial-gradient(at 67% 50%,#e4b786,#00000000 50%),radial-gradient(at 100% 50%,#ada7b8,#00000000 50%),radial-gradient(at 0 100%,#5f49ff,#00000000 50%),radial-gradient(at 33% 100%,#b2a7f8,#00000000 50%),radial-gradient(at 67% 100%,#cfc2ec,#00000000 50%),radial-gradient(at 100% 100%,#adadf8,#00000000 50%)"
+      },
+      {
+        "id": "gamba-chicken-run",
+        "title": "Chicken Run",
+        "provider": "Gamba Gaming Studio",
+        "image": "https://mediumrare.imgix.net/a8a8dd32b90e9fbd67d1004de1fc5bdf85c199a5839970c3a89b23b911f7ace9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/gamba-chicken-run",
+        "playing": "1",
+        "backgroundGradient": "radial-gradient(at 0 0,#697974,#00000000 50%),radial-gradient(at 33% 0,#8b8d97,#00000000 50%),radial-gradient(at 67% 0,#bc9a9b,#00000000 50%),radial-gradient(at 100% 0,#7590a2,#00000000 50%),radial-gradient(at 0 50%,#568994,#00000000 50%),radial-gradient(at 33% 50%,#d6a1a8,#00000000 50%),radial-gradient(at 67% 50%,#f8f9f5,#00000000 50%),radial-gradient(at 100% 50%,#cbc1c7,#00000000 50%),radial-gradient(at 0 100%,#67a086,#00000000 50%),radial-gradient(at 33% 100%,#c2d0c6,#00000000 50%),radial-gradient(at 67% 100%,#e6ebe4,#00000000 50%),radial-gradient(at 100% 100%,#c8d7cb,#00000000 50%)"
+      },
+      {
+        "id": "nolimit-outsourced-payday",
+        "title": "Outsourced: Payday",
+        "provider": "Nolimit City",
+        "image": "https://mediumrare.imgix.net/70059c30186447073e2997b19ecf25368aea3a6332e32328436828bceafecabd?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/nolimit-outsourced-payday",
+        "playing": "6",
+        "backgroundGradient": "radial-gradient(at 0 0,#8eb800,#00000000 50%),radial-gradient(at 33% 0,#79a300,#00000000 50%),radial-gradient(at 67% 0,#b5d305,#00000000 50%),radial-gradient(at 100% 0,#7a9e35,#00000000 50%),radial-gradient(at 0 50%,#bab110,#00000000 50%),radial-gradient(at 33% 50%,#e175b7,#00000000 50%),radial-gradient(at 67% 50%,#ed6abb,#00000000 50%),radial-gradient(at 100% 50%,#f96ac2,#00000000 50%),radial-gradient(at 0 100%,#acbb75,#00000000 50%),radial-gradient(at 33% 100%,#c4d2c4,#00000000 50%),radial-gradient(at 67% 100%,#d3cfc3,#00000000 50%),radial-gradient(at 100% 100%,#d0cdc9,#00000000 50%)"
+      }
+    ]
+  },
+  {
+    "name": "Only on Stake",
+    "icon": "AllGames",
+    "cards": [
+      {
+        "id": "titan-gaming-pirates-of-the-dawn",
+        "title": "Pirates of the Dawn",
+        "provider": "Titan Gaming",
+        "image": "https://mediumrare.imgix.net/f96bf2b09046e590f45d1affd98a2f985dd41f3824edf4ba578381912b3bc33d?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/titan-gaming-pirates-of-the-dawn",
+        "playing": "104",
+        "backgroundGradient": "radial-gradient(at 0 0,#05b189,#00000000 50%),radial-gradient(at 33% 0,#4db392,#00000000 50%),radial-gradient(at 67% 0,#3eb38d,#00000000 50%),radial-gradient(at 100% 0,#55b38c,#00000000 50%),radial-gradient(at 0 50%,#5e8f55,#00000000 50%),radial-gradient(at 33% 50%,#be7d00,#00000000 50%),radial-gradient(at 67% 50%,#c19100,#00000000 50%),radial-gradient(at 100% 50%,#caa200,#00000000 50%),radial-gradient(at 0 100%,#88bdb2,#00000000 50%),radial-gradient(at 33% 100%,#ccd2ce,#00000000 50%),radial-gradient(at 67% 100%,#b5cfc4,#00000000 50%),radial-gradient(at 100% 100%,#cad8cf,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-gold-portals",
+        "title": "Gold Portals Enhanced RTP",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/e31aa1f3b9b1b600fe1642ae70a61578146842d6bde4ee5b9fa0998ee1e32985?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-gold-portals",
+        "playing": "124",
+        "backgroundGradient": "radial-gradient(at 0 0,#006de8,#00000000 50%),radial-gradient(at 33% 0,#4597ff,#00000000 50%),radial-gradient(at 67% 0,#bbb3e4,#00000000 50%),radial-gradient(at 100% 0,#0081f5,#00000000 50%),radial-gradient(at 0 50%,#89becc,#00000000 50%),radial-gradient(at 33% 50%,#8e909a,#00000000 50%),radial-gradient(at 67% 50%,#dd9e6c,#00000000 50%),radial-gradient(at 100% 50%,#878b8d,#00000000 50%),radial-gradient(at 0 100%,#aa9d93,#00000000 50%),radial-gradient(at 33% 100%,#d3beb2,#00000000 50%),radial-gradient(at 67% 100%,#f1d1b3,#00000000 50%),radial-gradient(at 100% 100%,#d6b8a4,#00000000 50%)"
+      },
+      {
+        "id": "massive-dr-funkenstein-and-his-monsters",
+        "title": "Dr Funkenstein and His Monsters",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/7143439a953930c18aa361b3e4b1de2175774c580c3279edbba7cd22a6787b61?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-dr-funkenstein-and-his-monsters",
+        "playing": "18",
+        "backgroundGradient": "radial-gradient(at 0 0,#67c0ff,#00000000 50%),radial-gradient(at 33% 0,#7bbbf9,#00000000 50%),radial-gradient(at 67% 0,#9286da,#00000000 50%),radial-gradient(at 100% 0,#61b7e9,#00000000 50%),radial-gradient(at 0 50%,#abefdb,#00000000 50%),radial-gradient(at 33% 50%,#97aca1,#00000000 50%),radial-gradient(at 67% 50%,#778633,#00000000 50%),radial-gradient(at 100% 50%,#847a88,#00000000 50%),radial-gradient(at 0 100%,#d5abce,#00000000 50%),radial-gradient(at 33% 100%,#caaac5,#00000000 50%),radial-gradient(at 67% 100%,#c8b1b9,#00000000 50%),radial-gradient(at 100% 100%,#b199b0,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-witchy-wilds",
+        "title": "Witchy Wilds",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/d932dc06709acbee4910a8fff93007eab821010022effecb511a2c36cee32661?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-witchy-wilds",
+        "playing": "40",
+        "backgroundGradient": "radial-gradient(at 0 0,#659bd7,#00000000 50%),radial-gradient(at 33% 0,#7b8492,#00000000 50%),radial-gradient(at 67% 0,#a1a2a6,#00000000 50%),radial-gradient(at 100% 0,#828386,#00000000 50%),radial-gradient(at 0 50%,#2a86b6,#00000000 50%),radial-gradient(at 33% 50%,#6c7cc1,#00000000 50%),radial-gradient(at 67% 50%,#6386cb,#00000000 50%),radial-gradient(at 100% 50%,#6c6fba,#00000000 50%),radial-gradient(at 0 100%,#6588b1,#00000000 50%),radial-gradient(at 33% 100%,#c2c8cc,#00000000 50%),radial-gradient(at 67% 100%,#bccbcd,#00000000 50%),radial-gradient(at 100% 100%,#c0c4ce,#00000000 50%)"
+      },
+      {
+        "id": "sexyrabbit-satoshi-spins",
+        "title": "Satoshi Spins",
+        "provider": "Sexy Rabbit",
+        "image": "https://mediumrare.imgix.net/e4b7fadd3f853f110fc4dea8392a90afd140ea8ba4d5eec975d4825bd3e7bd12?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/sexyrabbit-satoshi-spins",
+        "playing": "18",
+        "backgroundGradient": "radial-gradient(at 0 0,#788fff,#00000000 50%),radial-gradient(at 33% 0,#8494ff,#00000000 50%),radial-gradient(at 67% 0,#417bdd,#00000000 50%),radial-gradient(at 100% 0,#848cff,#00000000 50%),radial-gradient(at 0 50%,#4fbcfd,#00000000 50%),radial-gradient(at 33% 50%,#0093b1,#00000000 50%),radial-gradient(at 67% 50%,#263842,#00000000 50%),radial-gradient(at 100% 50%,#1592b2,#00000000 50%),radial-gradient(at 0 100%,#7ba2f7,#00000000 50%),radial-gradient(at 33% 100%,#bac0db,#00000000 50%),radial-gradient(at 67% 100%,#b8b4c3,#00000000 50%),radial-gradient(at 100% 100%,#c0c3e5,#00000000 50%)"
+      },
+      {
+        "id": "uppercut-rise-of-asgard",
+        "title": "Rise of Asgard",
+        "provider": "Uppercut Gaming",
+        "image": "https://mediumrare.imgix.net/5972892b98e473f1d0c3c560b9b7a8b8553e8e57e85b4e8115151076aeca6ef5?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/uppercut-rise-of-asgard",
+        "playing": "84",
+        "backgroundGradient": "radial-gradient(at 0 0,#ccdcfd,#00000000 50%),radial-gradient(at 33% 0,#95bcff,#00000000 50%),radial-gradient(at 67% 0,#9aacdc,#00000000 50%),radial-gradient(at 100% 0,#7aa1eb,#00000000 50%),radial-gradient(at 0 50%,#b5d5f3,#00000000 50%),radial-gradient(at 33% 50%,#c4aeb6,#00000000 50%),radial-gradient(at 67% 50%,#abacba,#00000000 50%),radial-gradient(at 100% 50%,#a6a7d1,#00000000 50%),radial-gradient(at 0 100%,#9ac5ce,#00000000 50%),radial-gradient(at 33% 100%,#ccd4e1,#00000000 50%),radial-gradient(at 67% 100%,#c1d7da,#00000000 50%),radial-gradient(at 100% 100%,#c8dbe7,#00000000 50%)"
+      },
+      {
+        "id": "twist-gaming-golden-boy",
+        "title": "Golden Boy",
+        "provider": "Twist Gaming",
+        "image": "https://mediumrare.imgix.net/bc234ab7cbe99e72a2fcb39968b8dc867619c656ac21fbd25e840c678b02937e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/twist-gaming-golden-boy",
+        "playing": "47",
+        "backgroundGradient": "radial-gradient(at 0 0,#addecc,#00000000 50%),radial-gradient(at 33% 0,#b4ebe4,#00000000 50%),radial-gradient(at 67% 0,#b2cbc2,#00000000 50%),radial-gradient(at 100% 0,#b0e0e0,#00000000 50%),radial-gradient(at 0 50%,#d1c185,#00000000 50%),radial-gradient(at 33% 50%,#c5cbb4,#00000000 50%),radial-gradient(at 67% 50%,#c09c5a,#00000000 50%),radial-gradient(at 100% 50%,#a49f85,#00000000 50%),radial-gradient(at 0 100%,#d2b080,#00000000 50%),radial-gradient(at 33% 100%,#e4cfb9,#00000000 50%),radial-gradient(at 67% 100%,#e9d9cc,#00000000 50%),radial-gradient(at 100% 100%,#dcc8b8,#00000000 50%)"
+      },
+      {
+        "id": "skygaming-bonk-boi",
+        "title": "Bonk Boi",
+        "provider": "Sky Gaming",
+        "image": "https://mediumrare.imgix.net/9f9ff45a8c5592d1b16448e3238ccab277cfbdf48a610d8dc82635d21926de63?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/skygaming-bonk-boi",
+        "playing": "8",
+        "backgroundGradient": "radial-gradient(at 0 0,#00b2cb,#00000000 50%),radial-gradient(at 33% 0,#4ca0ae,#00000000 50%),radial-gradient(at 67% 0,#66afba,#00000000 50%),radial-gradient(at 100% 0,#549bb3,#00000000 50%),radial-gradient(at 0 50%,#a37d36,#00000000 50%),radial-gradient(at 33% 50%,#cc9b3b,#00000000 50%),radial-gradient(at 67% 50%,#e4ab2a,#00000000 50%),radial-gradient(at 100% 50%,#d2993f,#00000000 50%),radial-gradient(at 0 100%,#53919b,#00000000 50%),radial-gradient(at 33% 100%,#b1b5b4,#00000000 50%),radial-gradient(at 67% 100%,#cec9c2,#00000000 50%),radial-gradient(at 100% 100%,#b0afb5,#00000000 50%)"
+      },
+      {
+        "id": "titan-gaming-boomtown",
+        "title": "Boomtown",
+        "provider": "Titan Gaming",
+        "image": "https://mediumrare.imgix.net/9bafeb7939bc7cdab95d5683f6dda2a57b4a3287dc50cfdc79baac155dcb6a7b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/titan-gaming-boomtown",
+        "playing": "16",
+        "backgroundGradient": "radial-gradient(at 0 0,#2596d2,#00000000 50%),radial-gradient(at 33% 0,#87a1b7,#00000000 50%),radial-gradient(at 67% 0,#8494a0,#00000000 50%),radial-gradient(at 100% 0,#88a7b9,#00000000 50%),radial-gradient(at 0 50%,#798f98,#00000000 50%),radial-gradient(at 33% 50%,#b18547,#00000000 50%),radial-gradient(at 67% 50%,#9a7565,#00000000 50%),radial-gradient(at 100% 50%,#bb9156,#00000000 50%),radial-gradient(at 0 100%,#ae827d,#00000000 50%),radial-gradient(at 33% 100%,#ded0c4,#00000000 50%),radial-gradient(at 67% 100%,#ddc8bb,#00000000 50%),radial-gradient(at 100% 100%,#e3d6ca,#00000000 50%)"
+      },
+      {
+        "id": "uppercut-wings-of-death",
+        "title": "Wings of Death",
+        "provider": "Uppercut Gaming",
+        "image": "https://mediumrare.imgix.net/cc2d0112edb64194530931df2da0dbb7d2b676063752de00181595a03456f574?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/uppercut-wings-of-death",
+        "playing": "21",
+        "backgroundGradient": "radial-gradient(at 0 0,#75beff,#00000000 50%),radial-gradient(at 33% 0,#99bef4,#00000000 50%),radial-gradient(at 67% 0,#b5c0f5,#00000000 50%),radial-gradient(at 100% 0,#98b9ef,#00000000 50%),radial-gradient(at 0 50%,#9a95bf,#00000000 50%),radial-gradient(at 33% 50%,#c89778,#00000000 50%),radial-gradient(at 67% 50%,#ac7988,#00000000 50%),radial-gradient(at 100% 50%,#9b3d77,#00000000 50%),radial-gradient(at 0 100%,#91a7f1,#00000000 50%),radial-gradient(at 33% 100%,#ceccdc,#00000000 50%),radial-gradient(at 67% 100%,#bec3d6,#00000000 50%),radial-gradient(at 100% 100%,#bdbad8,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-candy-rush",
+        "title": "Candy Rush",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/8c8553eb2d7014c2bcf43fc3378a90c56cc3162cf5f3c7f2cb7257065dc75162?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-candy-rush",
+        "playing": "89",
+        "backgroundGradient": "radial-gradient(at 0 0,#b88cff,#00000000 50%),radial-gradient(at 33% 0,#d09ec9,#00000000 50%),radial-gradient(at 67% 0,#dea4b3,#00000000 50%),radial-gradient(at 100% 0,#cca4bc,#00000000 50%),radial-gradient(at 0 50%,#f1b4f0,#00000000 50%),radial-gradient(at 33% 50%,#f3bb66,#00000000 50%),radial-gradient(at 67% 50%,#ffc847,#00000000 50%),radial-gradient(at 100% 50%,#efbd48,#00000000 50%),radial-gradient(at 0 100%,#ce9dd4,#00000000 50%),radial-gradient(at 33% 100%,#e0cfc6,#00000000 50%),radial-gradient(at 67% 100%,#e8d5c8,#00000000 50%),radial-gradient(at 100% 100%,#d9d2c2,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-big-bass-and-the-gold-ness-monster",
+        "title": "Big Bass and the Gold Ness Monster Enhanced RTP",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/bc031f1845ded996efc02ea507dbc4825d1365492b02bc089904db0d38908554?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-big-bass-and-the-gold-ness-monster",
+        "playing": "94",
+        "backgroundGradient": "radial-gradient(at 0 0,#7dbc00,#00000000 50%),radial-gradient(at 33% 0,#98cb40,#00000000 50%),radial-gradient(at 67% 0,#c2c215,#00000000 50%),radial-gradient(at 100% 0,#c8d02d,#00000000 50%),radial-gradient(at 0 50%,#009d2e,#00000000 50%),radial-gradient(at 33% 50%,#5da454,#00000000 50%),radial-gradient(at 67% 50%,#ab875b,#00000000 50%),radial-gradient(at 100% 50%,#52b57b,#00000000 50%),radial-gradient(at 0 100%,#6ea383,#00000000 50%),radial-gradient(at 33% 100%,#b4c7b6,#00000000 50%),radial-gradient(at 67% 100%,#c0b6b2,#00000000 50%),radial-gradient(at 100% 100%,#bec8be,#00000000 50%)"
+      },
+      {
+        "id": "highnoon-rotten-fruits",
+        "title": "Rotten Fruits",
+        "provider": "High Noon Studios",
+        "image": "https://mediumrare.imgix.net/532a8c4ef887e1560979d22080b2a462b2aa3790c0705ccd5d0dccb3bdafd90b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/highnoon-rotten-fruits",
+        "playing": "30",
+        "backgroundGradient": "radial-gradient(at 0 0,#eae8cf,#00000000 50%),radial-gradient(at 33% 0,#daead2,#00000000 50%),radial-gradient(at 67% 0,#e6d5c0,#00000000 50%),radial-gradient(at 100% 0,#e6f7d8,#00000000 50%),radial-gradient(at 0 50%,#d1b98a,#00000000 50%),radial-gradient(at 33% 50%,#c66c40,#00000000 50%),radial-gradient(at 67% 50%,#a54927,#00000000 50%),radial-gradient(at 100% 50%,#c68b54,#00000000 50%),radial-gradient(at 0 100%,#dbd8af,#00000000 50%),radial-gradient(at 33% 100%,#d1d3d0,#00000000 50%),radial-gradient(at 67% 100%,#c1c2b0,#00000000 50%),radial-gradient(at 100% 100%,#d7ddd2,#00000000 50%)"
+      },
+      {
+        "id": "titan-gaming-plunder-bonanza",
+        "title": "Plunder Bonanza",
+        "provider": "Titan Gaming",
+        "image": "https://mediumrare.imgix.net/224cca0443e09ae5897af08e00e78def1024aa022f40da6ff6fff4d54f4d923b?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/titan-gaming-plunder-bonanza",
+        "playing": "47",
+        "backgroundGradient": "radial-gradient(at 0 0,#82edf6,#00000000 50%),radial-gradient(at 33% 0,#a3ded8,#00000000 50%),radial-gradient(at 67% 0,#acbda9,#00000000 50%),radial-gradient(at 100% 0,#a4c4b4,#00000000 50%),radial-gradient(at 0 50%,#c8dbd5,#00000000 50%),radial-gradient(at 33% 50%,#795241,#00000000 50%),radial-gradient(at 67% 50%,#a6775b,#00000000 50%),radial-gradient(at 100% 50%,#92775f,#00000000 50%),radial-gradient(at 0 100%,#cabcb9,#00000000 50%),radial-gradient(at 33% 100%,#d7cbc2,#00000000 50%),radial-gradient(at 67% 100%,#d0c4bf,#00000000 50%),radial-gradient(at 100% 100%,#ccd4c0,#00000000 50%)"
+      },
+      {
+        "id": "massive-battlesheeps",
+        "title": "Battlesheeps",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/a44cef683f6111d30306448a9bd14d73723a8a2739f7c0460c299b06d6996552?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-battlesheeps",
+        "playing": "4",
+        "backgroundGradient": "radial-gradient(at 0 0,#a8d4be,#00000000 50%),radial-gradient(at 33% 0,#78b29d,#00000000 50%),radial-gradient(at 67% 0,#559786,#00000000 50%),radial-gradient(at 100% 0,#50c1be,#00000000 50%),radial-gradient(at 0 50%,#abb489,#00000000 50%),radial-gradient(at 33% 50%,#a37457,#00000000 50%),radial-gradient(at 67% 50%,#bd9a87,#00000000 50%),radial-gradient(at 100% 50%,#c2ad96,#00000000 50%),radial-gradient(at 0 100%,#dad09f,#00000000 50%),radial-gradient(at 33% 100%,#d9c9b7,#00000000 50%),radial-gradient(at 67% 100%,#cdc1b6,#00000000 50%),radial-gradient(at 100% 100%,#d7d8c6,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-big-bass-boom",
+        "title": "Big Bass BOOM Enhanced RTP",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/ef1389bd4b45f2256ca2db28e9dde51ef7264e0daf6b9cf53bdea640ed686488?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-big-bass-boom",
+        "playing": "78",
+        "backgroundGradient": "radial-gradient(at 0 0,#95d4d7,#00000000 50%),radial-gradient(at 33% 0,#80d7e1,#00000000 50%),radial-gradient(at 67% 0,#b5dae2,#00000000 50%),radial-gradient(at 100% 0,#92d8e1,#00000000 50%),radial-gradient(at 0 50%,#7caca4,#00000000 50%),radial-gradient(at 33% 50%,#71af97,#00000000 50%),radial-gradient(at 67% 50%,#9b7c5d,#00000000 50%),radial-gradient(at 100% 50%,#7eb093,#00000000 50%),radial-gradient(at 0 100%,#abadb9,#00000000 50%),radial-gradient(at 33% 100%,#cdd2d5,#00000000 50%),radial-gradient(at 67% 100%,#d5cace,#00000000 50%),radial-gradient(at 100% 100%,#cbced5,#00000000 50%)"
+      },
+      {
+        "id": "slotmill-pillage-and-plunder",
+        "title": "Pillage and Plunder",
+        "provider": "Slotmill",
+        "image": "https://mediumrare.imgix.net/f815c8e2d5b2e38b310068236d85bf631381ed18a7a6869663ba81e698801342?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/slotmill-pillage-and-plunder",
+        "playing": "0",
+        "backgroundGradient": "radial-gradient(at 0 0,#9deef8,#00000000 50%),radial-gradient(at 33% 0,#7ccdd9,#00000000 50%),radial-gradient(at 67% 0,#9bd5cb,#00000000 50%),radial-gradient(at 100% 0,#8fdae2,#00000000 50%),radial-gradient(at 0 50%,#8db3a8,#00000000 50%),radial-gradient(at 33% 50%,#5c216d,#00000000 50%),radial-gradient(at 67% 50%,#a96c2c,#00000000 50%),radial-gradient(at 100% 50%,#795b5b,#00000000 50%),radial-gradient(at 0 100%,#97b0ad,#00000000 50%),radial-gradient(at 33% 100%,#babdc4,#00000000 50%),radial-gradient(at 67% 100%,#ccc8b9,#00000000 50%),radial-gradient(at 100% 100%,#c9ccc6,#00000000 50%)"
+      },
+      {
+        "id": "paperclip-knight-shift",
+        "title": "Knight Shift",
+        "provider": "Paperclip Gaming",
+        "image": "https://mediumrare.imgix.net/05ff3ede6f52785a15d57c97e96d84a3a0cb43431add8b224416143c8c5a9ce2?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/paperclip-knight-shift",
+        "playing": "34",
+        "backgroundGradient": "radial-gradient(at 0 0,#9dc6f6,#00000000 50%),radial-gradient(at 33% 0,#c5ced1,#00000000 50%),radial-gradient(at 67% 0,#d2d4d1,#00000000 50%),radial-gradient(at 100% 0,#e2cfb4,#00000000 50%),radial-gradient(at 0 50%,#9b9fd7,#00000000 50%),radial-gradient(at 33% 50%,#a67d22,#00000000 50%),radial-gradient(at 67% 50%,#926d5b,#00000000 50%),radial-gradient(at 100% 50%,#ab6700,#00000000 50%),radial-gradient(at 0 100%,#94a7cd,#00000000 50%),radial-gradient(at 33% 100%,#d1cac3,#00000000 50%),radial-gradient(at 67% 100%,#cecfcc,#00000000 50%),radial-gradient(at 100% 100%,#d3c5bd,#00000000 50%)"
+      },
+      {
+        "id": "titan-gaming-massive-x",
+        "title": "Massive X",
+        "provider": "Titan Gaming",
+        "image": "https://mediumrare.imgix.net/8c2b44945387fecc02c50fb9c0cdbce886bae46dbb37a04fa16b9c27425d5f90?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/titan-gaming-massive-x",
+        "playing": "18",
+        "backgroundGradient": "radial-gradient(at 0 0,#ad93e7,#00000000 50%),radial-gradient(at 33% 0,#9b6eff,#00000000 50%),radial-gradient(at 67% 0,#be80d4,#00000000 50%),radial-gradient(at 100% 0,#a06ef5,#00000000 50%),radial-gradient(at 0 50%,#d2cc63,#00000000 50%),radial-gradient(at 33% 50%,#e9d23f,#00000000 50%),radial-gradient(at 67% 50%,#f1da00,#00000000 50%),radial-gradient(at 100% 50%,#e8d338,#00000000 50%),radial-gradient(at 0 100%,#bda5e7,#00000000 50%),radial-gradient(at 33% 100%,#d6cdef,#00000000 50%),radial-gradient(at 67% 100%,#d8c8e2,#00000000 50%),radial-gradient(at 100% 100%,#d2c6ed,#00000000 50%)"
+      },
+      {
+        "id": "titan-gaming-slash",
+        "title": "Slash",
+        "provider": "Titan Gaming",
+        "image": "https://mediumrare.imgix.net/1596e39052be80952b0470c4330a8ff5fe4694e6f8926c5c6eb100174e166f05?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/titan-gaming-slash",
+        "playing": "5",
+        "backgroundGradient": "radial-gradient(at 0 0,#e41b00,#00000000 50%),radial-gradient(at 33% 0,#b16f4e,#00000000 50%),radial-gradient(at 67% 0,#ca5400,#00000000 50%),radial-gradient(at 100% 0,#b46d49,#00000000 50%),radial-gradient(at 0 50%,#f39a36,#00000000 50%),radial-gradient(at 33% 50%,#a46e58,#00000000 50%),radial-gradient(at 67% 50%,#a3796d,#00000000 50%),radial-gradient(at 100% 50%,#a1776e,#00000000 50%),radial-gradient(at 0 100%,#db7d6d,#00000000 50%),radial-gradient(at 33% 100%,#d9bbb8,#00000000 50%),radial-gradient(at 67% 100%,#d4ada4,#00000000 50%),radial-gradient(at 100% 100%,#d0c0c3,#00000000 50%)"
+      },
+      {
+        "id": "madlab-nights-of-shinjuku",
+        "title": "Nights Of Shinjuku",
+        "provider": "MadLab Gaming",
+        "image": "https://mediumrare.imgix.net/6f5a5e71b74acdd9026a3ec746650aca4fcde3e48e1aa09486bf9eeb44dae1ed?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/madlab-nights-of-shinjuku",
+        "playing": "21",
+        "backgroundGradient": "radial-gradient(at 0 0,#ed0000,#00000000 50%),radial-gradient(at 33% 0,#e3363d,#00000000 50%),radial-gradient(at 67% 0,#9d0200,#00000000 50%),radial-gradient(at 100% 0,#ed2b33,#00000000 50%),radial-gradient(at 0 50%,#e50011,#00000000 50%),radial-gradient(at 33% 50%,#8d494a,#00000000 50%),radial-gradient(at 67% 50%,#926862,#00000000 50%),radial-gradient(at 100% 50%,#a03e48,#00000000 50%),radial-gradient(at 0 100%,#fb898f,#00000000 50%),radial-gradient(at 33% 100%,#e5cacc,#00000000 50%),radial-gradient(at 67% 100%,#d5bab7,#00000000 50%),radial-gradient(at 100% 100%,#dac1c1,#00000000 50%)"
+      }
+    ]
+  },
+  {
+    "name": "New Releases",
+    "icon": "AllGames",
+    "cards": [
+      {
+        "id": "hacksaw-spear-of-athena",
+        "title": "Spear of Athena",
+        "provider": "Hacksaw Gaming",
+        "image": "https://mediumrare.imgix.net/91b7aec264f76c2383e10e9c110492c6783b8bc5506ac339992c8f2cf90b2461?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/hacksaw-spear-of-athena",
+        "playing": "494",
+        "backgroundGradient": "radial-gradient(at 0 0,#d7cebe,#00000000 50%),radial-gradient(at 33% 0,#d8d9c1,#00000000 50%),radial-gradient(at 67% 0,#c4bba9,#00000000 50%),radial-gradient(at 100% 0,#c4cdb7,#00000000 50%),radial-gradient(at 0 50%,#c3bcab,#00000000 50%),radial-gradient(at 33% 50%,#beb59e,#00000000 50%),radial-gradient(at 67% 50%,#89603c,#00000000 50%),radial-gradient(at 100% 50%,#5f6861,#00000000 50%),radial-gradient(at 0 100%,#d3beb1,#00000000 50%),radial-gradient(at 33% 100%,#d7cec8,#00000000 50%),radial-gradient(at 67% 100%,#d4c9c0,#00000000 50%),radial-gradient(at 100% 100%,#c9c6c0,#00000000 50%)"
+      },
+      {
+        "id": "massive-5-little-pigs",
+        "title": "5 Little Pigs",
+        "provider": "Massive Studios",
+        "image": "https://mediumrare.imgix.net/62b82768e343d57e0ef9d03ddcce64f82bc3720c8e1065e773b5150b48aa25de?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/massive-5-little-pigs",
+        "playing": "133",
+        "backgroundGradient": "radial-gradient(at 0 0,#1ba878,#00000000 50%),radial-gradient(at 33% 0,#36af89,#00000000 50%),radial-gradient(at 67% 0,#84b293,#00000000 50%),radial-gradient(at 100% 0,#67a587,#00000000 50%),radial-gradient(at 0 50%,#5b7160,#00000000 50%),radial-gradient(at 33% 50%,#ab5763,#00000000 50%),radial-gradient(at 67% 50%,#e37b88,#00000000 50%),radial-gradient(at 100% 50%,#b55f6a,#00000000 50%),radial-gradient(at 0 100%,#6c9684,#00000000 50%),radial-gradient(at 33% 100%,#a6b6bc,#00000000 50%),radial-gradient(at 67% 100%,#bcc3c7,#00000000 50%),radial-gradient(at 100% 100%,#c2b7b0,#00000000 50%)"
+      },
+      {
+        "id": "titan-gaming-the-bandit",
+        "title": "The Bandit",
+        "provider": "Titan Gaming",
+        "image": "https://mediumrare.imgix.net/9461502f5b49133708667b98c7cf1ca94974e894c682b4f389c313a3f277e7b9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/titan-gaming-the-bandit",
+        "playing": "125",
+        "backgroundGradient": "radial-gradient(at 0 0,#96a8a8,#00000000 50%),radial-gradient(at 33% 0,#a28171,#00000000 50%),radial-gradient(at 67% 0,#a8967e,#00000000 50%),radial-gradient(at 100% 0,#927a6e,#00000000 50%),radial-gradient(at 0 50%,#c7a756,#00000000 50%),radial-gradient(at 33% 50%,#b2880a,#00000000 50%),radial-gradient(at 67% 50%,#a67636,#00000000 50%),radial-gradient(at 100% 50%,#a47500,#00000000 50%),radial-gradient(at 0 100%,#a78d88,#00000000 50%),radial-gradient(at 33% 100%,#bfa99f,#00000000 50%),radial-gradient(at 67% 100%,#d0bbbc,#00000000 50%),radial-gradient(at 100% 100%,#b7a8a3,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-oracle-of-gold",
+        "title": "Oracle of Gold",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/03e5e0df8f12ceddfbdf61e0f4cfb0cc2db5b37feeedf6e689aa6fa204349d81?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-oracle-of-gold",
+        "playing": "127",
+        "backgroundGradient": "radial-gradient(at 0 0,#e96cfd,#00000000 50%),radial-gradient(at 33% 0,#e877ee,#00000000 50%),radial-gradient(at 67% 0,#c762d7,#00000000 50%),radial-gradient(at 100% 0,#e777f3,#00000000 50%),radial-gradient(at 0 50%,#f06ae9,#00000000 50%),radial-gradient(at 33% 50%,#9f5677,#00000000 50%),radial-gradient(at 67% 50%,#ce5b2e,#00000000 50%),radial-gradient(at 100% 50%,#9e5f80,#00000000 50%),radial-gradient(at 0 100%,#e79fd7,#00000000 50%),radial-gradient(at 33% 100%,#cfbeca,#00000000 50%),radial-gradient(at 67% 100%,#e1c2c7,#00000000 50%),radial-gradient(at 100% 100%,#cbbdc9,#00000000 50%)"
+      },
+      {
+        "id": "peterandsons-cyber-runner",
+        "title": "Cyber Runner",
+        "provider": "Peter & Sons",
+        "image": "https://mediumrare.imgix.net/7f37423dbb48a479c9f6308ee399aa09a7f5f6f018c9bb93d72823a20644e61d?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/peterandsons-cyber-runner",
+        "playing": "126",
+        "backgroundGradient": "radial-gradient(at 0 0,#ce64e2,#00000000 50%),radial-gradient(at 33% 0,#bf80dd,#00000000 50%),radial-gradient(at 67% 0,#bf008e,#00000000 50%),radial-gradient(at 100% 0,#cf89e9,#00000000 50%),radial-gradient(at 0 50%,#4c87c3,#00000000 50%),radial-gradient(at 33% 50%,#42a2c9,#00000000 50%),radial-gradient(at 67% 50%,#576051,#00000000 50%),radial-gradient(at 100% 50%,#52a7c6,#00000000 50%),radial-gradient(at 0 100%,#a07d9b,#00000000 50%),radial-gradient(at 33% 100%,#b5b6bd,#00000000 50%),radial-gradient(at 67% 100%,#c0b9aa,#00000000 50%),radial-gradient(at 100% 100%,#bfc2c9,#00000000 50%)"
+      },
+      {
+        "id": "nolimit-disorder",
+        "title": "Disorder",
+        "provider": "Nolimit City",
+        "image": "https://mediumrare.imgix.net/f7b8d83d5156b0b7f316802e67c93e8a2e62e8a4c09f197b45b23c55f68e3ce4?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/nolimit-disorder",
+        "playing": "153",
+        "backgroundGradient": "radial-gradient(at 0 0,#30ab39,#00000000 50%),radial-gradient(at 33% 0,#33c960,#00000000 50%),radial-gradient(at 67% 0,#6cba56,#00000000 50%),radial-gradient(at 100% 0,#40cc67,#00000000 50%),radial-gradient(at 0 50%,#586c00,#00000000 50%),radial-gradient(at 33% 50%,#595800,#00000000 50%),radial-gradient(at 67% 50%,#430000,#00000000 50%),radial-gradient(at 100% 50%,#423800,#00000000 50%),radial-gradient(at 0 100%,#acb4ac,#00000000 50%),radial-gradient(at 33% 100%,#c2c9c8,#00000000 50%),radial-gradient(at 67% 100%,#c6c8cb,#00000000 50%),radial-gradient(at 100% 100%,#c0c8c9,#00000000 50%)"
+      },
+      {
+        "id": "pragmatic-play-wild-wild-riches-returns",
+        "title": "Wild Wild Riches Returns",
+        "provider": "Pragmatic Play",
+        "image": "https://mediumrare.imgix.net/362ca07dd92ed83dba59755f47218e1ecc0455b128f5ba324f179dd199814d76?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/pragmatic-play-wild-wild-riches-returns",
+        "playing": "257",
+        "backgroundGradient": "radial-gradient(at 0 0,#00a5cf,#00000000 50%),radial-gradient(at 33% 0,#5b9eb3,#00000000 50%),radial-gradient(at 67% 0,#b4a488,#00000000 50%),radial-gradient(at 100% 0,#6994bf,#00000000 50%),radial-gradient(at 0 50%,#c4ead4,#00000000 50%),radial-gradient(at 33% 50%,#e4b255,#00000000 50%),radial-gradient(at 67% 50%,#f8d35e,#00000000 50%),radial-gradient(at 100% 50%,#f2cc3a,#00000000 50%),radial-gradient(at 0 100%,#27b581,#00000000 50%),radial-gradient(at 33% 100%,#a6bf9e,#00000000 50%),radial-gradient(at 67% 100%,#b4c096,#00000000 50%),radial-gradient(at 100% 100%,#add19e,#00000000 50%)"
+      },
+      {
+        "id": "redtiger-big-rich-turkeys",
+        "title": "Big Rich Turkeys",
+        "provider": "Red Tiger",
+        "image": "https://mediumrare.imgix.net/c30f6ed3f3c180fd8ab06fe717182b62fbd570e38a78b0ee856843b7dcd3c483?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/redtiger-big-rich-turkeys",
+        "playing": "33",
+        "backgroundGradient": "radial-gradient(at 0 0,#c34ba3,#00000000 50%),radial-gradient(at 33% 0,#ca64a7,#00000000 50%),radial-gradient(at 67% 0,#a961a8,#00000000 50%),radial-gradient(at 100% 0,#c6529a,#00000000 50%),radial-gradient(at 0 50%,#cc532a,#00000000 50%),radial-gradient(at 33% 50%,#db9079,#00000000 50%),radial-gradient(at 67% 50%,#b86e4c,#00000000 50%),radial-gradient(at 100% 50%,#d88278,#00000000 50%),radial-gradient(at 0 100%,#d4a1a3,#00000000 50%),radial-gradient(at 33% 100%,#e7c4c7,#00000000 50%),radial-gradient(at 67% 100%,#d6bcbf,#00000000 50%),radial-gradient(at 100% 100%,#e1bcc2,#00000000 50%)"
+      },
+      {
+        "id": "print-deck-of-scurra",
+        "title": "Deck of Scurra",
+        "provider": "Print Studios",
+        "image": "https://mediumrare.imgix.net/6aa5ae5a250059d53fb4453965a13e59ac98222207cf62b79bae07639238f86e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/print-deck-of-scurra",
+        "playing": "42",
+        "backgroundGradient": "radial-gradient(at 0 0,#6e4100,#00000000 50%),radial-gradient(at 33% 0,#a1681f,#00000000 50%),radial-gradient(at 67% 0,#956500,#00000000 50%),radial-gradient(at 100% 0,#965413,#00000000 50%),radial-gradient(at 0 50%,#7b6109,#00000000 50%),radial-gradient(at 33% 50%,#a58e58,#00000000 50%),radial-gradient(at 67% 50%,#714700,#00000000 50%),radial-gradient(at 100% 50%,#9c865b,#00000000 50%),radial-gradient(at 0 100%,#839286,#00000000 50%),radial-gradient(at 33% 100%,#cac6c3,#00000000 50%),radial-gradient(at 67% 100%,#a8b0ab,#00000000 50%),radial-gradient(at 100% 100%,#c3c3c0,#00000000 50%)"
+      },
+      {
+        "id": "penguinking-777-super-wheel-hold-and-win",
+        "title": "777 Super Wheel: Hold and Win",
+        "provider": "Penguin King",
+        "image": "https://mediumrare.imgix.net/e6e6991240033d65b4a3e9d63c98fce530387966a1355b4c48a37b423c9e65a0?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/penguinking-777-super-wheel-hold-and-win",
+        "playing": "52",
+        "backgroundGradient": "radial-gradient(at 0 0,#702df8,#00000000 50%),radial-gradient(at 33% 0,#924be7,#00000000 50%),radial-gradient(at 67% 0,#b478db,#00000000 50%),radial-gradient(at 100% 0,#9b4ded,#00000000 50%),radial-gradient(at 0 50%,#a049b7,#00000000 50%),radial-gradient(at 33% 50%,#ba713d,#00000000 50%),radial-gradient(at 67% 50%,#ad6e57,#00000000 50%),radial-gradient(at 100% 50%,#bb6d45,#00000000 50%),radial-gradient(at 0 100%,#908fbf,#00000000 50%),radial-gradient(at 33% 100%,#b2adbd,#00000000 50%),radial-gradient(at 67% 100%,#bebbb7,#00000000 50%),radial-gradient(at 100% 100%,#b2afbc,#00000000 50%)"
+      },
+      {
+        "id": "gamomat-royal-seven-flaming-link",
+        "title": "Royal Seven Flaming Link",
+        "provider": "Gamomat",
+        "image": "https://mediumrare.imgix.net/c38ccdad88e534fe17d5dd8b176d32736edcf9c9e60d5f7cc95fcf9700ad0357?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/gamomat-royal-seven-flaming-link",
+        "playing": "7",
+        "backgroundGradient": "radial-gradient(at 0 0,#f13444,#00000000 50%),radial-gradient(at 33% 0,#ca8560,#00000000 50%),radial-gradient(at 67% 0,#d99967,#00000000 50%),radial-gradient(at 100% 0,#dd8f3c,#00000000 50%),radial-gradient(at 0 50%,#d33800,#00000000 50%),radial-gradient(at 33% 50%,#e4594d,#00000000 50%),radial-gradient(at 67% 50%,#e8ae41,#00000000 50%),radial-gradient(at 100% 50%,#eb8248,#00000000 50%),radial-gradient(at 0 100%,#dc6c78,#00000000 50%),radial-gradient(at 33% 100%,#d5b0b6,#00000000 50%),radial-gradient(at 67% 100%,#e0afaa,#00000000 50%),radial-gradient(at 100% 100%,#e1b1b0,#00000000 50%)"
+      },
+      {
+        "id": "bgaming-frozen-fruit",
+        "title": "Frozen Fruit",
+        "provider": "BGaming",
+        "image": "https://mediumrare.imgix.net/fbba272a3dac95183942bedf16bf13cba2510ff3efe9349b68e470697fd8e6ee?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/bgaming-frozen-fruit",
+        "playing": "34",
+        "backgroundGradient": "radial-gradient(at 0 0,#00d9ee,#00000000 50%),radial-gradient(at 33% 0,#70d9f2,#00000000 50%),radial-gradient(at 67% 0,#5adcf9,#00000000 50%),radial-gradient(at 100% 0,#47d8fd,#00000000 50%),radial-gradient(at 0 50%,#6ca3c3,#00000000 50%),radial-gradient(at 33% 50%,#a2babf,#00000000 50%),radial-gradient(at 67% 50%,#d37372,#00000000 50%),radial-gradient(at 100% 50%,#90c6cf,#00000000 50%),radial-gradient(at 0 100%,#95cce9,#00000000 50%),radial-gradient(at 33% 100%,#ccdeef,#00000000 50%),radial-gradient(at 67% 100%,#c9d4e5,#00000000 50%),radial-gradient(at 100% 100%,#c5e0f1,#00000000 50%)"
+      },
+      {
+        "id": "truelab-greedy-piggy",
+        "title": "Greedy Piggy",
+        "provider": "Truelab",
+        "image": "https://mediumrare.imgix.net/119c581b7498a10719957eb808124df1e48539e92c88370518230c2402652dab?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/truelab-greedy-piggy",
+        "playing": "13",
+        "backgroundGradient": "radial-gradient(at 0 0,#27c500,#00000000 50%),radial-gradient(at 33% 0,#8fc246,#00000000 50%),radial-gradient(at 67% 0,#8bbb5a,#00000000 50%),radial-gradient(at 100% 0,#6ecc2a,#00000000 50%),radial-gradient(at 0 50%,#6ac000,#00000000 50%),radial-gradient(at 33% 50%,#af9a61,#00000000 50%),radial-gradient(at 67% 50%,#c46a7e,#00000000 50%),radial-gradient(at 100% 50%,#abae65,#00000000 50%),radial-gradient(at 0 100%,#99c377,#00000000 50%),radial-gradient(at 33% 100%,#dac5bd,#00000000 50%),radial-gradient(at 67% 100%,#d8bcc4,#00000000 50%),radial-gradient(at 100% 100%,#d1bfb8,#00000000 50%)"
+      },
+      {
+        "id": "smilemajesty-frosted-santa",
+        "title": "Frosted Santa",
+        "provider": "Smile Majesty",
+        "image": "https://mediumrare.imgix.net/07b73cb2e7b232d725ba7ec77bfe3b118e1245469f16ad1852f4686a78ab1b3e?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/smilemajesty-frosted-santa",
+        "playing": "10",
+        "backgroundGradient": "radial-gradient(at 0 0,#d47365,#00000000 50%),radial-gradient(at 33% 0,#e59b5d,#00000000 50%),radial-gradient(at 67% 0,#dd766f,#00000000 50%),radial-gradient(at 100% 0,#f67845,#00000000 50%),radial-gradient(at 0 50%,#82405e,#00000000 50%),radial-gradient(at 33% 50%,#6e52a2,#00000000 50%),radial-gradient(at 67% 50%,#645ab3,#00000000 50%),radial-gradient(at 100% 50%,#995a63,#00000000 50%),radial-gradient(at 0 100%,#8e99b4,#00000000 50%),radial-gradient(at 33% 100%,#cac8c7,#00000000 50%),radial-gradient(at 67% 100%,#c5bec5,#00000000 50%),radial-gradient(at 100% 100%,#d0c2b8,#00000000 50%)"
+      },
+      {
+        "id": "blueprint-mega-charged-cash",
+        "title": "Mega Charged Cash",
+        "provider": "Blueprint",
+        "image": "https://mediumrare.imgix.net/18028fc5cbccd76be04aa8f434adbcbd85a2f0a5cac0074f94af43a6473c2c96?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/blueprint-mega-charged-cash",
+        "playing": "14",
+        "backgroundGradient": "radial-gradient(at 0 0,#0080c7,#00000000 50%),radial-gradient(at 33% 0,#58a8d9,#00000000 50%),radial-gradient(at 67% 0,#7eaed6,#00000000 50%),radial-gradient(at 100% 0,#58acd8,#00000000 50%),radial-gradient(at 0 50%,#7ba0bc,#00000000 50%),radial-gradient(at 33% 50%,#91aad3,#00000000 50%),radial-gradient(at 67% 50%,#c8cd9f,#00000000 50%),radial-gradient(at 100% 50%,#759ace,#00000000 50%),radial-gradient(at 0 100%,#3756a9,#00000000 50%),radial-gradient(at 33% 100%,#8e9fd1,#00000000 50%),radial-gradient(at 67% 100%,#c0bfd7,#00000000 50%),radial-gradient(at 100% 100%,#8ea2d3,#00000000 50%)"
+      },
+      {
+        "id": "samsam-claw-machine",
+        "title": "Claw Machine",
+        "provider": "Samsam",
+        "image": "https://mediumrare.imgix.net/7fb6321bd6418ab1b6a99b5e0ffcdc6c51822e74b59ce373ce7ba6a8d0f9a636?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/samsam-claw-machine",
+        "playing": "9",
+        "backgroundGradient": "radial-gradient(at 0 0,#c5899b,#00000000 50%),radial-gradient(at 33% 0,#e3dbc9,#00000000 50%),radial-gradient(at 67% 0,#d9beb2,#00000000 50%),radial-gradient(at 100% 0,#e2d8ca,#00000000 50%),radial-gradient(at 0 50%,#dfbcb6,#00000000 50%),radial-gradient(at 33% 50%,#dccab6,#00000000 50%),radial-gradient(at 67% 50%,#c4b5b7,#00000000 50%),radial-gradient(at 100% 50%,#cdc0af,#00000000 50%),radial-gradient(at 0 100%,#d06892,#00000000 50%),radial-gradient(at 33% 100%,#eacfce,#00000000 50%),radial-gradient(at 67% 100%,#e1bfc8,#00000000 50%),radial-gradient(at 100% 100%,#e6d3d4,#00000000 50%)"
+      },
+      {
+        "id": "novomatic-grand-bazaar-hold-and-win",
+        "title": "Grand Bazaar Hold and Win",
+        "provider": "Novomatic",
+        "image": "https://mediumrare.imgix.net/6b8a34fab2f3d108147caf2698c6e840f5a0e3a0e97ef8efe02df40d46cfedd4?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/novomatic-grand-bazaar-hold-and-win",
+        "playing": "20",
+        "backgroundGradient": "radial-gradient(at 0 0,#bf2f5b,#00000000 50%),radial-gradient(at 33% 0,#e08687,#00000000 50%),radial-gradient(at 67% 0,#da938e,#00000000 50%),radial-gradient(at 100% 0,#e28d89,#00000000 50%),radial-gradient(at 0 50%,#be933f,#00000000 50%),radial-gradient(at 33% 50%,#c6a64e,#00000000 50%),radial-gradient(at 67% 50%,#d4b34b,#00000000 50%),radial-gradient(at 100% 50%,#bf9e49,#00000000 50%),radial-gradient(at 0 100%,#d0746c,#00000000 50%),radial-gradient(at 33% 100%,#e2bdba,#00000000 50%),radial-gradient(at 67% 100%,#e1c4ba,#00000000 50%),radial-gradient(at 100% 100%,#e0bbb7,#00000000 50%)"
+      },
+      {
+        "id": "redtiger-aztec-legends-spins",
+        "title": "Aztec Legends Spins",
+        "provider": "Red Tiger",
+        "image": "https://mediumrare.imgix.net/9f4f681d75852067a211c394fc47b53402322cc5826a6384e3e07ef18e66f167?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/redtiger-aztec-legends-spins",
+        "playing": "11",
+        "backgroundGradient": "radial-gradient(at 0 0,#fdc800,#00000000 50%),radial-gradient(at 33% 0,#ffd12d,#00000000 50%),radial-gradient(at 67% 0,#f5b842,#00000000 50%),radial-gradient(at 100% 0,#ffcb03,#00000000 50%),radial-gradient(at 0 50%,#ab7f31,#00000000 50%),radial-gradient(at 33% 50%,#895146,#00000000 50%),radial-gradient(at 67% 50%,#b4645c,#00000000 50%),radial-gradient(at 100% 50%,#8b3a27,#00000000 50%),radial-gradient(at 0 100%,#946453,#00000000 50%),radial-gradient(at 33% 100%,#b09a99,#00000000 50%),radial-gradient(at 67% 100%,#c5bbbb,#00000000 50%),radial-gradient(at 100% 100%,#af9595,#00000000 50%)"
+      },
+      {
+        "id": "futuretrash-brainrot-jackpot",
+        "title": "Brainrot Jackpot",
+        "provider": "Future Trash",
+        "image": "https://mediumrare.imgix.net/42243d1af73459648886fe48f2248f7e3fab676c60de97660d5ad8156de2c35a?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/futuretrash-brainrot-jackpot",
+        "playing": "49",
+        "backgroundGradient": "radial-gradient(at 0 0,#f046ab,#00000000 50%),radial-gradient(at 33% 0,#ff7ec9,#00000000 50%),radial-gradient(at 67% 0,#e06f81,#00000000 50%),radial-gradient(at 100% 0,#ff7ac7,#00000000 50%),radial-gradient(at 0 50%,#e3a8cd,#00000000 50%),radial-gradient(at 33% 50%,#dfb9cf,#00000000 50%),radial-gradient(at 67% 50%,#8e615b,#00000000 50%),radial-gradient(at 100% 50%,#deb0cb,#00000000 50%),radial-gradient(at 0 100%,#d09cb3,#00000000 50%),radial-gradient(at 33% 100%,#e3cdd6,#00000000 50%),radial-gradient(at 67% 100%,#d2bab8,#00000000 50%),radial-gradient(at 100% 100%,#e3cad4,#00000000 50%)"
+      },
+      {
+        "id": "voltent-mighty-wild-gorilla",
+        "title": "Mighty Wild: Gorilla",
+        "provider": "VoltEnt",
+        "image": "https://mediumrare.imgix.net/43ac30a09cb34bc71d42eeb413b8f28c0b8e1c15efeec35b8c22eb67dd0131a9?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/voltent-mighty-wild-gorilla",
+        "playing": "16",
+        "backgroundGradient": "radial-gradient(at 0 0,#00b35f,#00000000 50%),radial-gradient(at 33% 0,#3fae67,#00000000 50%),radial-gradient(at 67% 0,#59ad77,#00000000 50%),radial-gradient(at 100% 0,#09bb55,#00000000 50%),radial-gradient(at 0 50%,#2e5034,#00000000 50%),radial-gradient(at 33% 50%,#5e6a71,#00000000 50%),radial-gradient(at 67% 50%,#595671,#00000000 50%),radial-gradient(at 100% 50%,#4e6262,#00000000 50%),radial-gradient(at 0 100%,#387759,#00000000 50%),radial-gradient(at 33% 100%,#8f9c9a,#00000000 50%),radial-gradient(at 67% 100%,#b4b3b8,#00000000 50%),radial-gradient(at 100% 100%,#7c918d,#00000000 50%)"
+      },
+      {
+        "id": "coreffect-3d-plinko-10000x",
+        "title": "3D Plinko 10000x",
+        "provider": "Coreffect Interactive",
+        "image": "https://mediumrare.imgix.net/7c976386d69a943a188bc90a20b4754a28e3fdb0c603a9805aeceff470e9bbc8?w=180&h=236&fit=min&auto=format",
+        "href": "/casino/games/coreffect-3d-plinko-10000x",
+        "playing": "17",
+        "backgroundGradient": "radial-gradient(at 0 0,#004fe7,#00000000 50%),radial-gradient(at 33% 0,#2b54fd,#00000000 50%),radial-gradient(at 67% 0,#68a8fd,#00000000 50%),radial-gradient(at 100% 0,#354afb,#00000000 50%),radial-gradient(at 0 50%,#005dc1,#00000000 50%),radial-gradient(at 33% 50%,#305bce,#00000000 50%),radial-gradient(at 67% 50%,#619ee1,#00000000 50%),radial-gradient(at 100% 50%,#3c86d7,#00000000 50%),radial-gradient(at 0 100%,#7e91bf,#00000000 50%),radial-gradient(at 33% 100%,#c4c2dc,#00000000 50%),radial-gradient(at 67% 100%,#bccade,#00000000 50%),radial-gradient(at 100% 100%,#cccee1,#00000000 50%)"
+      }
+    ]
+  }
+]

@@ -1,0 +1,804 @@
+/* .deposit-form {
+
+    padding: 32px;
+  
+} */
+
+.wallet-icon{
+    display: none !important;
+}
+.modal{
+  
+  overflow: hidden !important;
+
+
+}
+
+#loading-claim{
+    display:none
+}
+#claim{
+    display: none;
+}
+.wallet-text{
+    display: block !important;
+   
+}
+.options-container {
+    overflow-y: auto !important;
+}
+.currency-options{
+    border: none !important;
+}
+.wrapper.currency-view-detailed.svelte-1udyh5a{
+    border: none !important;
+}
+.wrapper.currency-view-detailed.svelte-1udyh5a{
+    background-color: #2F4553 !important;
+    border: none !important;
+}
+.option{
+    border: none !important;
+}
+.network-name-title{
+    font-size: 14px;
+    font-weight: 600;
+}
+.form-group {
+    margin-bottom: -2px;
+}
+.content-wrapper.currency-view-detailed-overflow{
+        max-height: 16rem !important;
+            overflow-y: auto !important;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #4a5568;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+.button-wrapper.svelte-1daibh8.svelte-1daibh8 {
+    bottom: 10px !important;
+    left: 10px !important;
+}
+.custom-select {
+    position: relative;
+    cursor: pointer;
+}
+.hide-copied {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.hide-alert{
+    display: none !important;
+}
+.select-display {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 16px;
+    background: #2f4553;
+    transition: all 0.2s ease;
+    min-height: 59.2px;
+    color:#fff;
+}
+.select-display:active{
+    transform: scale(0.98);
+
+}
+.modal-scroll-y{
+    overflow-y: auto !important;
+    
+}
+.first-logo{
+    display: block !important;
+}
+.second-logo{
+    display: none !important;
+}
+.navbar-mobile-{
+    display: none !important;
+}
+.mobile-footer-bro{
+    display: none !important;
+}
+.hide-preloader{
+    display: none !important;
+}
+.preloader{
+    z-index: 2000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--grey-600);
+    display: flex;
+    align-items: center;
+    touch-action: none;
+    justify-content: center;
+    flex-direction: column
+}
+
+.preloader>*+* {
+    
+    margin-top: var(--spacing-4)
+}
+
+.loader.svelte-fyx8vh {
+    width: 100%;
+    max-width: 100px
+}
+
+/* .preloader-img{
+    width: 100px ;
+    height: 100px ;
+    margin-bottom: 20px ;
+} */
+@media (max-width: 768px) {
+     .providers-logos{
+        width: 144px !important;
+    }
+    .hero-content.svelte-18v8gfp.svelte-18v8gfp{
+        margin-top: 3rem !important;
+    }
+    .navigation.svelte-19pvt9w{
+        position: fixed !important;
+        top: 0 !important;
+    }
+    .mobile-footer-bro{
+        display: flex !important;
+    }
+    .desktop-footer-bro{
+        display: none;
+    }
+    .desktop-footer-bro{
+        display: none !important;
+    }
+    .icons-fonts{
+        font-size: 1.6rem;
+    }
+.modal-scroll-y{
+    width: 90% !important;
+}
+.content-wrapper.currency-view-detailed-overflow{
+      overflow: auto;
+  scrollbar-width: none !important; /* Firefox */
+  -ms-overflow-style: none !important; /* IE 10+ */
+}
+.content-wrapper.currency-view-detailed-overflow::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.sidebar{
+    display: none !important;
+}.wrap.svelte-9cq8e9{
+    width: 118px !important;
+}
+   
+    .img-wrap.svelte-9cq8e9{
+         }
+    .gallery.svelte-1sz15py.svelte-1sz15py{
+        grid-auto-columns: auto !important;
+    }
+    .slide{
+        padding: 0 3.5px !important;
+    }
+    .svelte-1daibh8{
+        /* width: 100% !important; */
+    }
+    .hero-content.svelte-18v8gfp.svelte-18v8gfp{
+        grid-auto-columns: 100% !important;
+    }
+    
+    .slide.svelte-1vx4gmg {
+             min-width: 0 !important;
+         
+    }
+    .wallet-text{
+        display: none !important;
+    }
+    .wallet-icon{
+        display: block !important;
+    }
+    .message-icon{
+        display: none !important;
+    }
+    .first-logo{
+        display: none !important;
+    }
+    .second-logo{
+        display: block !important;
+    }
+    .navbar-mobile-{
+        display: block !important;
+        position: fixed !important;
+        bottom: 0 !important;
+        left: 0 !important;
+             z-index: 1000 !important;
+    }
+    .support-icon{
+        display: none !important;
+    }
+    .wrap.svelte-1i8zpwb{
+        padding: 0 !important;
+    }
+   
+}
+.searching-button{
+    display: none !important;
+}
+.select-display:hover {
+    /* background-color: #557086; */
+}
+
+.custom-select.active .select-display {
+   
+}
+
+.select-display .placeholder {
+    color: #a0aec0;
+    font-size: 14px;
+}
+
+.select-display .selected-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #2d3748;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+}
+.selected-icon-size svg{
+    width: 2em !important;
+    height: 2em !important;
+}
+
+.currency-icon {
+      /* width: 30px;
+    height: 28px;
+    border-radius: 50%;
+    object-fit: cover; */
+    /* background-color: #fff; */
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    margin-left: auto;
+}
+
+.custom-select.active .arrow {
+    transform: rotate(180deg);
+}
+
+.options-container {
+    position: absolute;
+    top: 116%;
+    left: 0;
+    right: 0;
+    background: #2f4553;
+    
+    border-top: none;
+    max-height: 258px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.arrow.svelte-gnc8nc, .arrow.svelte-gnc8nc:before{
+    background-color: #2f4553 !important;
+    /* top: 34px !important; */
+}
+.arrow-top-css{
+    top: 81px;
+}
+@media (max-width: 768px) {
+    .arrow-top-css{
+        top: 76px;
+    }
+    
+}
+.custom-select.active .options-container {
+    display: block;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    /* padding: 12px 16px; */
+    cursor: pointer;
+}
+
+.option:hover {
+    /* background-color: #f7fafc; */
+}
+
+.option:last-child {
+    border-bottom: none;
+}
+
+.option-content {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex: 1;
+}
+
+.option-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.currency-code {
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 14px;
+}
+
+.currency-name {
+    font-size: 12px;
+    color: #718096;
+}
+
+.address-input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    background-color: #f8fafc;
+    color: #4a5568;
+    transition: border-color 0.2s ease;
+    resize: none;
+}
+
+.address-input:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.copy-btn {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #667eea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+.copy-btn:hover {
+    background: #5a67d8;
+}
+
+.copy-btn svg {
+    width: 14px;
+    height: 14px;
+    fill: currentColor;
+}
+
+.form-group {
+    position: relative;
+}
+
+.deposit-info {
+    background: #f7fafc;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 24px;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-label {
+    color: #718096;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.info-value {
+    color: #2d3748;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Scrollbar styling */
+.options-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.options-container::-webkit-scrollbar-track {
+    background: #f1f5f9;
+}
+
+.options-container::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 3px;
+}
+
+.options-container::-webkit-scrollbar-thumb:hover {
+    background: #a0aec0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    /* .deposit-form {
+        padding: 24px;
+        margin: 0 16px;
+    } */
+    
+    h2 {
+        font-size: 24px;
+    }
+    
+    .select-display {
+        padding: 10px 12px;
+        min-height: 48px;
+    }
+    
+    .address-input {
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+}
+
+/* Animation for smooth transitions */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+#network-group {
+    transition: all 0.3s ease;
+}
+
+.copy-success {
+    background: #48bb78 !important;
+}
+
+.copy-success::after {
+    content: "Copied!";
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2d3748;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+.dropdown.flex.transparent.svelte-fcg2cf{
+    width: inherit;
+}
+.dropdown.flex.transparent.svelte-fcg2cf button{
+   border-radius: 0.5rem;
+}
+.nodepositeavaliabe{
+    width: 70%;
+}
+@media (max-width: 450px) {
+   .nodepositeavaliabe{
+    width: 90%;
+}
+}
+@media (max-width: 349px) {
+   .nodepositeavaliabe{
+    width: 100%;
+}
+}
+
+
+
+.tags-overlay.svelte-1byrcnp {
+    position: absolute;
+    top: 0.25rem;
+    left: 0.25rem;
+    z-index: 1;
+    display: flex
+;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:calc(.25rem*.5);
+
+}
+.tag-badge.svelte-esm0bj {
+    width: 28px;
+    height: 28px;
+    background-color: #1a2e39;
+    border-radius: 9999;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.inner-circle.svelte-esm0bj {
+    width: 24px !important;
+    height: 24px !important;
+    border-radius: 9999;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+.tag-icon{
+    width: 20px;
+    height: 20px;
+}
+.show-copied-1{
+    color: white !important;
+}
+
+#claim{
+    padding-bottom: env(safe-area-inset-bottom);
+}
+@supports (padding: max(0px)) {
+  #claim {
+    padding-bottom: max(env(safe-area-inset-bottom), 16px);
+  }
+}
+
+.custom-margin-added{
+    margin-left: -5.5px !important; margin-right: -5.5px !important;
+
+}
+/* When computer-sidebar is collapsed, use ipad-sidebar at 1194px+ (one less than normal breakpoint) */
+@media (min-width: 1194px) {
+  /* When collapsed: hide computer-sidebar, show ipad-sidebar */
+  .wrap:has(.computer-sidebar.collapsed) .computer-sidebar {
+    display: none !important;
+  }
+  .wrap:has(.computer-sidebar.collapsed) .ipad-sidebar {
+    display: flex !important;
+  }
+  /* When NOT collapsed: show computer-sidebar, hide ipad-sidebar */
+  .wrap:has(.computer-sidebar:not(.collapsed)) .computer-sidebar {
+    display: flex !important;
+  }
+  .wrap:has(.computer-sidebar:not(.collapsed)) .ipad-sidebar {
+    display: none !important;
+  }
+}
+
+/* 1️⃣ Desktop — 1195px and above (when not collapsed) */
+@media (min-width: 1195px) {
+  /* Default: hide ipad-sidebar at desktop */
+  .ipad-sidebar {
+    display: none !important;
+  }
+  /* Override: show ipad-sidebar when computer-sidebar is collapsed */
+  .wrap:has(.computer-sidebar.collapsed) .ipad-sidebar {
+    display: flex !important;
+  }
+  /* Ensure computer-sidebar is visible when not collapsed */
+  .wrap:has(.computer-sidebar:not(.collapsed)) .computer-sidebar {
+    display: flex !important;
+  }
+  /* Ensure ipad-sidebar is hidden when computer-sidebar is not collapsed */
+  .wrap:has(.computer-sidebar:not(.collapsed)) .ipad-sidebar {
+    display: none !important;
+  }
+}
+
+.wrap.normal.svelte-10nnz84 {
+    max-width: 80px
+}
+
+/* 2️⃣ Tablet — between 768px and 1193px (not 1194px to prevent conflict) */
+@media (min-width: 768px) and (max-width: 1193px) {
+  .computer-sidebar {
+    display: none !important;
+  }
+}
+
+/* 3️⃣ Mobile — below 768px */
+@media (max-width: 768px) {
+  .ipad-sidebar {
+    display: none !important;
+  }
+  .custom-margin-added{
+    margin-left: -3px !important; margin-right: -3px !important;
+
+}
+.wrap.normal.svelte-10nnz84 {
+}
+  .computer-sidebar {
+    display: none !important;
+  }
+  .hero-content.svelte-12xljo5{
+    padding-top: 0 !important;
+  }
+}
+
+.wrap.mobile-logo.svelte-10nnz84>svg{
+    width: 26px;
+}
+
+/* Both buttons: Solid color backgrounds - same system */
+.header-button.collapsed[data-testid="header-casino-link"],
+.header-button.collapsed[data-testid="header-sports-link"] {
+    border-radius: var(--ds-radius-md, 0.25rem) !important;
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+}
+
+/* Casino: Solid green background */
+.header-button.collapsed[data-testid="header-casino-link"] {
+    background-color: #008a01 !important;
+}
+
+/* Sports: Solid dark grey background */
+.header-button.collapsed[data-testid="header-sports-link"] {
+    background-color: var(--grey-600) !important;
+}
+
+/* Hide ALL product images - use solid colors instead */
+.header-button.collapsed[data-testid="header-casino-link"] .productImg,
+.header-button.collapsed[data-testid="header-sports-link"] .productImg {
+    display: none !important;
+}
+
+/* Show casino SVG icon */
+.header-button.collapsed[data-testid="header-casino-link"] svg[data-ds-icon="Casino"],
+.header-button.collapsed[data-testid="header-casino-link"] svg {
+    display: block !important;
+    color: #ffffff !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* Show sports SVG icon */
+.header-button.collapsed[data-testid="header-sports-link"] svg[data-ds-icon="Basketball"],
+.header-button.collapsed[data-testid="header-sports-link"] svg {
+    display: block !important;
+    color: var(--color-grey-200) !important;
+    position: relative !important;
+    z-index: 1 !important;
+}
+
+/* Ensure divider before new releases is visible when collapsed */
+.scrollable-content.svelte-191monz div[class*="py-2"] {
+    display: block !important;
+}
+
+.scrollable-content.svelte-191monz div[class*="py-2"] hr.svelte-1ey91rp {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: 2px !important;
+    background: var(--grey-400) !important;
+}
+
+/* Fix image width to fit hover container properly */
+.img-wrap.svelte-1byrcnp {
+      
+    box-sizing: border-box !important;
+    display: block !important;
+}
+
+.wrap.svelte-1byrcnp img {
+
+    object-fit: cover !important;
+    object-position: center !important;
+    box-sizing: border-box !important;
+    display: block !important;
+}
+
+/* Ensure the wrap container itself uses full width */
+.wrap.svelte-1byrcnp {
+    display: block !important;
+    position: relative !important;
+}
+
+/* Fix game title text to prevent clipping - ensure full width is available */
+.game-info-wrap.svelte-1o5l7az {
+      
+    box-sizing: border-box !important;
+    padding-left: var(--spacing-4) !important;
+    padding-right: var(--spacing-4) !important;
+    overflow: visible !important;
+    min-width: 0 !important;
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+.game-info-container.svelte-1o5l7az {
+      
+    box-sizing: border-box !important;
+    overflow: visible !important;
+    min-width: 0 !important;
+}
+
+/* Ensure game card wrap allows full width */
+.game-card-wrap.svelte-zglogk {
+      
+}
+
+/* Ensure wrap container uses full available width */
+.wrap.svelte-1byrcnp {
+      
+}
+
+/* Ensure slide container has fixed equal width - handled above */
+
+/* Ensure gallery doesn't constrain card width - use full available space */
+.gallery.svelte-1sz15py.svelte-1sz15py {
+    min-width: 0 !important;
+}
+
+
+/* Ensure all slides have the same fixed width - match grid column width */
+.slide.svelte-1vx4gmg {
+
+    flex-shrink: 0 !important;
+    flex-grow: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Ensure info-wrap has proper padding and doesn't clip */
+.info-wrap.svelte-1byrcnp {
+    padding-left: var(--spacing-4) !important;
+    padding-right: var(--spacing-4) !important;
+    box-sizing: border-box !important;
+}
+
+/* Ensure all card containers use exact width of their parent */
+.slide.svelte-1vx4gmg .game-card-wrap.svelte-zglogk,
+.slide.svelte-1vx4gmg .link.svelte-zglogk,
+.slide.svelte-1vx4gmg .wrap.svelte-1byrcnp {
+      
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+}
+
+
+/* Remove any padding that reduces available width for content */
+/* Note: Inline styles in HTML will override this for stake-originals-gallery */
+.slide.svelte-1vx4gmg {
+    padding-left: var(--spacing-4) !important;
+    padding-right: var(--spacing-4) !important;
+}
+

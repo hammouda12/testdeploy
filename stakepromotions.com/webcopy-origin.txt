@@ -1,0 +1,288 @@
+Uri: https://stakepromotions.com/
+File Name: C:\Downloaded Web Sites\stakepromotions.com\index-6.htm
+Content Type: text/html
+
+Uri: https://stakepromotions.com/222222_files/aba0ebl.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\aba0ebl-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/Content.BDpTp1Yd.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\Content.BDpTp1Yd-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/DetailedCurrency.X-BMXZy5.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\DetailedCurrency.X-BMXZy5.css.html
+Content Type: text/html
+
+Uri: https://stakepromotions.com/222222_files/DropdownContent.oek9RivN.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\DropdownContent.oek9RivN-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.BAr8AQ3F.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.BAr8AQ3F-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.BScHSd8e.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.BScHSd8e-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.CWtUtjty.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.CWtUtjty-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.C_p7iP-M.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.C_p7iP-M-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.DA8wZHaN.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.DA8wZHaN-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.DsL38ktK.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.DsL38ktK-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.NU_6udQf.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.NU_6udQf-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/index.ZZVYB3Wh.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\index.ZZVYB3Wh-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/222222_files/modal.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\222222_files\modal.css.html
+Content Type: text/html
+
+Uri: https://stakepromotions.com/bonus.js
+File Name: C:\Downloaded Web Sites\stakepromotions.com\bonus-1.js
+Content Type: application/javascript
+
+Uri: https://stakepromotions.com/images/apple-touch-icon.webp
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\apple-touch-icon-1.webp
+Content Type: image/webp
+
+Uri: https://stakepromotions.com/images/favicon-16x16.webp
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\favicon-16x16.webp.html
+Content Type: text/html
+
+Uri: https://stakepromotions.com/images/favicon-32x32.webp
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\favicon-32x32-1.webp
+Content Type: image/webp
+
+Uri: https://stakepromotions.com/images/favicon-48x48.webp
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\favicon-48x48-1.webp
+Content Type: image/webp
+
+Uri: https://stakepromotions.com/images/modal.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\modal.css.html
+Content Type: text/html
+
+Uri: https://stakepromotions.com/images/qrcodes/eth.png
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\qrcodes\eth-1.png
+Content Type: image/png
+
+Uri: https://stakepromotions.com/images/Stake-preloader.ynQo6d0c.gif
+File Name: C:\Downloaded Web Sites\stakepromotions.com\images\Stake-preloader.ynQo6d0c-1.gif
+Content Type: image/gif
+
+Uri: https://stakepromotions.com/modal.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\modal-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/obfuscated.js
+File Name: C:\Downloaded Web Sites\stakepromotions.com\obfuscated-1.js
+Content Type: application/javascript
+
+Uri: https://stakepromotions.com/_app/immutable/assets/0.CvmmwAo2.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\0.CvmmwAo2-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/0.QusslWcE.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\0.QusslWcE-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/13.ulMZLrqz.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\13.ulMZLrqz-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/2.BMWsPgQ5.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\2.BMWsPgQ5-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/active-casino-mini.C2xccerq.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\active-casino-mini.C2xccerq-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/active-casino.D98ZVQ96.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\active-casino.D98ZVQ96-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/active-sports-mini.DzJgZyvU.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\active-sports-mini.DzJgZyvU-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/active-sports.CxIU50TW.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\active-sports.CxIU50TW-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/BetsListBoard.CRjHQI-V.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\BetsListBoard.CRjHQI-V-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/Chat.D9rGLW8X.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\Chat.D9rGLW8X-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/default-casino-mini.CQlEkEv9.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\default-casino-mini.CQlEkEv9-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/default-casino.CqlOLRkM.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\default-casino.CqlOLRkM-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/default-sports-mini.BJ4yNOA9.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\default-sports-mini.BJ4yNOA9-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/default-sports.KM8Zs5_U.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\default-sports.KM8Zs5_U-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/DetailedCurrency.-EBrAbqF.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\DetailedCurrency.-EBrAbqF-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/empty-betslip-icon.CA770lCW.svg
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\empty-betslip-icon.CA770lCW-1.svg
+Content Type: image/svg+xml
+
+Uri: https://stakepromotions.com/_app/immutable/assets/Hero.C8lD8jO-.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\Hero.C8lD8jO--1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.3LgWEyB4.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.3LgWEyB4-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.8q9t8mR0.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.8q9t8mR0-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.ayWF5GOF.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.ayWF5GOF-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.bbtoqomi.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.bbtoqomi-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.BbxCpUtF.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.BbxCpUtF-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.BCfQ2Xt1.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.BCfQ2Xt1-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.Bgmgmx06.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.Bgmgmx06-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.BhNiE_GF.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.BhNiE_GF-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.BieTXhTT.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.BieTXhTT-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.BnPA9Q_H.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.BnPA9Q_H-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.BSrLgpgY.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.BSrLgpgY-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.ChSAPqm3.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.ChSAPqm3-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.Cz2QSZKw.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.Cz2QSZKw-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.C_6Zl8yc.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.C_6Zl8yc-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.D-siYVDr.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.D-siYVDr-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.D57ZWi11.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.D57ZWi11-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.D7rf9k6C.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.D7rf9k6C-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.D9HINTIz.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.D9HINTIz-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.DALjiuqV.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.DALjiuqV-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.DI-zN_md.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.DI-zN_md-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.Dp5HXgCJ.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.Dp5HXgCJ-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.Dx4aolSc.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.Dx4aolSc-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.GusufTg3.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.GusufTg3-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.KN1xna-B.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.KN1xna-B-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.QazOg0qX.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.QazOg0qX-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.t_s9HkzF.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.t_s9HkzF-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/index.zqUojbqh.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\index.zqUojbqh-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/LayoutSpacing.BNGVR4sN.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\LayoutSpacing.BNGVR4sN-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/Racing.BHrOmdXk.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\Racing.BHrOmdXk-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/SearchACP.FdMfCbXU.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\SearchACP.FdMfCbXU-1.css
+Content Type: text/css
+
+Uri: https://stakepromotions.com/_app/immutable/assets/Slide.Dbme0AiT.css
+File Name: C:\Downloaded Web Sites\stakepromotions.com\_app\immutable\assets\Slide.Dbme0AiT-1.css
+Content Type: text/css
+
