@@ -399,8 +399,8 @@ div.my-8:has(.casino-games-section) {
 /* Arrows Container - Pill-shaped with border */
 .arrows {
   display: inline-flex;
-  align-items: center;
-  border: 1px solid #a9b2ca; /* Enabled border color */
+  align-items: start;
+  border: 1px solid #2f4553; /* Enabled border color */
   border-radius: 9999px; /* Fully rounded pill shape */
   overflow: hidden;
   background: transparent;
@@ -409,7 +409,7 @@ div.my-8:has(.casino-games-section) {
 }
 
 .arrows:has(.slider-arrow.disabled) {
-  border-color: #637082; /* Disabled border color */
+  border-color: #253946; /* Disabled border color */
 }
 
 .slider-arrow {
@@ -1914,7 +1914,7 @@ a
 .slider.svelte-86vx8t .header:where(.svelte-86vx8t) > .arrows {
   display: flex;
   align-items: stretch;
-  border: 1px solid #a9b2ca; /* Enabled border color */
+  border: 1px solid #2f4553; /* Enabled border color */
   border-radius: 9999px;
   overflow: hidden;
   background: transparent;
@@ -1924,7 +1924,7 @@ a
 }
 
 .slider.svelte-86vx8t .header:where(.svelte-86vx8t) > .arrows:has(*:disabled) {
-  border-color: #637082; /* Disabled border color */
+  border-color: #253946; /* Disabled border color */
 }
 
 .slider.svelte-86vx8t .header:where(.svelte-86vx8t) > .arrows > * {
@@ -1980,11 +1980,11 @@ a
 .slider.svelte-86vx8t .header:where(.svelte-86vx8t) > .arrows .backward {
   border-bottom-right-radius: 0 !important;
   border-top-right-radius: 0 !important;
-  border-right: 1px solid #a9b2ca !important; /* Enabled border color */
+  border-right: 1px solid #2f4553 !important; /* Enabled border color */
 }
 
 .slider.svelte-86vx8t .header:where(.svelte-86vx8t) > .arrows:has(*:disabled) .backward {
-  border-right-color: #637082 !important; /* Disabled border color */
+  border-right-color: #253946 !important; /* Disabled border color */
 }
 
 .default-with-title.svelte-86vx8t .forward button:hover:not([disabled]) {

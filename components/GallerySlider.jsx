@@ -3,7 +3,7 @@
 import { useRef, useState, useEffect } from "react";
 import GameCard from "./GameCard";
 
-export default function GallerySlider({ id, title, cards, icon }) {
+export default function GallerySlider({ id, title, cards, icon, style }) {
   const galleryRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
@@ -89,8 +89,17 @@ export default function GallerySlider({ id, title, cards, icon }) {
   };
 
   return (
-    <div className="slider svelte-86vx8t">
-      <div className="header svelte-86vx8t">
+    <div className="slider svelte-86vx8t" style={style}>
+      <div 
+        className="header svelte-86vx8t"
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          width: '100%',
+          marginBottom: 0
+        }}
+      >
         <div className="inline-flex items-center gap-2">
           <a
             className="[font-family:var(--ds-font-family-default)] [font-variant-numeric:var(--ds-font-variant-numeric,lining-nums_tabular-nums)] [font-feature-settings:var(--ds-font-feature-settings,&quot;salt&quot;_on)] inline-flex relative items-center gap-2 justify-center rounded-(--ds-radius-md) [font-weight:var(--ds-font-weight-thick)] ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] [text-decoration:none] hover:[text-decoration:none] bg-transparent text-white hover:bg-transparent hover:text-white focus-visible:outline-hidden var(--ds-font-size-md) [&_svg]:text-grey-200 [&:hover>svg]:text-white whitespace-normal"
@@ -161,7 +170,21 @@ export default function GallerySlider({ id, title, cards, icon }) {
           </a>
         </div>
 
-        <div className="arrows">
+        <div 
+          className="arrows"
+          style={{
+            display: 'inline-flex',
+            alignItems: 'stretch',
+            border: `1px solid ${!canScrollLeft && !canScrollRight ? '#253946' : '#2f4553'}`,
+            borderRadius: '9999px',
+            overflow: 'hidden',
+            background: 'transparent',
+            width: '115px',
+            height: '42px',
+            flexShrink: 0,
+            margin: 0
+          }}
+        >
           <button
             type="button"
             tabIndex={0}
@@ -173,7 +196,7 @@ export default function GallerySlider({ id, title, cards, icon }) {
               width: '50%',
               height: '100%',
               border: 'none',
-              borderRight: `1px solid ${!canScrollLeft ? '#637082' : '#a9b2ca'}`,
+              borderRight: `1px solid ${!canScrollLeft ? '#253946' : '#2f4553'}`,
               borderRadius: 0,
               padding: '0.5rem',
               display: 'flex',
