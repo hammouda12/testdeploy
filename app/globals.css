@@ -3012,10 +3012,24 @@ hr.svelte-1ey91rp {
   justify-content: center;
   flex: 1;
   min-width: 0;
+  position: relative;
 }
 
 .button-wrap.svelte-1sv9hne.active {
   color: var(--ds-legacy-color-white);
+}
+
+/* Blue underline indicator for active state */
+.button-wrap.svelte-1sv9hne.active::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 3px;
+  background-color: #00b8ff;
+  border-radius: 0 0 2px 2px;
 }
 
 .content.svelte-1sv9hne {

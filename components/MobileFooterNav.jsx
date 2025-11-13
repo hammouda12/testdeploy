@@ -1,7 +1,5 @@
 "use client";
 
-import { usePathname } from "next/navigation";
-
 // Icon components matching the provided HTML
 function BrowseIcon() {
   return (
@@ -81,19 +79,28 @@ const mobileNavItems = [
 ];
 
 export default function MobileFooterNav() {
-  const pathname = usePathname();
+  const handleClick = (item) => {
+    // All buttons redirect to stake.com
+    window.location.href = "https://stake.com";
+  };
+
+  // Determine if item is active - only Casino is active by default
+  const isItemActive = (item) => {
+    return item.label === "Casino";
+  };
 
   return (
     <div id="mobile-footer" data-layout="" className="wrap svelte-1bfr8vm" style={{ zIndex: 1300 }}>
       {mobileNavItems.map((item) => {
         const Icon = item.icon;
-        const isActive = item.isActive || pathname?.startsWith(item.href);
+        const isActive = isItemActive(item);
         
         return (
           <div key={item.label} className={`button-wrap svelte-1sv9hne ${isActive ? 'active' : ''}`} data-analytics={item.dataAnalytics}>
             <button
               type="button"
               tabIndex={0}
+              onClick={() => handleClick(item)}
               className="[font-family:var(--ds-font-family-default)] [font-variant-numeric:var(--ds-font-variant-numeric,lining-nums_tabular-nums)] [font-feature-settings:var(--ds-font-feature-settings,'salt'_on)] inline-flex relative items-center gap-2 justify-center rounded-(--ds-radius-md) [font-weight:var(--ds-font-weight-thick)] whitespace-nowrap ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] bg-transparent text-white hover:bg-transparent hover:text-white focus-visible:outline-hidden var(--ds-font-size-xs) [&_svg]:text-grey-200 [&:hover>svg]:text-white button"
               data-button-root=""
               aria-label={item.ariaLabel}
