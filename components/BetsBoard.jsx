@@ -708,12 +708,12 @@ export default function BetsBoard() {
                     </>
                   ) : (
                     <>
-                      <th className="!text-left p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Game</th>
-                      <th className="!text-left p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>User</th>
-                      <th className="!text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Time</th>
-                      <th className="!text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Bet Amount</th>
-                      <th className="!text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Multiplier</th>
-                      <th className="!text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Payout</th>
+                      <th className="!text-left p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)', width: 'auto' }}>Game</th>
+                      <th className="hidden min-[961px]:table-cell !text-left p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>User</th>
+                      <th className="hidden min-[961px]:table-cell !text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Time</th>
+                      <th className="hidden min-[961px]:table-cell !text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Bet Amount</th>
+                      <th className="hidden min-[701px]:table-cell !text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)' }}>Multiplier</th>
+                      <th className="!text-right p-3 text-sm font-semibold text-white" style={{ padding: 'var(--ds-spacing-4)', fontSize: 'var(--ds-font-size-sm)', fontFamily: 'var(--ds-font-family-default)', fontWeight: 'var(--ds-font-weight-thick)', width: 'auto', whiteSpace: 'nowrap' }}>Payout</th>
                     </>
                   )}
                 </tr>
@@ -832,7 +832,7 @@ export default function BetsBoard() {
                         </>
                       ) : (
                         <>
-                          <td className="text-left p-3" style={{ padding: 'var(--ds-spacing-4)' }}>
+                          <td className="text-left p-3" style={{ padding: 'var(--ds-spacing-4)', width: 'auto' }}>
                             <button
                               type="button"
                               onClick={handleRedirect}
@@ -842,7 +842,7 @@ export default function BetsBoard() {
                               <span className="ds-body-md-strong truncate">{bet.game}</span>
                             </button>
                           </td>
-                          <td className="text-left p-3" style={{ padding: 'var(--ds-spacing-4)' }}>
+                          <td className="hidden min-[961px]:table-cell text-left p-3" style={{ padding: 'var(--ds-spacing-4)' }}>
                               {bet.isHidden || !bet.user ? (
                                 <Tooltip content="This user has privacy enabled">
                                   <div className="flex gap-1 items-center w-full" onClick={handleRedirect}>
@@ -869,8 +869,8 @@ export default function BetsBoard() {
                               </button>
                             )}
                           </td>
-                          <td className="text-right p-3 cursor-pointer" onClick={handleRedirect} style={{ padding: 'var(--ds-spacing-4)', color: '#b1bad3' }}>{bet.time}</td>
-                          <td className="text-right p-3" style={{ padding: 'var(--ds-spacing-4)' }}>
+                          <td className="hidden min-[961px]:table-cell text-right p-3 cursor-pointer" onClick={handleRedirect} style={{ padding: 'var(--ds-spacing-4)', color: '#b1bad3' }}>{bet.time}</td>
+                          <td className="hidden min-[961px]:table-cell text-right p-3" style={{ padding: 'var(--ds-spacing-4)' }}>
                             {(() => {
                               const currency = (bet.currency || "USD").toUpperCase();
                               let usdAmount = bet.betAmount;
@@ -913,12 +913,12 @@ export default function BetsBoard() {
                               );
                             })()}
                           </td>
-                          <td className="text-right p-3 cursor-pointer" onClick={handleRedirect} style={{ padding: 'var(--ds-spacing-4)' }}>
+                          <td className="hidden min-[701px]:table-cell text-right p-3 cursor-pointer" onClick={handleRedirect} style={{ padding: 'var(--ds-spacing-4)' }}>
                             <div className="flex items-center justify-end text-right gap-1">
                               <span className="ds-body-md" style={{ color: '#b1bad3' }}>{bet.multiplier?.toFixed(2)}×</span>
                             </div>
                           </td>
-                          <td className="text-right p-3" style={{ padding: 'var(--ds-spacing-4)' }}>
+                          <td className="text-right p-3" style={{ padding: 'var(--ds-spacing-4)', width: 'auto', whiteSpace: 'nowrap' }}>
                             {(() => {
                               const isWin = bet.payout > 0;
                               const currency = ((bet.payoutCurrency || bet.currency || "USD")).toUpperCase();
@@ -937,9 +937,9 @@ export default function BetsBoard() {
                                   content={tooltipContent}
                                   icon={getCurrencyIcon(currency)}
                                 >
-                                  <div className="inline-flex items-center gap-1 max-w-full justify-end cursor-pointer" onClick={handleRedirect}>
+                                  <div className="inline-flex items-center gap-1 justify-end cursor-pointer" onClick={handleRedirect} style={{ marginLeft: 'auto' }}>
                                     <span
-                                      className="ds-body-md whitespace-nowrap overflow-hidden text-ellipsis currency-amount"
+                                      className="ds-body-md whitespace-nowrap currency-amount"
                                       style={{ color: isWin ? '#02da06' : '#b1bad3' }}
                                     >
                                       {isWin ? "+" : "-"}${formatCurrencyWithoutSymbol(displayAmount)}

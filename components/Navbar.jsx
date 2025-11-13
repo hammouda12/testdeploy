@@ -19,11 +19,10 @@ export default function Navbar() {
           height: 60px;
         }
         .navbar-inner {
-          margin: 0 auto;
-          max-width: 1320px;
-          padding: 0 32px;
+          margin: 0;
           width: 100%;
           height: 100%;
+          padding: 0 3vw;
         }
         .navbar-grid {
           display: grid;
@@ -249,10 +248,10 @@ export default function Navbar() {
         }
         @media (max-width: 768px) {
           .navbar-inner {
-            padding: 0 16px;
+            padding: 0 3vw;
           }
           .logo-wrapper {
-            height: 64.84px;
+            height: 40px;
             z-index: 1;
           }
           .logo-wrapper svg:first-of-type {
@@ -260,9 +259,13 @@ export default function Navbar() {
           }
           .logo-wrapper svg:last-of-type {
             display: block;
-            width: 112px;
-            height: 64.84px;
+            width: auto;
+            height: 40px;
             max-width: none;
+          }
+          .navbar-left {
+            justify-self: start;
+            align-items: center;
           }
           .icon-button-search {
             display: none;
@@ -434,7 +437,7 @@ function StakeLogoDesktop() {
 
 function StakeLogoMobile() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 200" className="svelte-nu4xlf" style={{ width: "112px", height: "64.84px", color: "currentColor" }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 200" className="svelte-nu4xlf" style={{ color: "currentColor" }}>
       <title>Logo</title>
       <path
         fill="currentColor"

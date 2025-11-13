@@ -16,7 +16,7 @@ export default function RootLayout({ children }){
         <div className="flex-1 flex flex-col min-w-0 main-content-wrapper" style={{ marginLeft: 'var(--sidebar-width, 260px)' }}>
           <Navbar />
           <main className="flex-1 bg-[#1a2c38] overflow-y-auto hide-scrollbar">
-            <div className="mx-auto max-w-[1320px] px-8 ">
+            <div style={{ padding: 'var(--spacing-0) 3vw' }}>
               {children}
             </div>
           </main>

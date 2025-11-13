@@ -844,6 +844,27 @@ div.my-8:has(.casino-games-section) {
   min-width: 600px; /* Minimum width for table */
 }
 
+/* Two-column layout on small screens */
+@media (max-width: 700px) {
+  .table-content {
+    min-width: unset;
+    width: 100%;
+  }
+  
+  .table-content th:first-child,
+  .table-content td:first-child {
+    width: auto;
+    min-width: 0;
+  }
+  
+  .table-content th:last-child,
+  .table-content td:last-child {
+    width: auto;
+    min-width: 0;
+    text-align: right;
+  }
+}
+
 .table-content.is-fixed {
   table-layout: fixed;
 }
@@ -884,13 +905,25 @@ div.my-8:has(.casino-games-section) {
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 700px) {
   .table-content {
-    min-width: 700px;
+    min-width: unset;
+    width: 100%;
   }
   
   .currency-amount {
-    max-width: 8ch;
+    max-width: 12ch;
+  }
+}
+
+@media (max-width: 640px) {
+  .table-content {
+    min-width: unset;
+    width: 100%;
+  }
+  
+  .currency-amount {
+    max-width: 10ch;
   }
 }
 
@@ -1866,7 +1899,6 @@ a
 .slider {
   display: flex;
   border-radius: 0;
-  padding: var(--ds-spacing-1-5, 5px);
   flex-shrink: 0;
 }
 
