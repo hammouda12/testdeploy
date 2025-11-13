@@ -1903,7 +1903,9 @@ a
 }
 
 .slider.variant-dark {
-  background: var(--grey-700);
+  background: #0f212e;
+  border-radius: 3rem;
+  padding: 0.5rem;
 }
 
 .slider.variant-light {

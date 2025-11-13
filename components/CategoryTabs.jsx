@@ -145,12 +145,22 @@ export default function CategoryTabs() {
               <Link
                 key={tab.name}
                 href={tab.href}
-                className={`inline-flex relative items-center gap-2 justify-center font-thick whitespace-nowrap ring-offset-background transition-all disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] no-underline hover:no-underline bg-transparent text-white hover:bg-grey-400 hover:text-white focus-visible:outline-white text-sm py-[0.625rem] px-[1.25rem] rounded-full ${
+                className={`inline-flex relative items-center gap-2 justify-center font-thick whitespace-nowrap ring-offset-background transition-all disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] no-underline hover:no-underline text-white focus-visible:outline-white text-sm ${
                   tab.active
-                    ? "!text-white [&_svg]:!text-white"
-                    : "[&_svg]:text-grey-200 [&:hover>svg]:text-white"
+                    ? "!text-white [&_svg]:!text-white py-[0.75rem] px-[1.5rem] rounded-full"
+                    : "[&_svg]:text-grey-200 [&:hover>svg]:text-white py-[0.625rem] px-[1.25rem] rounded-full"
                 }`}
-                style={tab.active ? { backgroundColor: "#2f4553" } : {}}
+                style={tab.active ? { backgroundColor: "#2f4553" } : { backgroundColor: "transparent" }}
+                onMouseEnter={(e) => {
+                  if (!tab.active) {
+                    e.currentTarget.style.backgroundColor = "#2f4553";
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (!tab.active) {
+                    e.currentTarget.style.backgroundColor = "transparent";
+                  }
+                }}
               >
                 {tab.icon}
                 <span className="ds-body-md-strong">{tab.name}</span>
