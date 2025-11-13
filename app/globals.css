@@ -558,7 +558,8 @@ div.my-8:has(.casino-games-section) {
 /* Unified Slide Styles - All Game Sections */
 /* Consistent padding for spacing between cards - 8px on all screens */
 .slide.svelte-1vx4gmg {
-  padding: var(--spacing-0) 8px !important; /* 0 top/bottom, 8px left/right - consistent across all screens */
+  padding: var(--spacing-0) 8px !important; /* 0 top/bottom, 8px left/right only for small screens */
+
   width: 100% !important;
   min-width: 0 !important;
   max-width: 100% !important;
@@ -568,6 +569,9 @@ div.my-8:has(.casino-games-section) {
   scroll-snap-align: start;
   border: none !important;
   outline: none !important;
+  @media (max-width: 700px) {
+    padding: var(--spacing-0) 3px !important; /* 0 top/bottom, 8px left/right only for small screens */
+  }
 }
 
 /* Remove border from first card */
