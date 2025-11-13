@@ -530,7 +530,7 @@ div.my-8:has(.casino-games-section) {
 /* 712px to 767px: 4 cards per page (25% each) */
 @media (min-width: 712px) and (max-width: 767px) {
   .gallery.svelte-86vx8t {
-    grid-auto-columns: 25.5% !important;
+    grid-auto-columns: 25% !important;
   }
 }
 
