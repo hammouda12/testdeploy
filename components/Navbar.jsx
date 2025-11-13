@@ -244,16 +244,16 @@ export default function Navbar() {
             padding: 0 16px;
           }
           .logo-wrapper {
-            height: 1.75rem;
+            height: 64.84px;
           }
           .logo-wrapper svg:first-of-type {
             display: none;
           }
           .logo-wrapper svg:last-of-type {
             display: block;
-            height: 1.75rem;
-            width: auto;
-            max-width: 32px;
+            width: 112px;
+            height: 64.84px;
+            max-width: none;
           }
           .icon-button-search {
             display: none;
@@ -315,6 +315,7 @@ export default function Navbar() {
                   aria-label="Open Dropdown"
                   data-testid="coin-toggle"
                   data-active-currency="usdt"
+                  onClick={openWalletModal}
                 >
                   <div style={{ display: "flex", alignItems: "center", gap: "4px", maxWidth: "100%", overflow: "hidden" }}>
                     <span className="currency-content">
@@ -350,6 +351,7 @@ export default function Navbar() {
                 className="icon-button icon-button-search"
                 id="currencyPopup1"
                 aria-label="Search"
+                onClick={openWalletModal}
               >
                 <SearchIcon />
               </button>
@@ -363,6 +365,7 @@ export default function Navbar() {
                   data-testid="user-dropdown-toggle"
                   data-analytics="global-navbar-user-icon"
                   aria-label="Open Dropdown"
+                  onClick={openWalletModal}
                 >
                   <PersonIcon />
                 </button>
@@ -374,6 +377,7 @@ export default function Navbar() {
                 className="icon-button icon-button-notification"
                 id="notifications-nav-button"
                 aria-label="Toggle Notifications Widget"
+                onClick={openWalletModal}
               >
                 <NotificationOnIcon />
               </button>
@@ -385,6 +389,7 @@ export default function Navbar() {
                   className="icon-button icon-button-notification"
                   aria-label="Open Dropdown"
                   id="currencyPopup4"
+                  onClick={openWalletModal}
                 >
                   <SidebarToggleIcon />
                 </button>
@@ -411,7 +416,7 @@ function StakeLogoDesktop() {
 
 function StakeLogoMobile() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 200" className="svelte-nu4xlf" style={{ height: "1.75rem", color: "currentColor" }}>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 200" className="svelte-nu4xlf" style={{ width: "112px", height: "64.84px", color: "currentColor" }}>
       <title>Logo</title>
       <path
         fill="currentColor"

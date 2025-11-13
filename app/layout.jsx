@@ -4,6 +4,7 @@ import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
 import MobileFooterNav from "../components/MobileFooterNav";
 import Footer from "../components/Footer";
+import Modals from "../components/Modals";
 import { ModalProvider } from "../contexts/ModalContext";
 
 export default function RootLayout({ children }){
@@ -22,7 +23,7 @@ export default function RootLayout({ children }){
           <Footer />
         </div>
           <MobileFooterNav />
-        
+        <Modals />
         </ModalProvider>
       </body>
     </html>

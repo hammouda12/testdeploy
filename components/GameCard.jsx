@@ -5,20 +5,38 @@ import { useState } from "react";
 export default function GameCard({ title, provider, image, href, playing }) {
   const [isClicked, setIsClicked] = useState(false);
 
+  // Convert href to full stake.com URL
+  const getFullUrl = (href) => {
+    if (!href) return '#';
+    // If it already starts with http, return as is
+    if (href.startsWith('http')) return href;
+    // Otherwise, prepend stake.com
+    return `https://stake.com${href}`;
+  };
+
+  const handleCardClick = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    const fullUrl = getFullUrl(href);
+    window.location.href = fullUrl;
+  };
+
   const handleButtonClick = (e) => {
     e.preventDefault();
     e.stopPropagation();
-    window.open(href, '_blank');
+    const fullUrl = getFullUrl(href);
+    window.location.href = fullUrl;
   };
 
   return (
     <div className="game-card-wrap svelte-zglogk">
       <a 
         className="link svelte-zglogk block game-card" 
-        href={href} 
-        target="_blank" 
-        rel="noreferrer"
-        onClick={() => setIsClicked(!isClicked)}
+        href={getFullUrl(href)} 
+        onClick={(e) => {
+          setIsClicked(!isClicked);
+          handleCardClick(e);
+        }}
       >
         <div className="img-wrap mx-auto" style={{ position: "relative", borderRadius: "0.5rem", overflow: "hidden", width: "100%" }}>
           <img src={image} alt={title} style={{ borderRadius: "0.5rem", width: "100%", height: "auto", display: "block" }} />

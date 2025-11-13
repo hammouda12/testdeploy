@@ -72,7 +72,21 @@ export default function GallerySlider({ id, title, cards, icon }) {
     }
   };
 
-  const sectionHref = title === "Stake Originals" ? "/casino/group/stake-originals" : "#";
+  const getSectionUrl = (title) => {
+    if (title === "Stake Originals") {
+      return "https://stake.com/casino/group/stake-originals";
+    }
+    return "#";
+  };
+
+  const sectionHref = getSectionUrl(title);
+
+  const handleSectionClick = (e) => {
+    if (sectionHref !== "#") {
+      e.preventDefault();
+      window.location.href = sectionHref;
+    }
+  };
 
   return (
     <div className="slider svelte-86vx8t">
@@ -81,6 +95,7 @@ export default function GallerySlider({ id, title, cards, icon }) {
           <a
             className="[font-family:var(--ds-font-family-default)] [font-variant-numeric:var(--ds-font-variant-numeric,lining-nums_tabular-nums)] [font-feature-settings:var(--ds-font-feature-settings,&quot;salt&quot;_on)] inline-flex relative items-center gap-2 justify-center rounded-(--ds-radius-md) [font-weight:var(--ds-font-weight-thick)] ring-offset-background transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] [text-decoration:none] hover:[text-decoration:none] bg-transparent text-white hover:bg-transparent hover:text-white focus-visible:outline-hidden var(--ds-font-size-md) [&_svg]:text-grey-200 [&:hover>svg]:text-white whitespace-normal"
             href={sectionHref}
+            onClick={handleSectionClick}
             data-sveltekit-reload="off"
             data-sveltekit-preload-data="hover"
             data-sveltekit-noscroll="off"
@@ -259,6 +274,7 @@ export default function GallerySlider({ id, title, cards, icon }) {
               data-analytics="see-all-card-link"
               className="link svelte-1phf9cx"
               href={sectionHref}
+              onClick={handleSectionClick}
               style={{
                 width: '100%',
                 maxWidth: '100%',

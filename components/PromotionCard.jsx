@@ -1,9 +1,28 @@
+"use client";
+
 export default function PromotionCard({ title, description, image, href, buttonText = "Learn More" }) {
   const safeSrc = typeof image === "string" ? encodeURI(image) : image;
+
+  const getFullUrl = (href) => {
+    if (!href || href === '#') return '#';
+    // If it already starts with http, return as is
+    if (href.startsWith('http')) return href;
+    // Otherwise, prepend stake.com
+    return `https://stake.com${href}`;
+  };
+
+  const handleClick = (e) => {
+    const fullUrl = getFullUrl(href);
+    if (fullUrl !== '#') {
+      e.preventDefault();
+      window.location.href = fullUrl;
+    }
+  };
+
   return (
     <div className="promotion-card">
       <div className="hero relative h-full">
-        <a className="block h-full" href={href}>
+        <a className="block h-full" href={getFullUrl(href)} onClick={handleClick}>
           <div className="wrapper">
             <div className="content-wrapper">
               <div className="content">
@@ -29,7 +48,7 @@ export default function PromotionCard({ title, description, image, href, buttonT
           </div>
         </a>
         <div className="button-wrapper absolute bottom-[12px] left-[12px] md:bottom-[16px] md:left-[16px]">
-          <a className="promo-button" href={href} style={{ minWidth: '7.5rem', maxWidth: '10.625rem' }}>
+          <a className="promo-button" href={getFullUrl(href)} onClick={handleClick} style={{ minWidth: '7.5rem', maxWidth: '10.625rem' }}>
             {buttonText}
           </a>
         </div>

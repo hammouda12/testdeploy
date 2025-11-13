@@ -1,13 +1,32 @@
+"use client";
+
 export default function PublisherCard({ name, image, href, playing, backgroundGradient }) {
   const formattedPlaying = playing ? parseInt(playing).toLocaleString() : '0';
   const baseImageUrl = image.split('?')[0]; // Get base URL without query params
+
+  const getFullUrl = (href) => {
+    if (!href || href === '#') return '#';
+    // If it already starts with http, return as is
+    if (href.startsWith('http')) return href;
+    // Otherwise, prepend stake.com
+    return `https://stake.com${href}`;
+  };
+
+  const handleClick = (e) => {
+    const fullUrl = getFullUrl(href);
+    if (fullUrl !== '#') {
+      e.preventDefault();
+      window.location.href = fullUrl;
+    }
+  };
 
   return (
     <div className="card-focus svelte-4d9275">
       <div className="wrap svelte-181xon6">
         <a
           className="publisher-link"
-          href={href || '#'}
+          href={getFullUrl(href)}
+          onClick={handleClick}
           data-sveltekit-reload="off"
           data-sveltekit-preload-data="tap"
           data-sveltekit-noscroll="off"

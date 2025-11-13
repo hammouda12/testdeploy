@@ -3,21 +3,8 @@
 import { useEffect, useState } from "react";
 
 export default function Preloader({ onComplete }) {
-  const [isVisible, setIsVisible] = useState(true);
-
-  useEffect(() => {
-    // Show loader for at least 2 seconds
-    const timer = setTimeout(() => {
-      setIsVisible(false);
-      if (onComplete) {
-        setTimeout(onComplete, 300); // Small delay for fade out
-      }
-    }, 2000);
-
-    return () => clearTimeout(timer);
-  }, [onComplete]);
-
-  if (!isVisible) return null;
+  // Preloader visibility is now controlled by parent component
+  // No auto-hide timer - parent controls when to hide
 
   return (
     <div 
@@ -28,6 +15,7 @@ export default function Preloader({ onComplete }) {
         src="/stakepromotions.com/images/Stake-preloader.ynQo6d0c-1.gif"
         alt="Loading..."
         className="preloader-img loader"
+        style={{ width: '100px', height: '100px' }}
       />
     </div>
   );
