@@ -544,14 +544,14 @@ div.my-8:has(.casino-games-section) {
 /* 701px to 711px: 3 cards per page (33.333% each) */
 @media (min-width: 701px) and (max-width: 711px) {
   .gallery.svelte-86vx8t {
-    grid-auto-columns: 33.333% !important;
+    grid-auto-columns: 20% !important;
   }
 }
 
 /* Below 500px: 3 cards per page (33.333% each) */
 @media (max-width: 499px) {
   .gallery.svelte-86vx8t {
-    grid-auto-columns: 33.333% !important;
+    grid-auto-columns: 34% !important;
   }
 }
 
