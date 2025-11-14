@@ -1,4 +1,3 @@
-export const metadata = { title: "Stake Design Clone", description: "Static clone with hardcoded data" };
 
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
