@@ -43,10 +43,24 @@ export default function PublisherCard({ name, image, href, playing, backgroundGr
               decoding="async"
               srcSet={`${baseImageUrl}?w=169&h=67&fit=min&auto=format 169w, ${baseImageUrl}?w=338&h=134&fit=min&auto=format 338w`}
               sizes="(min-width: 169px) 169px, 100vw"
+              onLoad={(e) => {
+                // Ensure image is visible after load (fade in effect)
+                const img = e.target;
+                if (img.complete && img.naturalHeight !== 0) {
+                  img.style.opacity = '1';
+                }
+              }}
               onError={(e) => {
-                // Fallback to base image if srcSet fails
-                if (e.target.src !== baseImageUrl) {
-                  e.target.src = baseImageUrl;
+                // Fallback strategy: try base URL, then original image URL
+                const target = e.target;
+                if (target.src !== baseImageUrl && target.src !== image) {
+                  target.src = baseImageUrl;
+                } else if (target.src === baseImageUrl) {
+                  // If base URL also fails, try original image URL
+                  target.src = image;
+                } else {
+                  // Last resort: show background gradient only
+                  target.style.display = 'none';
                 }
               }}
               style={{
@@ -55,7 +69,8 @@ export default function PublisherCard({ name, image, href, playing, backgroundGr
                 maxWidth: '169px',
                 maxHeight: '67px',
                 aspectRatio: '2.52239 / 1',
-                width: '100%'
+                width: '100%',
+                opacity: '1'
               }}
             />
           </div>

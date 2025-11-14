@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 
 // Currency Icon Components
 const CurrencyIcon = ({ code, className = "svg-icon", style }) => {
@@ -215,8 +216,10 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const [isCopyClicked, setIsCopyClicked] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
   const [isPressed, setIsPressed] = useState(false);
+  const [tooltipPosition, setTooltipPosition] = useState({ top: 0, left: 0 });
   const currencyRef = useRef(null);
   const networkRef = useRef(null);
+  const copyButtonRef = useRef(null);
 
   useEffect(() => {
     // Small delay to ensure smooth transition
@@ -327,6 +330,14 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const handleCopy = async () => {
     try {
       await navigator.clipboard.writeText(depositAddress);
+      // Calculate tooltip position
+      if (copyButtonRef.current) {
+        const rect = copyButtonRef.current.getBoundingClientRect();
+        setTooltipPosition({
+          top: rect.top - 50, // Position above the button
+          left: rect.left + rect.width / 2, // Center horizontally
+        });
+      }
       setCopied(true);
       setIsCopyClicked(true);
       setTimeout(() => {
@@ -343,6 +354,14 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
       textArea.select();
       try {
         document.execCommand('copy');
+        // Calculate tooltip position
+        if (copyButtonRef.current) {
+          const rect = copyButtonRef.current.getBoundingClientRect();
+          setTooltipPosition({
+            top: rect.top - 50, // Position above the button
+            left: rect.left + rect.width / 2, // Center horizontally
+          });
+        }
         setCopied(true);
         setIsCopyClicked(true);
         setTimeout(() => {
@@ -1046,6 +1065,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         flexShrink: 0
                       }}></div>
                       <button
+                        ref={copyButtonRef}
                         type="button"
                         tabIndex={0}
                         style={{
@@ -1066,45 +1086,6 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         id="copy-btn"
                         onClick={handleCopy}
                       >
-                        {/* Tooltip with speech bubble - show only after copy */}
-                        {copied && (
-                          <div
-                            style={{
-                              position: "absolute",
-                              bottom: "calc(100% + 16px)",
-                              left: "50%",
-                              transform: "translateX(-50%)",
-                              backgroundColor: "#ffffff",
-                              color: "#0F212E",
-                              padding: "12px 16px",
-                              borderRadius: "8px",
-                              fontSize: "14px",
-                              fontFamily: "proxima-nova, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
-                              fontWeight: "400",
-                              whiteSpace: "nowrap",
-                              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                              zIndex: 99999999999999999999999,
-                              pointerEvents: "none",
-                              opacity: 1,
-                            }}
-                          >
-                            Address copied!
-                            {/* Speech bubble tail */}
-                            <div
-                              style={{
-                                position: "absolute",
-                                bottom: "-6px",
-                                left: "50%",
-                                transform: "translateX(-50%)",
-                                width: 0,
-                                height: 0,
-                                borderLeft: "6px solid transparent",
-                                borderRight: "6px solid transparent",
-                                borderTop: "6px solid #ffffff",
-                              }}
-                            ></div>
-                          </div>
-                        )}
                         <svg
                           data-ds-icon="Copy"
                           width="20"
@@ -1318,6 +1299,46 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
           </a>
         </div>
       </div>
+      {/* Tooltip with speech bubble - rendered outside overflow container */}
+      {copied && typeof document !== 'undefined' && createPortal(
+        <div
+          style={{
+            position: "fixed",
+            top: `${tooltipPosition.top}px`,
+            left: `${tooltipPosition.left}px`,
+            transform: "translateX(-50%)",
+            backgroundColor: "#ffffff",
+            color: "#0F212E",
+            padding: "12px 16px",
+            borderRadius: "8px",
+            fontSize: "14px",
+            fontFamily: "proxima-nova, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+            fontWeight: "400",
+            whiteSpace: "nowrap",
+            boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+            zIndex: 999999,
+            pointerEvents: "none",
+            opacity: 1,
+          }}
+        >
+          Address copied!
+          {/* Speech bubble tail */}
+          <div
+            style={{
+              position: "absolute",
+              bottom: "-6px",
+              left: "50%",
+              transform: "translateX(-50%)",
+              width: 0,
+              height: 0,
+              borderLeft: "6px solid transparent",
+              borderRight: "6px solid transparent",
+              borderTop: "6px solid #ffffff",
+            }}
+          ></div>
+        </div>,
+        document.body
+      )}
     </div>
   );
 }

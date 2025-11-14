@@ -75,20 +75,41 @@ export default function GallerySlider({ id, title, cards, icon, style }) {
     // Prevent multiple simultaneous scrolls
     isScrollingRef.current = true;
     
-    // Use requestAnimationFrame to ensure layout is complete before scrolling
+    // Double RAF to ensure layout is complete and images are rendered
     requestAnimationFrame(() => {
-      const scrollAmount = step();
-      if (scrollAmount > 0) {
-        el.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-        
-        // Update scrollability after scroll completes (for mobile smooth scroll)
-        setTimeout(() => {
-          checkScrollability();
+      requestAnimationFrame(() => {
+        const scrollAmount = step();
+        if (scrollAmount > 0) {
+          const currentScroll = el.scrollLeft;
+          const targetScroll = currentScroll + scrollAmount;
+          
+          // Ensure we don't scroll past the end
+          const maxScroll = el.scrollWidth - el.clientWidth;
+          const finalScroll = Math.min(targetScroll, maxScroll);
+          
+          el.scrollTo({ left: finalScroll, behavior: 'smooth' });
+          
+          // Use scrollend event if available, otherwise fallback to timeout
+          let scrollEndHandler = null;
+          const cleanup = () => {
+            if (scrollEndHandler) {
+              el.removeEventListener('scrollend', scrollEndHandler);
+            }
+            checkScrollability();
+            isScrollingRef.current = false;
+          };
+          
+          if ('onscrollend' in el) {
+            scrollEndHandler = cleanup;
+            el.addEventListener('scrollend', scrollEndHandler, { once: true });
+          } else {
+            // Fallback: wait for smooth scroll to complete (longer timeout for mobile)
+            setTimeout(cleanup, 500);
+          }
+        } else {
           isScrollingRef.current = false;
-        }, 350); // Wait for smooth scroll to complete
-      } else {
-        isScrollingRef.current = false;
-      }
+        }
+      });
     });
   };
 
