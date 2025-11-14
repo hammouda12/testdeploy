@@ -7,11 +7,13 @@ export default function PublishersSlider({ id, title, publishers }) {
   const galleryRef = useRef(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
+  const isScrollingRef = useRef(false);
 
   const checkScrollability = () => {
     if (!galleryRef.current) return;
     const { scrollLeft, scrollWidth, clientWidth } = galleryRef.current;
-    setCanScrollLeft(scrollLeft > 0);
+    // Add a small threshold (1px) to account for rounding errors on mobile
+    setCanScrollLeft(scrollLeft > 1);
     setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 1);
   };
 
@@ -46,9 +48,27 @@ export default function PublishersSlider({ id, title, publishers }) {
   };
 
   const next = () => {
-    if (galleryRef.current) {
-      galleryRef.current.scrollBy({ left: step(), behavior: 'smooth' });
-    }
+    const el = galleryRef.current;
+    if (!el || isScrollingRef.current) return;
+    
+    // Prevent multiple simultaneous scrolls
+    isScrollingRef.current = true;
+    
+    // Use requestAnimationFrame to ensure layout is complete before scrolling
+    requestAnimationFrame(() => {
+      const scrollAmount = step();
+      if (scrollAmount > 0) {
+        el.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        
+        // Update scrollability after scroll completes (for mobile smooth scroll)
+        setTimeout(() => {
+          checkScrollability();
+          isScrollingRef.current = false;
+        }, 350); // Wait for smooth scroll to complete
+      } else {
+        isScrollingRef.current = false;
+      }
+    });
   };
 
   return (

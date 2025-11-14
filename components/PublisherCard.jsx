@@ -36,13 +36,19 @@ export default function PublisherCard({ name, image, href, playing, backgroundGr
               src={image}
               alt={name}
               background={backgroundGradient}
-              loading="lazy"
+              loading="eager"
               layout="constrained"
               aspectratio="0"
               className="max-w-full max-h-full"
               decoding="async"
               srcSet={`${baseImageUrl}?w=169&h=67&fit=min&auto=format 169w, ${baseImageUrl}?w=338&h=134&fit=min&auto=format 338w`}
               sizes="(min-width: 169px) 169px, 100vw"
+              onError={(e) => {
+                // Fallback to base image if srcSet fails
+                if (e.target.src !== baseImageUrl) {
+                  e.target.src = baseImageUrl;
+                }
+              }}
               style={{
                 objectFit: 'cover',
                 background: backgroundGradient || 'transparent',
