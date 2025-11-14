@@ -331,7 +331,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
       setTimeout(() => {
         setCopied(false);
         setIsCopyClicked(false);
-      }, 2000);
+      }, 3000);
     } catch (err) {
       // Fallback for older browsers
       const textArea = document.createElement("textarea");
@@ -347,7 +347,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
         setTimeout(() => {
           setCopied(false);
           setIsCopyClicked(false);
-        }, 2000);
+        }, 3000);
       } catch (err) {
         console.error('Failed to copy:', err);
       }
@@ -1020,20 +1020,15 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         paddingRight: "0.75rem", 
                         gap: 0,
                         borderRadius: "0.5rem",
-                        backgroundColor: isCopyClicked ? "#557086" : "transparent",
-                        borderLeft: isHovered && !isCopyClicked ? "1px solid #557086" : "none",
-                        transition: "background-color 0.2s ease, border-left 0.2s ease",
+                        borderTopLeftRadius: isHovered ? "0" : "0.5rem",
+                        borderBottomLeftRadius: isHovered ? "0" : "0.5rem",
+                        backgroundColor: isHovered ? "#557086" : "transparent",
+                        transition: "background-color 0.2s ease, border-radius 0.2s ease",
                         position: "relative",
                         boxShadow: isCopyClicked ? "inset 0 2px 4px rgba(0, 0, 0, 0.2)" : "none",
                       }}
-                      onMouseEnter={() => {
-                        if (!isCopyClicked) {
-                          setIsHovered(true);
-                        }
-                      }}
-                      onMouseLeave={() => {
-                        setIsHovered(false);
-                      }}
+                      onMouseEnter={() => setIsHovered(true)}
+                      onMouseLeave={() => setIsHovered(false)}
                     >
                       {/* Vertical Divider */}
                       <div style={{ 
@@ -1067,7 +1062,6 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           e.currentTarget.style.transform = "scale(0.95)";
                           const parent = e.currentTarget.closest('.input-button-wrap');
                           if (parent) {
-                            parent.style.backgroundColor = "#557086";
                             parent.style.boxShadow = "inset 0 2px 4px rgba(0, 0, 0, 0.2)";
                           }
                         }}
@@ -1082,8 +1076,8 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           }
                         }}
                       >
-                        {/* Tooltip with speech bubble - show on hover or after copy */}
-                        {(isHovered || copied) && (
+                        {/* Tooltip with speech bubble - show only after copy */}
+                        {copied && (
                           <div
                             style={{
                               position: "absolute",
@@ -1091,14 +1085,15 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                               left: "50%",
                               transform: "translateX(-50%)",
                               backgroundColor: "#ffffff",
-                              color: "#000000",
-                              padding: "8px 12px",
+                              color: "#0F212E",
+                              padding: "12px 16px",
                               borderRadius: "8px",
                               fontSize: "14px",
-                              fontWeight: "500",
+                              fontFamily: "proxima-nova, ui-sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif",
+                              fontWeight: "400",
                               whiteSpace: "nowrap",
                               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                              zIndex: 10000,
+                              zIndex: 99999999999999999999999, // sufficiently high, syntax fixed, no !important in inline styles
                               pointerEvents: "none",
                               opacity: 1,
                             }}
