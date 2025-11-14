@@ -1,6 +1,6 @@
 export const metadata = {
-  title: " ",
-  description: " ",
+  title: "",
+  description: "",
   icons: {
     icon: [
       { url: "/favicon-32x32.webp", type: "image/webp", sizes: "32x32" },
@@ -15,23 +15,28 @@ export const metadata = {
     nosnippet: true,
     "max-image-preview": "none",
     "max-snippet": -1,
+    "googlebot": "noindex, nofollow, noarchive, nosnippet",
   },
   // Explicitly set empty OpenGraph and Twitter meta tags to prevent link previews
   openGraph: {
-    title: " ",
-    description: " ",
+    title: "",
+    description: "",
     type: "website",
     images: [],
+    siteName: "",
+    url: "",
   },
   twitter: {
     card: "summary",
-    title: " ",
-    description: " ",
+    title: "",
+    description: "",
     images: [],
   },
   other: {
-    "og:site_name": " ",
-    "og:url": " ",
+    "og:site_name": "",
+    "og:url": "",
+    "og:type": "website",
+    "telegram:channel": "",
   },
 };
 
