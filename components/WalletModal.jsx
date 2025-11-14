@@ -213,6 +213,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const [copied, setCopied] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [isCopyClicked, setIsCopyClicked] = useState(false);
+  const [isHovered, setIsHovered] = useState(false);
   const currencyRef = useRef(null);
   const networkRef = useRef(null);
 
@@ -1020,19 +1021,18 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         gap: 0,
                         borderRadius: "0.5rem",
                         backgroundColor: isCopyClicked ? "#557086" : "transparent",
-                        transition: "background-color 0.2s ease",
+                        borderLeft: isHovered && !isCopyClicked ? "1px solid #557086" : "none",
+                        transition: "background-color 0.2s ease, border-left 0.2s ease",
                         position: "relative",
                         boxShadow: isCopyClicked ? "inset 0 2px 4px rgba(0, 0, 0, 0.2)" : "none",
                       }}
-                      onMouseEnter={(e) => {
+                      onMouseEnter={() => {
                         if (!isCopyClicked) {
-                          e.currentTarget.style.backgroundColor = "#557086";
+                          setIsHovered(true);
                         }
                       }}
-                      onMouseLeave={(e) => {
-                        if (!isCopyClicked) {
-                          e.currentTarget.style.backgroundColor = "transparent";
-                        }
+                      onMouseLeave={() => {
+                        setIsHovered(false);
                       }}
                     >
                       {/* Vertical Divider */}
@@ -1082,8 +1082,8 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           }
                         }}
                       >
-                        {/* Tooltip with speech bubble */}
-                        {copied && (
+                        {/* Tooltip with speech bubble - show on hover or after copy */}
+                        {(isHovered || copied) && (
                           <div
                             style={{
                               position: "absolute",
