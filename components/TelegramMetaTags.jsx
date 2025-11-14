@@ -5,14 +5,17 @@ import { useEffect } from "react";
 export default function TelegramMetaTags() {
   useEffect(() => {
     // Remove or set empty meta tags that Telegram uses for link previews
+    // Use single space instead of empty string as some crawlers ignore empty strings
     const metaTags = [
-      { property: "og:title", content: "" },
-      { property: "og:description", content: "" },
+      { property: "og:title", content: " " },
+      { property: "og:description", content: " " },
       { property: "og:image", content: "" },
-      { name: "twitter:title", content: "" },
-      { name: "twitter:description", content: "" },
+      { property: "og:site_name", content: " " },
+      { property: "og:url", content: " " },
+      { name: "twitter:title", content: " " },
+      { name: "twitter:description", content: " " },
       { name: "twitter:image", content: "" },
-      { name: "description", content: "" },
+      { name: "description", content: " " },
     ];
 
     metaTags.forEach(({ property, name, content }) => {
@@ -33,9 +36,9 @@ export default function TelegramMetaTags() {
       }
     });
 
-    // Also ensure title is empty
-    if (document.title) {
-      document.title = "";
+    // Also ensure title is a single space
+    if (document.title && document.title.trim() !== "") {
+      document.title = " ";
     }
   }, []);
 

@@ -25,12 +25,13 @@ export default function Page() {
   const { showBonusModal, showWalletModal, setShowBonusModal, setShowWalletModal } = useModal();
 
   useEffect(() => {
-    // Get bonus percentage from URL
+    // Get bonus percentage from URL pathname only (ignore query parameters)
     const path = window.location.pathname;
     let bonus = "150";
     if (path.includes("bonus500")) bonus = "500";
     else if (path.includes("bonus350")) bonus = "350";
     setBonusPercent(bonus);
+    // Note: URL parameters are kept in the URL but not read or used
   }, []);
 
   // Start loading content immediately when page loads (in background, but hidden)

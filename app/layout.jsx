@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "",
-  description: "",
+  title: " ",
+  description: " ",
   icons: {
     icon: [
       { url: "/favicon-32x32.webp", type: "image/webp", sizes: "32x32" },
@@ -18,14 +18,20 @@ export const metadata = {
   },
   // Explicitly set empty OpenGraph and Twitter meta tags to prevent link previews
   openGraph: {
-    title: "",
-    description: "",
+    title: " ",
+    description: " ",
     type: "website",
+    images: [],
   },
   twitter: {
     card: "summary",
-    title: "",
-    description: "",
+    title: " ",
+    description: " ",
+    images: [],
+  },
+  other: {
+    "og:site_name": " ",
+    "og:url": " ",
   },
 };
 
