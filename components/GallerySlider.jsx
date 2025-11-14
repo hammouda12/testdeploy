@@ -33,9 +33,17 @@ export default function GallerySlider({ id, title, cards, icon, style }) {
   const step = () => {
     const el = galleryRef.current;
     if (!el) return 0;
+    
+    // Get the first slide element to calculate width
     const first = el.querySelector('.slide');
     if (!first) return 0;
-    const cardWidth = first.getBoundingClientRect().width;
+    
+    // Get the actual rendered width of the slide including padding
+    // This accounts for the grid column width on all screen sizes
+    const slideRect = first.getBoundingClientRect();
+    const slideWidth = slideRect.width;
+    
+    // Get computed styles to check for gap (should be 0 based on CSS)
     const gap = parseFloat(getComputedStyle(el).gap || '0');
     const viewportWidth = window.innerWidth;
     
@@ -59,13 +67,62 @@ export default function GallerySlider({ id, title, cards, icon, style }) {
       cardsToScroll = 3; // Below 500px: 3 cards
     }
     
-    return (cardWidth + gap) * cardsToScroll;
+    // Calculate scroll amount: slide width (which includes padding) + gap
+    // The slideWidth from getBoundingClientRect() already includes all padding and margins
+    // and represents the actual grid column width, so this should work correctly on mobile
+    const scrollAmount = (slideWidth + gap) * cardsToScroll;
+    
+    // Ensure we don't scroll more than available
+    const maxScroll = el.scrollWidth - el.clientWidth;
+    const finalAmount = Math.min(scrollAmount, maxScroll);
+    
+    // On mobile, ensure we scroll at least one card width to avoid getting stuck
+    if (finalAmount < slideWidth && maxScroll > 0) {
+      return slideWidth;
+    }
+    
+    return finalAmount;
   };
 
   const prev = () => {
-    if (galleryRef.current) {
-      galleryRef.current.scrollBy({ left: -step(), behavior: 'smooth' });
-    }
+    const el = galleryRef.current;
+    if (!el || isScrollingRef.current) return;
+    
+    // Prevent multiple simultaneous scrolls
+    isScrollingRef.current = true;
+    
+    // Double RAF to ensure layout is complete and images are rendered
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        const scrollAmount = step();
+        if (scrollAmount > 0) {
+          const currentScroll = el.scrollLeft;
+          const targetScroll = Math.max(0, currentScroll - scrollAmount);
+          
+          el.scrollTo({ left: targetScroll, behavior: 'smooth' });
+          
+          // Use scrollend event if available, otherwise fallback to timeout
+          let scrollEndHandler = null;
+          const cleanup = () => {
+            if (scrollEndHandler) {
+              el.removeEventListener('scrollend', scrollEndHandler);
+            }
+            checkScrollability();
+            isScrollingRef.current = false;
+          };
+          
+          if ('onscrollend' in el) {
+            scrollEndHandler = cleanup;
+            el.addEventListener('scrollend', scrollEndHandler, { once: true });
+          } else {
+            // Fallback: wait for smooth scroll to complete (longer timeout for mobile)
+            setTimeout(cleanup, 500);
+          }
+        } else {
+          isScrollingRef.current = false;
+        }
+      });
+    });
   };
 
   const next = () => {
