@@ -322,14 +322,36 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
     setIsNetworkOpen(false);
   };
 
-  const handleCopy = () => {
-    navigator.clipboard.writeText(depositAddress);
-    setCopied(true);
-    setIsCopyClicked(true);
-    setTimeout(() => {
-      setCopied(false);
-      setIsCopyClicked(false);
-    }, 2000);
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(depositAddress);
+      setCopied(true);
+      setIsCopyClicked(true);
+      setTimeout(() => {
+        setCopied(false);
+        setIsCopyClicked(false);
+      }, 2000);
+    } catch (err) {
+      // Fallback for older browsers
+      const textArea = document.createElement("textarea");
+      textArea.value = depositAddress;
+      textArea.style.position = "fixed";
+      textArea.style.left = "-999999px";
+      document.body.appendChild(textArea);
+      textArea.select();
+      try {
+        document.execCommand('copy');
+        setCopied(true);
+        setIsCopyClicked(true);
+        setTimeout(() => {
+          setCopied(false);
+          setIsCopyClicked(false);
+        }, 2000);
+      } catch (err) {
+        console.error('Failed to copy:', err);
+      }
+      document.body.removeChild(textArea);
+    }
   };
 
   const handleDirectDeposit = () => {
@@ -964,7 +986,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
               <div className="wrapper" style={{ width: "100%" }}>
                 <div className="wrap" style={{ width: "100%" }}>
                   <label className="stacked" style={{ width: "100%" }}>
-                    <div className="input-wrap" style={{ borderRadius: "0.5rem", backgroundColor: "#2f4553", display: "flex", width: "100%", alignItems: "stretch", gap: 0, overflow: "hidden" }}>
+                    <div className="input-wrap" style={{ borderRadius: "0.5rem", backgroundColor: "#2f4553", display: "flex", width: "100%", alignItems: "stretch", gap: 0, overflow: "visible", position: "relative" }}>
                     <div className="input-content" style={{ flexGrow: 1, flex: 1, minWidth: 0, display: "flex", alignItems: "center", paddingLeft: "0.75rem", paddingRight: "0.75rem" }}>
                       <input
                         id="address-input"
@@ -1000,6 +1022,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         backgroundColor: isCopyClicked ? "#557086" : "transparent",
                         transition: "background-color 0.2s ease",
                         position: "relative",
+                        boxShadow: isCopyClicked ? "inset 0 2px 4px rgba(0, 0, 0, 0.2)" : "none",
                       }}
                       onMouseEnter={(e) => {
                         if (!isCopyClicked) {
@@ -1016,7 +1039,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                       <div style={{ 
                         width: "1px", 
                         height: "24px", 
-                        backgroundColor: "#ffffff", 
+                        backgroundColor: "#1a2c38", 
                         marginRight: "0.5rem",
                         flexShrink: 0
                       }}></div>
@@ -1045,12 +1068,17 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           const parent = e.currentTarget.closest('.input-button-wrap');
                           if (parent) {
                             parent.style.backgroundColor = "#557086";
+                            parent.style.boxShadow = "inset 0 2px 4px rgba(0, 0, 0, 0.2)";
                           }
                         }}
                         onMouseUp={(e) => {
                           // Only reset transform if not in clicked state
                           if (!isCopyClicked) {
                             e.currentTarget.style.transform = "scale(1)";
+                            const parent = e.currentTarget.closest('.input-button-wrap');
+                            if (parent) {
+                              parent.style.boxShadow = "none";
+                            }
                           }
                         }}
                       >
@@ -1059,7 +1087,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           <div
                             style={{
                               position: "absolute",
-                              bottom: "calc(100% + 12px)",
+                              bottom: "calc(100% + 16px)",
                               left: "50%",
                               transform: "translateX(-50%)",
                               backgroundColor: "#ffffff",
@@ -1070,9 +1098,9 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                               fontWeight: "500",
                               whiteSpace: "nowrap",
                               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                              zIndex: 1000,
+                              zIndex: 10000,
                               pointerEvents: "none",
-                              transition: "opacity 0.2s ease-in",
+                              opacity: 1,
                             }}
                           >
                             Address copied!
