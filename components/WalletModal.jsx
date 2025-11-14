@@ -1018,16 +1018,16 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                       style={{ 
                         display: "flex", 
                         alignItems: "center", 
-                        paddingRight: isHovered ? "0.5rem" : "0.75rem", 
+                        paddingRight: "0.75rem", 
                         gap: 0,
                         borderRadius: "0.5rem",
                         borderTopLeftRadius: isHovered ? "0" : "0.5rem",
                         borderBottomLeftRadius: isHovered ? "0" : "0.5rem",
                         backgroundColor: isHovered ? "#557086" : "transparent",
-                        transition: "background-color 0.2s ease, border-radius 0.2s ease, transform 0.1s ease, box-shadow 0.1s ease, padding 0.2s ease",
+                        transition: "background-color 0.2s ease, border-radius 0.2s ease",
                         position: "relative",
-                        transform: isPressed ? "translateY(4px) scale(0.96)" : (isHovered ? "scale(0.96)" : "scale(1)"),
-                        boxShadow: isPressed ? "0 5px 8px rgba(0, 0, 0, 0.3)" : (isHovered ? "0 9px 12px rgba(0, 0, 0, 0.4)" : "none"),
+                        overflow: "visible",
+                        boxShadow: "none",
                       }}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => {
@@ -1058,6 +1058,8 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           border: "none",
                           cursor: "pointer",
                           padding: "0.5rem",
+                          transition: "transform 0.2s ease",
+                          transform: "scale(0.98)",
                         }}
                         className="inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 text-white focus-visible:outline-white"
                         data-button-root=""
@@ -1081,7 +1083,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                               fontWeight: "400",
                               whiteSpace: "nowrap",
                               boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-                              zIndex: 99999999999999999999999, // sufficiently high, syntax fixed, no !important in inline styles
+                              zIndex: 99999999999999999999999,
                               pointerEvents: "none",
                               opacity: 1,
                             }}
