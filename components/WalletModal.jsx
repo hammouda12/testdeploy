@@ -1304,9 +1304,8 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
         <div
           style={{
             position: "fixed",
-            top: `${tooltipPosition.top}px`,
+            top: `${Math.max(tooltipPosition.top, 10)}px`, // Ensure it doesn't go above viewport
             left: `${tooltipPosition.left}px`,
-            transform: "translateX(-50%)",
             backgroundColor: "#ffffff",
             color: "#0F212E",
             padding: "12px 16px",
@@ -1319,6 +1318,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
             zIndex: 999999,
             pointerEvents: "none",
             opacity: 1,
+            animation: "fadeInOut 3s ease-in-out",
           }}
         >
           Address copied!
