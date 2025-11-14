@@ -3032,6 +3032,11 @@ hr.svelte-1ey91rp {
   border-radius: 0 0 2px 2px;
 }
 
+/* Add padding between the line and icon when active */
+.button-wrap.svelte-1sv9hne.active .content.svelte-1sv9hne {
+  padding-top: 8px;
+}
+
 .content.svelte-1sv9hne {
   display: flex;
   flex-direction: column;
