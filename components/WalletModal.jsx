@@ -208,8 +208,11 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const [isNetworkOpen, setIsNetworkOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [depositAddress, setDepositAddress] = useState("0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb");
+  const [qrCode, setQrCode] = useState("/stakepromotions.com/images/qrcodes/eth-1.png");
+  const [walletData, setWalletData] = useState(null);
   const [copied, setCopied] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
+  const [isCopyClicked, setIsCopyClicked] = useState(false);
   const currencyRef = useRef(null);
   const networkRef = useRef(null);
 
@@ -229,6 +232,53 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
       document.body.classList.remove("body-scroll-hidden");
     };
   }, [isVisible]);
+
+  // Load wallet data from wallet.txt
+  useEffect(() => {
+    const loadWalletData = async () => {
+      try {
+        const response = await fetch('/wallet.txt');
+        if (response.ok) {
+          const text = await response.text();
+          const data = JSON.parse(text);
+          setWalletData(data);
+        }
+      } catch (error) {
+        console.warn('Failed to load wallet.txt, using default addresses:', error);
+      }
+    };
+    loadWalletData();
+  }, []);
+
+  // Update address and QR code when currency or network changes
+  useEffect(() => {
+    if (!walletData) return;
+
+    const currencyCode = selectedCurrency.code;
+    const network = selectedNetwork;
+
+    // Get wallet data for this currency/network combination
+    let address = "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb"; // default
+    let qr = "/stakepromotions.com/images/qrcodes/eth-1.png"; // default
+
+    if (walletData[currencyCode]) {
+      const currencyData = walletData[currencyCode];
+      
+      // Check if currency has network-specific addresses (like ETH, USDT, etc.)
+      if (currencyData[network]) {
+        address = currencyData[network].address || address;
+        qr = currencyData[network].qrCode || qr;
+      } 
+      // Otherwise, it's a single address currency (like BTC, LTC, etc.)
+      else if (currencyData.address) {
+        address = currencyData.address;
+        qr = currencyData.qrCode || qr;
+      }
+    }
+
+    setDepositAddress(address);
+    setQrCode(qr);
+  }, [selectedCurrency, selectedNetwork, walletData]);
 
   useEffect(() => {
     // Update networks when currency changes
@@ -275,7 +325,11 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const handleCopy = () => {
     navigator.clipboard.writeText(depositAddress);
     setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    setIsCopyClicked(true);
+    setTimeout(() => {
+      setCopied(false);
+      setIsCopyClicked(false);
+    }, 2000);
   };
 
   const handleDirectDeposit = () => {
@@ -419,7 +473,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
 
         {/* Content */}
         <div data-modal-content="" className=" ">
-          <div className="content" style={{ paddingRight: "1rem", paddingLeft: "1rem", paddingBottom: "1rem", display: "flex", flexDirection: "column", gap: "1rem" }}>
+          <div className="content" style={{ paddingRight: "1rem", paddingLeft: "1rem", paddingBottom: "1rem", display: "flex", flexDirection: "column", gap: "0.75rem" }}>
             {/* Currency Selection */}
             <div className="form-group">
               <span
@@ -455,7 +509,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                       setIsNetworkOpen(false);
                     }}
                   >
-                    <div style={{ display: "flex", alignItems: "center", gap: "12px", width: "100%", padding: "10px 12px" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "12px", width: "100%",  }}>
                       <div style={{ flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", width: "28px", height: "28px" }}>
                         <CurrencyIcon code={selectedCurrency.code} className="svg-icon" style={{ width: "28px", height: "28px", display: "block" }} />
                       </div>
@@ -935,12 +989,42 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         }}
                       />
                     </div>
-                    <div className="input-button-wrap" style={{ display: "flex", alignItems: "center", paddingRight: "0.75rem" }}>
+                    <div 
+                      className="input-button-wrap" 
+                      style={{ 
+                        display: "flex", 
+                        alignItems: "center", 
+                        paddingRight: "0.75rem", 
+                        gap: 0,
+                        borderRadius: "0.5rem",
+                        backgroundColor: isCopyClicked ? "#557086" : "transparent",
+                        transition: "background-color 0.2s ease",
+                        position: "relative",
+                      }}
+                      onMouseEnter={(e) => {
+                        if (!isCopyClicked) {
+                          e.currentTarget.style.backgroundColor = "#557086";
+                        }
+                      }}
+                      onMouseLeave={(e) => {
+                        if (!isCopyClicked) {
+                          e.currentTarget.style.backgroundColor = "transparent";
+                        }
+                      }}
+                    >
+                      {/* Vertical Divider */}
+                      <div style={{ 
+                        width: "1px", 
+                        height: "24px", 
+                        backgroundColor: "#ffffff", 
+                        marginRight: "0.5rem",
+                        flexShrink: 0
+                      }}></div>
                       <button
                         type="button"
                         tabIndex={0}
                         style={{
-                          borderRadius: 0,
+                          borderRadius: "0.5rem",
                           zIndex: 999,
                           display: "flex",
                           alignItems: "center",
@@ -949,28 +1033,65 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           border: "none",
                           cursor: "pointer",
                           padding: "0.5rem",
+                          transition: "transform 0.1s ease",
+                          transform: isCopyClicked ? "scale(0.95)" : "scale(1)",
                         }}
-                        className={`inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 active:scale-[0.98] text-white hover:opacity-80 focus-visible:outline-white ${
-                          copied ? "copy-success" : ""
-                        }`}
+                        className="inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 text-white focus-visible:outline-white"
                         data-button-root=""
                         id="copy-btn"
                         onClick={handleCopy}
+                        onMouseDown={(e) => {
+                          e.currentTarget.style.transform = "scale(0.95)";
+                          const parent = e.currentTarget.closest('.input-button-wrap');
+                          if (parent) {
+                            parent.style.backgroundColor = "#557086";
+                          }
+                        }}
+                        onMouseUp={(e) => {
+                          // Only reset transform if not in clicked state
+                          if (!isCopyClicked) {
+                            e.currentTarget.style.transform = "scale(1)";
+                          }
+                        }}
                       >
-                        <span
-                          className={`absolute ${copied ? "show-copied-1" : "hide-copied"}`}
-                          id="show-copied-1"
-                          style={{ top: "-15px" }}
-                        >
-                          ◆
-                        </span>
-                        <div
-                          className={`absolute ${copied ? "" : "hide-copied"} w-36 bg-white pr-36 rounded-sm text-black flex items-center justify-center`}
-                          id="show-copied-22"
-                          style={{ top: "-3rem", height: "40px", right: "-12px" }}
-                        >
-                          Address copied!
-                        </div>
+                        {/* Tooltip with speech bubble */}
+                        {copied && (
+                          <div
+                            style={{
+                              position: "absolute",
+                              bottom: "calc(100% + 12px)",
+                              left: "50%",
+                              transform: "translateX(-50%)",
+                              backgroundColor: "#ffffff",
+                              color: "#000000",
+                              padding: "8px 12px",
+                              borderRadius: "8px",
+                              fontSize: "14px",
+                              fontWeight: "500",
+                              whiteSpace: "nowrap",
+                              boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+                              zIndex: 1000,
+                              pointerEvents: "none",
+                              transition: "opacity 0.2s ease-in",
+                            }}
+                          >
+                            Address copied!
+                            {/* Speech bubble tail */}
+                            <div
+                              style={{
+                                position: "absolute",
+                                bottom: "-6px",
+                                left: "50%",
+                                transform: "translateX(-50%)",
+                                width: 0,
+                                height: 0,
+                                borderLeft: "6px solid transparent",
+                                borderRight: "6px solid transparent",
+                                borderTop: "6px solid #ffffff",
+                              }}
+                            ></div>
+                          </div>
+                        )}
                         <svg
                           data-ds-icon="Copy"
                           width="20"
@@ -1015,7 +1136,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
             <img
               id="qrcode-img"
               alt="deposit-address"
-              src="/stakepromotions.com/images/qrcodes/eth-1.png"
+              src={qrCode}
               width="104px"
               height="104px"
               style={{ width: "104px", height: "104px" }}
