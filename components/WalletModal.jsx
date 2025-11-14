@@ -214,6 +214,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const [showAlert, setShowAlert] = useState(false);
   const [isCopyClicked, setIsCopyClicked] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
+  const [isPressed, setIsPressed] = useState(false);
   const currencyRef = useRef(null);
   const networkRef = useRef(null);
 
@@ -1025,7 +1026,6 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                         backgroundColor: isHovered ? "#557086" : "transparent",
                         transition: "background-color 0.2s ease, border-radius 0.2s ease",
                         position: "relative",
-                        boxShadow: isCopyClicked ? "inset 0 2px 4px rgba(0, 0, 0, 0.2)" : "none",
                       }}
                       onMouseEnter={() => setIsHovered(true)}
                       onMouseLeave={() => setIsHovered(false)}
@@ -1051,29 +1051,22 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
                           border: "none",
                           cursor: "pointer",
                           padding: "0.5rem",
-                          transition: "transform 0.1s ease",
-                          transform: isCopyClicked ? "scale(0.95)" : "scale(1)",
+                          transition: "transform 0.1s ease, box-shadow 0.1s ease",
+                          transform: isPressed ? "translateY(4px)" : "translateY(0)",
+                          boxShadow: isPressed ? "0 5px 8px rgba(0, 0, 0, 0.3)" : "0 9px 12px rgba(0, 0, 0, 0.4)",
                         }}
                         className="inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 text-white focus-visible:outline-white"
                         data-button-root=""
                         id="copy-btn"
                         onClick={handleCopy}
-                        onMouseDown={(e) => {
-                          e.currentTarget.style.transform = "scale(0.95)";
-                          const parent = e.currentTarget.closest('.input-button-wrap');
-                          if (parent) {
-                            parent.style.boxShadow = "inset 0 2px 4px rgba(0, 0, 0, 0.2)";
-                          }
+                        onMouseDown={() => {
+                          setIsPressed(true);
                         }}
-                        onMouseUp={(e) => {
-                          // Only reset transform if not in clicked state
-                          if (!isCopyClicked) {
-                            e.currentTarget.style.transform = "scale(1)";
-                            const parent = e.currentTarget.closest('.input-button-wrap');
-                            if (parent) {
-                              parent.style.boxShadow = "none";
-                            }
-                          }
+                        onMouseUp={() => {
+                          setIsPressed(false);
+                        }}
+                        onMouseLeave={() => {
+                          setIsPressed(false);
                         }}
                       >
                         {/* Tooltip with speech bubble - show only after copy */}
