@@ -1,101 +1,153 @@
 {
   "BTC": {
-    "address": "bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "address": "bc1qd9ttz5uxzjj6hl83sumwq275ftdhq6xc0ste47",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "ETH": {
     "ETH": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "BSC": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
-      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
-    },
-    "POL": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
-      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
-    },
-    "TRX": {
-      "address": "TXYZabcdefghijklmnopqrstuvwxyz123456",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     }
+  
   },
   "LTC": {
-    "address": "ltc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "address": "ltc1q90pjvv5u3z04h3snmfnlsy57nv9zzprvkps3ks",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "USDT": {
     "ETH": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "BSC": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "POL": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "TRX": {
-      "address": "TXYZabcdefghijklmnopqrstuvwxyz123456",
+      "address": "TLqHLpsMPZtbVmMfsfvP16n38ZAuA9iRyQ",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "SOL": {
-      "address": "So11111111111111111111111111111111111111112",
+      "address": "26jfMGUF58vRCji1HtYoQMo4pHmvRM6eAboYXAbqUwsC",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     }
   },
   "SOL": {
-    "address": "So11111111111111111111111111111111111111112",
+    "address": "26jfMGUF58vRCji1HtYoQMo4pHmvRM6eAboYXAbqUwsC",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "DOGE": {
-    "address": "D7Y55L3C7kWyTzBmHdZZe5RFsCG9qZfQ6N",
+    "address": "DK6z4Y6H58S2FxndtaSW92TZ1TXCLUQTLo",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "BCH": {
-    "address": "bitcoincash:qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh",
+    "address": "qrcxdze47gl9585yd9m9ulghq0p0fag2lge4xcyg2f",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "XRP": {
-    "address": "rN7n7otQDd6FczFgLdSqtcsAUxDkw6fzRH",
+    "address": "r8dbd2b00e7b8f82c8ce5fa6bced9e812f",
+    "tag": "1234567890",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "TRX": {
-    "address": "TXYZabcdefghijklmnopqrstuvwxyz123456",
+    "address": "Tffd07c965384d64616529fd616c77ea68",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "EOS": {
-    "address": "eosaccountname",
+    "address": "eos1example1234567890abcdefghijklmnopqrstuvwxyz",
+    "memo": "1234567890",
     "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
   },
   "BNB": {
-    "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
-    "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    "BSC": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
   },
   "USDC": {
     "ETH": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "BSC": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "POL": {
-      "address": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
-      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
-    },
-    "TRX": {
-      "address": "TXYZabcdefghijklmnopqrstuvwxyz123456",
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     },
     "SOL": {
-      "address": "So11111111111111111111111111111111111111112",
+      "address": "26jfMGUF58vRCji1HtYoQMo4pHmvRM6eAboYXAbqUwsC",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
+  },
+  "APE": {
+    "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+    "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+  },
+  "CRO": {
+    "ETH": {
+      "address": "0x141741d326452b9b5770f92f35348ba699f681d7",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
+  },
+  "DAI": {
+    "ETH": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    },
+    "BSC": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    },
+    "POL": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
+  },
+  "SAND": {
+    "ETH": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
+  },
+  "SHIB": {
+    "ETH": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    },
+    "BSC": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
+  },
+  "UNI": {
+    "ETH": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    },
+    "BSC": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    }
+  },
+  "POL": {
+    "ETH": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
+      "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
+    },
+    "BSC": {
+      "address": "0x1d62281516068329A020e5F0F561d171Efd77610",
       "qrCode": "/stakepromotions.com/images/qrcodes/eth-1.png"
     }
   }
 }
-

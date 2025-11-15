@@ -136,6 +136,9 @@ const CurrencyIcon = ({ code, className = "svg-icon", style }) => {
       <svg data-ds-icon="UNI" width="28" height="28" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" className={className} style={style}>
         <path fill="#FF007A" d="M23 12c0 6.068-4.922 11-11 11-6.077 0-11-4.932-11-11 0-3.52 1.65-6.646 4.217-8.662.055-.046.119-.092.174-.129A10.9 10.9 0 0 1 12 1c6.078 0 11 4.923 11 11"></path>
         <path fill="#fff" d="M9.497 4.868c-.21-.027-.22-.036-.119-.055.193-.027.642.01.954.083.733.174 1.384.614 2.09 1.402l.183.211.266-.037c1.127-.183 2.282-.036 3.245.404.265.119.678.366.733.422.018.018.055.155.073.284.074.476.037.834-.11 1.1-.082.155-.082.192-.027.32.037.101.165.175.275.175.247 0 .495-.385.614-.926l.055-.211.092.1c.513.578.925 1.376.98 1.944l.019.156-.092-.128c-.156-.23-.293-.385-.486-.514-.348-.229-.706-.302-1.668-.357-.87-.055-1.366-.12-1.852-.284-.834-.275-1.255-.633-2.236-1.935-.44-.577-.706-.889-.981-1.155-.596-.577-1.192-.88-1.971-.999z"></path>
+        <path fill="#fff" d="M17.042 6.16c.018-.384.073-.64.183-.87a.6.6 0 0 1 .091-.174c.01 0-.009.073-.036.156-.083.22-.092.54-.037.889.074.458.101.513.587 1.017.22.23.486.523.587.651l.174.22-.175-.165c-.21-.201-.696-.586-.806-.641-.073-.037-.083-.037-.128.009-.037.036-.055.1-.055.394-.01.458-.074.742-.22 1.036-.083.156-.092.119-.019-.055.055-.129.064-.193.064-.633 0-.88-.1-1.09-.715-1.448a8 8 0 0 0-.568-.293 3 3 0 0 1-.275-.129c.018-.018.614.156.853.257.357.137.412.156.458.137.027-.027.055-.11.064-.366zM9.91 7.664c-.422-.586-.697-1.503-.642-2.181l.019-.211.1.018c.184.027.495.156.651.247.403.248.587.578.761 1.412.055.248.12.523.156.614.055.156.247.505.403.734.11.165.037.247-.21.22-.386-.037-.899-.394-1.238-.853m6.618 4.409c-2.007-.806-2.713-1.512-2.713-2.695 0-.174.01-.311.01-.311.008 0 .082.064.173.128.404.32.862.467 2.127.65.742.11 1.164.193 1.55.322 1.227.403 1.988 1.237 2.162 2.356.055.32.019.944-.064 1.265-.073.256-.275.714-.32.733-.01 0-.028-.055-.028-.129-.018-.421-.23-.834-.587-1.145-.421-.367-.971-.642-2.31-1.174m-1.421.33a2.2 2.2 0 0 0-.1-.421l-.056-.156.092.11c.129.156.23.33.321.587.073.192.073.256.073.568s-.009.376-.073.55c-.1.275-.22.467-.422.678-.366.376-.843.578-1.521.67-.12.008-.468.036-.77.063-.761.037-1.265.12-1.724.285-.064.018-.119.036-.128.027-.018-.018.293-.202.55-.32.357-.175.715-.267 1.522-.404.394-.064.797-.138.898-.183 1-.312 1.503-1.091 1.338-2.045z"></path>
+        <path fill="#fff" d="M16.033 14.035c-.265-.578-.32-1.127-.183-1.64.018-.056.037-.102.064-.102s.083.028.138.074c.119.082.376.22 1.026.577.825.45 1.284.788 1.614 1.183.284.348.458.742.54 1.228.056.275.019.935-.054 1.21-.22.862-.734 1.55-1.467 1.943-.11.065-.202.101-.21.101-.01 0 .027-.1.09-.22.248-.513.276-1.017.092-1.567-.11-.349-.348-.761-.806-1.458-.56-.807-.688-1.027-.834-1.32zM8.48 17.133c.752-.632 1.668-1.072 2.521-1.219a3.7 3.7 0 0 1 1.31.055c.542.138 1.027.45 1.275.825.248.367.357.678.467 1.375.037.275.092.56.101.614.083.367.248.651.45.798.311.229.861.247 1.402.037.092-.028.174-.065.174-.055.018.018-.256.201-.44.293a1.5 1.5 0 0 1-.733.174c-.486 0-.899-.257-1.238-.76-.073-.102-.21-.395-.33-.67-.357-.825-.54-1.063-.953-1.338-.367-.23-.834-.285-1.183-.11-.467.22-.586.825-.265 1.182.128.156.376.275.577.303a.615.615 0 0 0 .697-.614c0-.248-.092-.386-.33-.495-.321-.138-.678.018-.67.33 0 .128.065.21.193.274q.082.037.018.028c-.293-.064-.366-.422-.128-.66.284-.284.88-.165 1.082.23.082.164.091.485.018.687-.174.449-.66.678-1.155.55-.33-.092-.476-.184-.88-.596-.706-.733-.98-.871-1.998-1.027l-.193-.027.211-.202z"></path>
+        <path fill="#fff" fillRule="evenodd" d="M9.91 8.196c-.275-.312-2.603-2.878-4.52-4.987a3 3 0 0 0-.173.128 652 652 0 0 1 4.116 5.06c.155.211.091.404-.156.541a1.6 1.6 0 0 1-.578.165.73.73 0 0 1-.486-.21c-.091-.092-.485-.67-1.384-2.063a131 131 0 0 0-1.265-1.952l1.201 2.19c.78 1.385 1.027 1.88 1.027 1.944 0 .128-.037.201-.202.385-.266.302-.394.65-.486 1.365-.1.798-.376 1.366-1.155 2.329-.449.568-.522.669-.632.898-.147.284-.184.45-.202.816-.027.385.018.623.128.99.101.33.211.54.486.953.23.367.376.642.376.743 0 .082.018.082.385 0 .87-.202 1.586-.55 1.98-.972.248-.266.312-.412.312-.77 0-.238 0-.284-.074-.43-.1-.22-.293-.404-.705-.688-.55-.376-.789-.678-.844-1.082-.055-.348.01-.577.312-1.219.312-.66.394-.926.45-1.595.027-.43.082-.605.2-.733.13-.138.24-.193.56-.23.513-.073.843-.201 1.11-.458a.93.93 0 0 0 .347-.742v-.23zm-3.64 7.04c-.1.183-.292.247-.44.137-.09-.073-.09-.174-.017-.284s.064-.165-.028-.21c-.064-.028-.082-.065-.082-.101 0-.156.256-.211.43-.092a.41.41 0 0 1 .138.55M11 9.974a1.07 1.07 0 0 0-.632-.064c-.238.073-.477.34-.54.596-.047.165-.028.458.045.55.11.137.211.183.495.183.56 0 1.036-.247 1.082-.54.055-.239-.156-.578-.45-.725m.019.44c-.064.083-.248.165-.376.165-.202 0-.412-.137-.412-.275 0-.257.412-.403.687-.229.147.092.184.22.101.34" clipRule="evenodd"></path>
       </svg>
     ),
     POL: (
@@ -163,7 +166,7 @@ const CurrencyIcon = ({ code, className = "svg-icon", style }) => {
 // Currency data with networks - ordered as specified
 const currencies = [
   { code: "BTC", name: "Bitcoin", networks: ["BTC"] },
-  { code: "ETH", name: "Ethereum", networks: ["ETH", "BSC", "POL", "TRX"] },
+  { code: "ETH", name: "Ethereum", networks: ["ETH", "BSC"] },
   { code: "LTC", name: "Litecoin", networks: ["LTC"] },
   { code: "USDT", name: "USD Tether", networks: ["ETH", "BSC", "POL", "TRX", "SOL"] },
   { code: "SOL", name: "Solana", networks: ["SOL"] },
@@ -175,7 +178,6 @@ const currencies = [
   { code: "BNB", name: "Binance Coin", networks: ["BSC"] },
   { code: "USDC", name: "USD Coin", networks: ["ETH", "BSC", "POL", "TRX", "SOL"] },
   { code: "APE", name: "Apecoin", networks: ["ETH", "BSC", "POL"] },
-  { code: "BUSD", name: "Binance USD", networks: ["BSC", "ETH"] },
   { code: "CRO", name: "Cronos", networks: ["CRO"] },
   { code: "DAI", name: "DAI", networks: ["ETH", "BSC", "POL"] },
   { code: "LINK", name: "Chainlink", networks: ["ETH", "BSC", "POL"] },
@@ -183,7 +185,6 @@ const currencies = [
   { code: "SHIB", name: "Shiba Inu", networks: ["ETH", "BSC", "POL"] },
   { code: "UNI", name: "Uniswap", networks: ["ETH", "BSC", "POL"] },
   { code: "POL", name: "Polygon", networks: ["POL"] },
-  { code: "TRUMP", name: "TRUMP Coin", networks: ["ETH", "BSC", "POL"] },
 ];
 
 const networkNames = {
@@ -209,9 +210,11 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
   const [isNetworkOpen, setIsNetworkOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [depositAddress, setDepositAddress] = useState("0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb");
+  const [tagMemo, setTagMemo] = useState("");
   const [qrCode, setQrCode] = useState("/stakepromotions.com/images/qrcodes/eth-1.png");
   const [walletData, setWalletData] = useState(null);
   const [copied, setCopied] = useState(false);
+  const [tagMemoCopied, setTagMemoCopied] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [isCopyClicked, setIsCopyClicked] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
@@ -245,11 +248,16 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
         const response = await fetch('/wallet.txt');
         if (response.ok) {
           const text = await response.text();
-          const data = JSON.parse(text);
+          // Trim whitespace and parse JSON
+          const trimmedText = text.trim();
+          const data = JSON.parse(trimmedText);
           setWalletData(data);
+          console.log('Wallet data loaded successfully:', data);
+        } else {
+          console.warn('Failed to fetch wallet.txt:', response.status);
         }
       } catch (error) {
-        console.warn('Failed to load wallet.txt, using default addresses:', error);
+        console.error('Failed to load wallet.txt, using default addresses:', error);
       }
     };
     loadWalletData();
@@ -263,26 +271,42 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
     const network = selectedNetwork;
 
     // Get wallet data for this currency/network combination
-    let address = "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb"; // default
-    let qr = "/stakepromotions.com/images/qrcodes/eth-1.png"; // default
+    let address = "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb"; // default fallback
+    let qr = "/stakepromotions.com/images/qrcodes/eth-1.png"; // default fallback
+    let tag = ""; // default
 
     if (walletData[currencyCode]) {
       const currencyData = walletData[currencyCode];
       
-      // Check if currency has network-specific addresses (like ETH, USDT, etc.)
-      if (currencyData[network]) {
-        address = currencyData[network].address || address;
+      // Special handling for XRP and EOS - they have direct addresses with tag/memo
+      if (currencyCode === "XRP" || currencyCode === "EOS") {
+        if (currencyData.address) {
+          address = currencyData.address;
+          qr = currencyData.qrCode || qr;
+          // XRP uses "tag", EOS uses "memo"
+          tag = currencyCode === "XRP" ? (currencyData.tag || "") : (currencyData.memo || "");
+        }
+      }
+      // Check if currency has network-specific addresses (like ETH, USDT, USDC, etc.)
+      else if (currencyData[network] && typeof currencyData[network] === "object" && currencyData[network].address) {
+        address = currencyData[network].address;
         qr = currencyData[network].qrCode || qr;
       } 
-      // Otherwise, it's a single address currency (like BTC, LTC, etc.)
+      // Otherwise, it's a single address currency (like BTC, LTC, DOGE, etc.)
       else if (currencyData.address) {
         address = currencyData.address;
         qr = currencyData.qrCode || qr;
       }
+    } else {
+      console.warn(`No wallet data found for currency: ${currencyCode}`);
     }
 
+    // Always update state when currency or network changes
     setDepositAddress(address);
+    setTagMemo(tag);
     setQrCode(qr);
+    
+    console.log(`Updated wallet info for ${currencyCode}${network !== currencyCode ? ` (${network})` : ""}:`, { address, tag, qr });
   }, [selectedCurrency, selectedNetwork, walletData]);
 
   useEffect(() => {
@@ -327,27 +351,39 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
     setIsNetworkOpen(false);
   };
 
-  const handleCopy = async () => {
+  const handleCopy = async (text = null, isTagMemo = false) => {
+    const textToCopy = text || depositAddress;
+    
     try {
-      await navigator.clipboard.writeText(depositAddress);
+      await navigator.clipboard.writeText(textToCopy);
       // Calculate tooltip position
-      if (copyButtonRef.current) {
-        const rect = copyButtonRef.current.getBoundingClientRect();
-        setTooltipPosition({
-          top: rect.top - 50, // Position above the button
-          left: rect.left + rect.width / 2, // Center horizontally
-        });
+      const buttonRef = isTagMemo ? document.getElementById('tag-memo-copy-btn') : copyButtonRef.current;
+      if (buttonRef) {
+        const rect = buttonRef.getBoundingClientRect ? buttonRef.getBoundingClientRect() : buttonRef.current?.getBoundingClientRect();
+        if (rect) {
+          setTooltipPosition({
+            top: rect.top - 50, // Position above the button
+            left: rect.left + rect.width / 2, // Center horizontally
+          });
+        }
       }
-      setCopied(true);
-      setIsCopyClicked(true);
-      setTimeout(() => {
-        setCopied(false);
-        setIsCopyClicked(false);
-      }, 3000);
+      if (isTagMemo) {
+        setTagMemoCopied(true);
+        setTimeout(() => {
+          setTagMemoCopied(false);
+        }, 3000);
+      } else {
+        setCopied(true);
+        setIsCopyClicked(true);
+        setTimeout(() => {
+          setCopied(false);
+          setIsCopyClicked(false);
+        }, 3000);
+      }
     } catch (err) {
       // Fallback for older browsers
       const textArea = document.createElement("textarea");
-      textArea.value = depositAddress;
+      textArea.value = textToCopy;
       textArea.style.position = "fixed";
       textArea.style.left = "-999999px";
       document.body.appendChild(textArea);
@@ -355,19 +391,29 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
       try {
         document.execCommand('copy');
         // Calculate tooltip position
-        if (copyButtonRef.current) {
-          const rect = copyButtonRef.current.getBoundingClientRect();
-          setTooltipPosition({
-            top: rect.top - 50, // Position above the button
-            left: rect.left + rect.width / 2, // Center horizontally
-          });
+        const buttonRef = isTagMemo ? document.getElementById('tag-memo-copy-btn') : copyButtonRef.current;
+        if (buttonRef) {
+          const rect = buttonRef.getBoundingClientRect ? buttonRef.getBoundingClientRect() : buttonRef.current?.getBoundingClientRect();
+          if (rect) {
+            setTooltipPosition({
+              top: rect.top - 50, // Position above the button
+              left: rect.left + rect.width / 2, // Center horizontally
+            });
+          }
         }
-        setCopied(true);
-        setIsCopyClicked(true);
-        setTimeout(() => {
-          setCopied(false);
-          setIsCopyClicked(false);
-        }, 3000);
+        if (isTagMemo) {
+          setTagMemoCopied(true);
+          setTimeout(() => {
+            setTagMemoCopied(false);
+          }, 3000);
+        } else {
+          setCopied(true);
+          setIsCopyClicked(true);
+          setTimeout(() => {
+            setCopied(false);
+            setIsCopyClicked(false);
+          }, 3000);
+        }
       } catch (err) {
         console.error('Failed to copy:', err);
       }
@@ -991,152 +1037,266 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
               );
             })()}
 
-            {/* Deposit Address */}
+            {/* Deposit Address - Show for all currencies including XRP and EOS */}
             <div className="form-group">
-              <span
-                tag="span"
-                type="body"
-                size="sm"
-                strong="true"
-                className="ds-body-sm-strong"
-                data-ds-text="true"
-                style={{ color: "#b1bad3", display: "block", marginBottom: "0.5rem" }}
-              >
-                Address
-              </span>
-              <div className="wrapper" style={{ width: "100%" }}>
-                <div className="wrap" style={{ width: "100%" }}>
-                  <label className="stacked" style={{ width: "100%" }}>
-                    <div className="input-wrap" style={{ borderRadius: "0.5rem", backgroundColor: "#2f4553", display: "flex", width: "100%", alignItems: "stretch", gap: 0, overflow: "visible", position: "relative" }}>
-                    <div className="input-content" style={{ flexGrow: 1, flex: 1, minWidth: 0, display: "flex", alignItems: "center", paddingLeft: "0.75rem", paddingRight: "0.75rem" }}>
-                      <input
-                        id="address-input"
-                        autoComplete="on"
-                        readOnly
-                        className="input spacing-expanded"
-                        type="text"
-                        value={depositAddress}
-                        tooltipvisible="false"
-                        data-testid="wallet-deposit-address-input"
-                        style={{
-                          fontSize: "1rem",
-                          borderRadius: 0,
-                          padding: "0.625rem 0",
-                          minHeight: "40.2px",
-                          backgroundColor: "transparent",
-                          width: "100%",
-                          flex: 1,
-                          border: "none",
-                          outline: "none",
-                          color: "#fafbfb",
-                        }}
-                      />
-                    </div>
-                    <div 
-                      className="input-button-wrap" 
-                      style={{ 
-                        display: "flex", 
-                        alignItems: "center", 
-                        paddingRight: "0.75rem", 
-                        gap: 0,
-                        borderRadius: "0.5rem",
-                        borderTopLeftRadius: isHovered ? "0" : "0.5rem",
-                        borderBottomLeftRadius: isHovered ? "0" : "0.5rem",
-                        backgroundColor: isHovered ? "#557086" : "transparent",
-                        transition: "background-color 0.2s ease, border-radius 0.2s ease",
-                        position: "relative",
-                        overflow: "visible",
-                        boxShadow: "none",
-                      }}
-                      onMouseEnter={() => setIsHovered(true)}
-                      onMouseLeave={() => {
-                        setIsHovered(false);
-                        setIsPressed(false);
-                      }}
-                      onMouseDown={() => setIsPressed(true)}
-                      onMouseUp={() => setIsPressed(false)}
-                    >
-                      {/* Vertical Divider */}
-                      <div style={{ 
-                        width: "1px", 
-                        height: "24px", 
-                        backgroundColor: "#1a2c38", 
-                        marginRight: "0.5rem",
-                        flexShrink: 0
-                      }}></div>
-                      <button
-                        ref={copyButtonRef}
-                        type="button"
-                        tabIndex={0}
-                        style={{
+                <span
+                  tag="span"
+                  type="body"
+                  size="sm"
+                  strong="true"
+                  className="ds-body-sm-strong"
+                  data-ds-text="true"
+                  style={{ color: "#b1bad3", display: "block", marginBottom: "0.5rem" }}
+                >
+                  Address
+                </span>
+                <div className="wrapper" style={{ width: "100%" }}>
+                  <div className="wrap" style={{ width: "100%" }}>
+                    <label className="stacked" style={{ width: "100%" }}>
+                      <div className="input-wrap" style={{ borderRadius: "0.5rem", backgroundColor: "#2f4553", display: "flex", width: "100%", alignItems: "stretch", gap: 0, overflow: "visible", position: "relative" }}>
+                      <div className="input-content" style={{ flexGrow: 1, flex: 1, minWidth: 0, display: "flex", alignItems: "center", paddingLeft: "0.75rem", paddingRight: "0.75rem" }}>
+                        <input
+                          id="address-input"
+                          autoComplete="on"
+                          readOnly
+                          className="input spacing-expanded"
+                          type="text"
+                          value={depositAddress}
+                          tooltipvisible="false"
+                          data-testid="wallet-deposit-address-input"
+                          style={{
+                            fontSize: "1rem",
+                            borderRadius: 0,
+                            padding: "0.625rem 0",
+                            minHeight: "40.2px",
+                            backgroundColor: "transparent",
+                            width: "100%",
+                            flex: 1,
+                            border: "none",
+                            outline: "none",
+                            color: "#fafbfb",
+                          }}
+                        />
+                      </div>
+                      <div 
+                        className="input-button-wrap" 
+                        style={{ 
+                          display: "flex", 
+                          alignItems: "center", 
+                          paddingRight: "0.75rem", 
+                          gap: 0,
                           borderRadius: "0.5rem",
-                          zIndex: 999,
-                          display: "flex",
-                          alignItems: "center",
-                          justifyContent: "center",
-                          backgroundColor: "transparent",
-                          border: "none",
-                          cursor: "pointer",
-                          padding: "0.5rem",
-                          transition: "transform 0.2s ease",
-                          transform: "scale(0.98)",
+                          borderTopLeftRadius: isHovered ? "0" : "0.5rem",
+                          borderBottomLeftRadius: isHovered ? "0" : "0.5rem",
+                          backgroundColor: isHovered ? "#557086" : "transparent",
+                          transition: "background-color 0.2s ease, border-radius 0.2s ease",
+                          position: "relative",
+                          overflow: "visible",
+                          boxShadow: "none",
                         }}
-                        className="inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 text-white focus-visible:outline-white"
-                        data-button-root=""
-                        id="copy-btn"
-                        onClick={handleCopy}
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => {
+                          setIsHovered(false);
+                          setIsPressed(false);
+                        }}
+                        onMouseDown={() => setIsPressed(true)}
+                        onMouseUp={() => setIsPressed(false)}
                       >
-                        <svg
-                          data-ds-icon="Copy"
-                          width="20"
-                          height="20"
-                          viewBox="0 0 24 24"
-                          xmlns="http://www.w3.org/2000/svg"
-                          fill="none"
-                          className="inline-block shrink-0"
-                          style={{ color: "#b1bad3" }}
+                        {/* Vertical Divider */}
+                        <div style={{ 
+                          width: "1px", 
+                          height: "24px", 
+                          backgroundColor: "#1a2c38", 
+                          marginRight: "0.5rem",
+                          flexShrink: 0
+                        }}></div>
+                        <button
+                          ref={copyButtonRef}
+                          type="button"
+                          tabIndex={0}
+                          style={{
+                            borderRadius: "0.5rem",
+                            zIndex: 999,
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            backgroundColor: "transparent",
+                            border: "none",
+                            cursor: "pointer",
+                            padding: "0.5rem",
+                            transition: "transform 0.2s ease",
+                            transform: "scale(0.98)",
+                          }}
+                          className="inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 text-white focus-visible:outline-white"
+                          data-button-root=""
+                          id="copy-btn"
+                          onClick={() => handleCopy()}
                         >
-                          <path
-                            fill="currentColor"
-                            d="M14 8H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2"
-                          />
-                          <path
-                            fill="currentColor"
-                            d="M22 4v10c0 1.1-.9 2-2 2h-2v-6c0-2.21-1.79-4-4-4H8V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
-                          />
-                        </svg>
-                      </button>
+                          <svg
+                            data-ds-icon="Copy"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            className="inline-block shrink-0"
+                            style={{ color: "#b1bad3" }}
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M14 8H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2"
+                            />
+                            <path
+                              fill="currentColor"
+                              d="M22 4v10c0 1.1-.9 2-2 2h-2v-6c0-2.21-1.79-4-4-4H8V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                            />
+                          </svg>
+                        </button>
+                      </div>
                     </div>
+                    </label>
                   </div>
-                  </label>
                 </div>
               </div>
-            </div>
+
+            {/* Tag/Memo - Only show for XRP and EOS when tag/memo exists */}
+            {(selectedCurrency.code === "XRP" || selectedCurrency.code === "EOS") && tagMemo && (
+              <div className="form-group">
+                <span
+                  tag="span"
+                  type="body"
+                  size="sm"
+                  strong="true"
+                  className="ds-body-sm-strong"
+                  data-ds-text="true"
+                  style={{ color: "#b1bad3", display: "block", marginBottom: "0.5rem" }}
+                >
+                  {selectedCurrency.code === "XRP" ? "Tag" : "Memo"}
+                </span>
+                <div className="wrapper" style={{ width: "100%" }}>
+                  <div className="wrap" style={{ width: "100%" }}>
+                    <label className="stacked" style={{ width: "100%" }}>
+                      <div className="input-wrap" style={{ borderRadius: "0.5rem", backgroundColor: "#2f4553", display: "flex", width: "100%", alignItems: "stretch", gap: 0, overflow: "visible", position: "relative" }}>
+                      <div className="input-content" style={{ flexGrow: 1, flex: 1, minWidth: 0, display: "flex", alignItems: "center", paddingLeft: "0.75rem", paddingRight: "0.75rem" }}>
+                        <input
+                          id="tag-memo-input"
+                          autoComplete="on"
+                          readOnly
+                          className="input spacing-expanded"
+                          type="text"
+                          value={tagMemo}
+                          style={{
+                            fontSize: "1rem",
+                            borderRadius: 0,
+                            padding: "0.625rem 0",
+                            minHeight: "40.2px",
+                            backgroundColor: "transparent",
+                            width: "100%",
+                            flex: 1,
+                            border: "none",
+                            outline: "none",
+                            color: "#fafbfb",
+                          }}
+                        />
+                      </div>
+                      <div 
+                        className="input-button-wrap" 
+                        style={{ 
+                          display: "flex", 
+                          alignItems: "center", 
+                          paddingRight: "0.75rem", 
+                          gap: 0,
+                          borderRadius: "0.5rem",
+                          backgroundColor: "transparent",
+                          transition: "background-color 0.2s ease, border-radius 0.2s ease",
+                          position: "relative",
+                          overflow: "visible",
+                          boxShadow: "none",
+                        }}
+                      >
+                        {/* Vertical Divider */}
+                        <div style={{ 
+                          width: "1px", 
+                          height: "24px", 
+                          backgroundColor: "#1a2c38", 
+                          marginRight: "0.5rem",
+                          flexShrink: 0
+                        }}></div>
+                        <button
+                          id="tag-memo-copy-btn"
+                          type="button"
+                          tabIndex={0}
+                          style={{
+                            borderRadius: "0.5rem",
+                            zIndex: 999,
+                            display: "flex",
+                            alignItems: "center",
+                            justifyContent: "center",
+                            backgroundColor: "transparent",
+                            border: "none",
+                            cursor: "pointer",
+                            padding: "0.5rem",
+                            transition: "transform 0.2s ease",
+                            transform: "scale(0.98)",
+                          }}
+                          className="inline-flex relative items-center gap-2 justify-center transition disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 text-white focus-visible:outline-white"
+                          data-button-root=""
+                          onClick={() => handleCopy(tagMemo, true)}
+                        >
+                          <svg
+                            data-ds-icon="Copy"
+                            width="20"
+                            height="20"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            className="inline-block shrink-0"
+                            style={{ color: "#b1bad3" }}
+                          >
+                            <path
+                              fill="currentColor"
+                              d="M14 8H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V10a2 2 0 0 0-2-2"
+                            />
+                            <path
+                              fill="currentColor"
+                              d="M22 4v10c0 1.1-.9 2-2 2h-2v-6c0-2.21-1.79-4-4-4H8V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"
+                            />
+                          </svg>
+                        </button>
+                      </div>
+                    </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
         </div>
         
-        {/* QR Code - Outside content div */}
-        <div className="flex items-center justify-center" style={{ marginBottom: "1rem", marginTop: "-7px" }}>
-          <div
-            className="gr-code"
-            data-test="wallet-deposit-address-qr"
-            style={{ 
-              background: "white", 
-              borderRadius: "0.5rem",
-              padding: "0.5rem",
-              boxShadow: "var(--shadows-md)"
-            }}
-          >
-            <img
-              id="qrcode-img"
-              alt="deposit-address"
-              src={qrCode}
-              width="104px"
-              height="104px"
-              style={{ width: "104px", height: "104px" }}
-            />
+        {/* QR Code - Show for all currencies except XRP and EOS (they don't use QR codes) */}
+        {(selectedCurrency.code !== "XRP" && selectedCurrency.code !== "EOS") && (
+          <div className="flex items-center justify-center" style={{ marginBottom: "1rem", marginTop: "-7px" }}>
+            <div
+              className="gr-code"
+              data-test="wallet-deposit-address-qr"
+              style={{ 
+                background: "white", 
+                borderRadius: "0.5rem",
+                padding: "0.5rem",
+                boxShadow: "var(--shadows-md)"
+              }}
+            >
+              <img
+                id="qrcode-img"
+                alt="deposit-address"
+                src={qrCode}
+                width="104px"
+                height="104px"
+                style={{ width: "104px", height: "104px" }}
+              />
+            </div>
           </div>
-        </div>
+        )}
 
         {/* Or Divider - Outside content div */}
         <div style={{ marginInline: "1rem", display: "flex", alignItems: "center", justifyContent: "center", gap: "1rem" }} className="or">
@@ -1300,7 +1460,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
         </div>
       </div>
       {/* Tooltip with speech bubble - rendered outside overflow container */}
-      {copied && typeof document !== 'undefined' && createPortal(
+      {(copied || tagMemoCopied) && typeof document !== 'undefined' && createPortal(
         <div
           style={{
             position: "fixed",
@@ -1321,7 +1481,7 @@ export default function WalletModal({ onClose, onBack, bonusPercent = "150" }) {
             animation: "fadeInOut 3s ease-in-out",
           }}
         >
-          Address copied!
+          {tagMemoCopied ? (selectedCurrency.code === "XRP" ? "Tag copied!" : "Memo copied!") : "Address copied!"}
           {/* Speech bubble tail */}
           <div
             style={{
