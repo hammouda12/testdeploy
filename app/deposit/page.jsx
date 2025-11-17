@@ -1,11 +1,23 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
+import Preloader from "../../components/Preloader";
 
 export default function DepositRedirect() {
+  const [showLoader, setShowLoader] = useState(true);
+
   useEffect(() => {
-    window.location.replace("/");
+    // Show loader immediately, then redirect after a brief moment
+    const redirectTimer = setTimeout(() => {
+      window.location.replace("/");
+    }, 100);
+
+    return () => clearTimeout(redirectTimer);
   }, []);
 
-  return null;
+  return (
+    <>
+      {showLoader && <Preloader onComplete={() => {}} />}
+    </>
+  );
 }
