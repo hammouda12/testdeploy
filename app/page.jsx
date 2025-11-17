@@ -1,21 +1,21 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import "../globals.css";
-import sections from "../../data/sections.json";
-import publishers from "../../data/publishers.json";
-import GallerySlider from "../../components/GallerySlider";
-import PublishersSlider from "../../components/PublishersSlider";
-import PromotionsCarousel from "../../components/PromotionsCarousel";
-import SearchBar from "../../components/SearchBar";
-import Preloader from "../../components/Preloader";
-import BonusModal from "../../components/BonusModal";
-import WalletModal from "../../components/WalletModal";
-import CategoryTabs from "../../components/CategoryTabs";
-import BetsBoard from "../../components/BetsBoard";
-import Footer from "../../components/Footer";
-import CasinoGamesSection from "../../components/CasinoGamesSection";
-import { useModal } from "../../contexts/ModalContext";
+import "./globals.css";
+import sections from "../data/sections.json";
+import publishers from "../data/publishers.json";
+import GallerySlider from "../components/GallerySlider";
+import PublishersSlider from "../components/PublishersSlider";
+import PromotionsCarousel from "../components/PromotionsCarousel";
+import SearchBar from "../components/SearchBar";
+import Preloader from "../components/Preloader";
+import BonusModal from "../components/BonusModal";
+import WalletModal from "../components/WalletModal";
+import CategoryTabs from "../components/CategoryTabs";
+import BetsBoard from "../components/BetsBoard";
+import Footer from "../components/Footer";
+import CasinoGamesSection from "../components/CasinoGamesSection";
+import { useModal } from "../contexts/ModalContext";
 
 export default function Page() {
   const [showLoader, setShowLoader] = useState(true);
@@ -210,4 +210,3 @@ export default function Page() {
     </>
   );
 }
-
